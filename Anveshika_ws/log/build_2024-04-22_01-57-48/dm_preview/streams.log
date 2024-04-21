@@ -1,0 +1,266 @@
+[0.054s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/dm_preview': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kb/Anveshika/Anveshika_ws/src/dm_preview -DCMAKE_INSTALL_PREFIX=/home/kb/Anveshika/Anveshika_ws/install/dm_preview
+[0.147s] [0mROS2 version : 0.0.0.4[0m
+[0.148s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.319s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.407s] -- Found rcutils: 5.1.5 (/opt/ros/humble/share/rcutils/cmake)
+[0.419s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.454s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.459s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.468s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.484s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.504s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.577s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.580s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.706s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.882s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.947s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[1.004s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.308s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.318s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.321s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.335s] -- Found stereo_msgs: 4.2.3 (/opt/ros/humble/share/stereo_msgs/cmake)
+[1.547s] -- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)
+[1.572s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.592s] [0mOpenCV is found.[0m
+[1.592s] [0mFound OpenCV: 4.5.4[0m
+[1.592s] -- Defined WITH_OPENCV.
+[1.603s] -- eys3d_depth_INCLUDE_DIRS= /home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/lib/eSPDI/;/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include;/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility;/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility/hidapi;/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/model;/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video
+[1.603s] -- eys3d_depth_library= /home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/lib/libeys3d.X86_64.so
+[1.895s] -- Configuring done
+[2.470s] -- Generating done
+[2.473s] -- Build files have been written to: /home/kb/Anveshika/Anveshika_ws/build/dm_preview
+[2.481s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/dm_preview' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kb/Anveshika/Anveshika_ws/src/dm_preview -DCMAKE_INSTALL_PREFIX=/home/kb/Anveshika/Anveshika_ws/install/dm_preview
+[2.483s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/dm_preview': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kb/Anveshika/Anveshika_ws/build/dm_preview -- -j8 -l8
+[2.568s] [35m[1mConsolidate compiler generated dependencies of target apc_camera_component[0m
+[2.674s] [ 33%] Built target apc_camera_component
+[2.685s] [35m[1mConsolidate compiler generated dependencies of target apc_camera_listener_node[0m
+[2.689s] [35m[1mConsolidate compiler generated dependencies of target apc_camera_node[0m
+[2.716s] [ 66%] Built target apc_camera_node
+[2.835s] [100%] Built target apc_camera_listener_node
+[2.845s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/dm_preview' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kb/Anveshika/Anveshika_ws/build/dm_preview -- -j8 -l8
+[2.883s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/dm_preview': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kb/Anveshika/Anveshika_ws/build/dm_preview
+[2.890s] -- Install configuration: ""
+[2.890s] -- Execute custom install script
+[2.891s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib/dm_preview/apc_camera_listener_node
+[2.891s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib/libapc_camera_component.so
+[2.891s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib/dm_preview/apc_camera_node
+[2.892s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//Debug/libeys3d.NVIDIA_64.so
+[2.893s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//Debug/libeys3d.NVIDIA_64.so.d5be8506
+[2.893s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//Debug/libeys3d.X86_64.so
+[2.893s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//Debug/libeys3d.X86_64.so.d5be8506
+[2.894s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/Debug/libeSPDI_NVIDIA_64_debug.so
+[2.894s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/Debug/libeSPDI_NVIDIA_64_debug.so.5.0.1.37
+[2.894s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/Debug/libeSPDI_X86_64_debug.so
+[2.894s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/Debug/libeSPDI_X86_64_debug.so.5.0.1.37
+[2.895s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl.h
+[2.895s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_d3d10.h
+[2.895s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_d3d11.h
+[2.895s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_dx9_media_sharing.h
+[2.896s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_dx9_media_sharing_intel.h
+[2.896s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_egl.h
+[2.896s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_ext.h
+[2.896s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_ext_intel.h
+[2.896s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_gl.h
+[2.896s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_gl_ext.h
+[2.897s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_half.h
+[2.897s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_icd.h
+[2.897s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_platform.h
+[2.897s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_va_api_media_sharing_intel.h
+[2.897s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_version.h
+[2.898s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/opencl.h
+[2.898s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/lib/libOpenCL.so
+[2.898s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/lib/libOpenCL.so.1
+[2.898s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/lib/libOpenCL.so.1.2
+[2.898s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/eSPDI.h
+[2.899s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/eSPDI_def.h
+[2.899s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/eSPDI_version.h
+[2.899s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/libeSPDI_NVIDIA_64.so
+[2.899s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/libeSPDI_NVIDIA_64.so.5.0.1.37
+[2.899s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/libeSPDI_X86_64.so
+[2.899s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/libeSPDI_X86_64.so.5.0.1.37
+[2.900s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/aarch64/include/Self_Calibration_API.h
+[2.900s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/aarch64/lib/libSelf_Calibration_API.so
+[2.901s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/aarch64/lib/libSelf_Calibration_API.so.76613ba
+[2.901s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/x86_64/include/Self_Calibration_API.h
+[2.901s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/x86_64/lib/libSelf_Calibration_API.so
+[2.901s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/x86_64/lib/libSelf_Calibration_API.so.76613ba
+[2.902s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/aarch64/include/Self_Calibration_API.h
+[2.902s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/aarch64/lib/libSelf_Calibration_API.so
+[2.902s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/aarch64/lib/libSelf_Calibration_API.so.76613ba
+[2.902s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/x86_64/include/Self_Calibration_API.h
+[2.903s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/x86_64/lib/libSelf_Calibration_API.so
+[2.903s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/x86_64/lib/libSelf_Calibration_API.so.76613ba
+[2.903s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/thermal/x86_64/include/mapping.h
+[2.903s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/thermal/x86_64/include/measure.h
+[2.903s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/thermal/x86_64/lib/libMapping.a
+[2.904s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/thermal/x86_64/lib/libMeasure.a
+[2.904s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//libeys3d.NVIDIA_64.so
+[2.904s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//libeys3d.NVIDIA_64.so.d5be8506
+[2.904s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//libeys3d.X86_64.so
+[2.904s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//libeys3d.X86_64.so.d5be8506
+[2.905s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//apc_camera_component.hpp
+[2.905s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//types_calib.h
+[2.906s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//versionInfo.h
+[2.908s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//APC.def
+[2.908s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//APC_unity.def
+[2.909s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//Constants.h
+[2.909s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/ColorPaletteGenerator.h
+[2.910s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/IMU/IMU_Filter/IMUFilter.h
+[2.910s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/IMU/IMU_Filter/IMUFilter_Complementary.h
+[2.911s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/IMU/IMU_Filter/Quaternion1.h
+[2.911s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/IMU/IMU_Filter/quaternion.h
+[2.911s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/IMUData.h
+[2.912s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/ModeConfig.h
+[2.912s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/ModeConfigOptions.h
+[2.912s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/PlyFilter.h
+[2.912s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/PlyWriter.h
+[2.913s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/RegisterSettings.h
+[2.913s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/hidapi/hidapi.h
+[2.913s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/sqlite3/sqlite3.h
+[2.914s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/sqlite3/sqlite3ext.h
+[2.914s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/utImageProcessingUtility.h
+[2.914s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DebugCPP.hpp
+[2.914s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//EYS3DSystem.h
+[2.915s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//EYS3DSystem_def.h
+[2.915s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//UnityBinder.h
+[2.915s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//VersionInfo.rc.in
+[2.916s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/Compiler.h
+[2.916s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/EnumFlags.h
+[2.916s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/Optional.h
+[2.917s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/TypeTraits.h
+[2.917s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/memory/LazyInstance.h
+[2.917s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/synchronization/ConditionVariable.h
+[2.918s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/synchronization/Event.h
+[2.918s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/synchronization/Lock.h
+[2.918s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/synchronization/MessageChannel.h
+[2.919s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads/Async.h
+[2.919s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads/FunctorThread.h
+[2.919s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads/Thread.h
+[2.919s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads/ThreadPool.h
+[2.920s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads/ThreadStore.h
+[2.920s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads/Types.h
+[2.921s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads/WorkerThread.h
+[2.921s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//cgroup.h
+[2.921s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//debug.h
+[2.921s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice.h
+[2.922s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8036.h
+[2.922s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_80362.h
+[2.922s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8037.h
+[2.923s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8052.h
+[2.923s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8053.h
+[2.923s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8059.h
+[2.924s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8062.h
+[2.924s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8067.h
+[2.924s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8073.h
+[2.924s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8081.h
+[2.925s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_Hypatia.h
+[2.925s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_Hypatia2.h
+[2.925s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_Stacy.h
+[2.926s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_StacyJunior.h
+[2.926s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/FrameSetPipeline.h
+[2.926s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/IMUDevice.h
+[2.927s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/IMUDevice_8062.h
+[2.927s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/MemoryAllocator.h
+[2.927s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/Pipeline.h
+[2.928s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/controller/RegisterReadWriteController.h
+[2.928s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/model/CameraDeviceProperties.h
+[2.928s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/model/DepthAccuracyOptions.h
+[2.928s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/model/DepthFilterOptions.h
+[2.929s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/model/IRProperty.h
+[2.929s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/model/PostProcessOptions.h
+[2.929s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/model/RegisterReadWriteOptions.h
+[2.929s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//macros.h
+[2.930s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//objectarray.h
+[2.930s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//sensors/IMUDataProducer.h
+[2.930s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//sensors/SensorData.h
+[2.930s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//sensors/SensorDataProducer.h
+[2.931s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//single_consumer_queue.h
+[2.931s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//unity_debug.h
+[2.931s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//utils.h
+[2.931s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//version_utils.h
+[2.931s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/ColorFrameProducer.h
+[2.932s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/ColorProcessHandle.h
+[2.932s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/DepthFrameProducer.h
+[2.932s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/Frame.h
+[2.932s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/FrameProducer.h
+[2.933s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/FrameSet.h
+[2.933s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/GeneralFrame.h
+[2.933s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/GuestReadbackWorker.h
+[2.933s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/IImageProcess.h
+[2.934s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/PCFrame.h
+[2.934s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/PCFrameProducer.h
+[2.934s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/PCProducer.h
+[2.934s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/PostProcessHandle.h
+[2.934s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/Producer.h
+[2.935s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/coders.h
+[2.935s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/eYs3D.h
+[2.935s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/factory.h
+[2.935s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/pc_coders.h
+[2.936s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/video.h
+[2.936s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//ColorPaletteGenerator.h
+[2.937s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//IMU/IMU_Filter/IMUFilter.h
+[2.937s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//IMU/IMU_Filter/IMUFilter_Complementary.h
+[2.937s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//IMU/IMU_Filter/Quaternion1.h
+[2.937s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//IMU/IMU_Filter/quaternion.h
+[2.937s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//IMUData.h
+[2.938s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//ModeConfig.h
+[2.938s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//ModeConfigOptions.h
+[2.938s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//PlyFilter.h
+[2.938s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//PlyWriter.h
+[2.938s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//RegisterSettings.h
+[2.939s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//hidapi/hidapi.h
+[2.939s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//sqlite3/sqlite3.h
+[2.939s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//sqlite3/sqlite3ext.h
+[2.939s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//utImageProcessingUtility.h
+[2.940s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/launch/apc_camera_launch.py
+[2.940s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/rviz/apc.rviz
+[2.941s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/DEFAULT_DM_Quality_Register_Setting.cfg
+[2.941s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8036_DM_Quality_Register_Setting.cfg
+[2.941s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8037_DM_Quality_Register_Setting.cfg
+[2.941s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8038_BL15cm_DM_Quality_Register_Setting.cfg
+[2.941s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8038_BL3cm_DM_Quality_Register_Setting.cfg
+[2.942s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8038_BL6cm_DM_Quality_Register_Setting.cfg
+[2.942s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8040S_DM_Quality_Register_Setting.cfg
+[2.942s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8052_DM_Quality_Register_Setting.cfg
+[2.942s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8053_DM_Quality_Register_Setting.cfg
+[2.942s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8054_DM_Quality_Register_Setting.cfg
+[2.942s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/HYPATIA2_DM_Quality_Register_Setting.cfg
+[2.942s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/HYPATIA_DM_Quality_Register_Setting.cfg
+[2.942s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/IVY2_DM_Quality_Register_Setting.cfg
+[2.943s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/IVY_DM_Quality_Register_Setting.cfg
+[2.943s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/NORA_DM_Quality_Register_Setting.cfg
+[2.943s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/ORANGEITRI_DM_Quality_Register_Setting.cfg
+[2.943s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/SANDRA_DM_Quality_Register_Setting.cfg
+[2.943s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/YX80362_DM_Quality_Register_Setting.cfg
+[2.943s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/YX8059_DM_Quality_Register_Setting.cfg
+[2.944s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/YX8062_DM_Quality_Register_Setting.cfg
+[2.944s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/YX8063_DM_Quality_Register_Setting.cfg
+[2.944s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/YX8076_DM_Quality_Register_Setting.cfg
+[2.944s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/YX8081_DM_Quality_Register_Setting.cfg
+[2.944s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/ModeConfig.db
+[2.944s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/SWPP.cfg
+[2.944s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/libeYs3D.log.config
+[2.945s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/libeYs3D_win.log.config
+[2.945s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/config/common.yaml
+[2.945s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/environment/library_path.sh
+[2.946s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/environment/library_path.dsv
+[2.946s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/ament_index/resource_index/package_run_dependencies/dm_preview
+[2.946s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/ament_index/resource_index/parent_prefix_path/dm_preview
+[2.947s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/environment/ament_prefix_path.sh
+[2.947s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/environment/ament_prefix_path.dsv
+[2.947s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/environment/path.sh
+[2.947s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/environment/path.dsv
+[2.947s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/local_setup.bash
+[2.947s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/local_setup.sh
+[2.947s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/local_setup.zsh
+[2.948s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/local_setup.dsv
+[2.948s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/package.dsv
+[2.956s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/ament_index/resource_index/packages/dm_preview
+[2.957s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/ament_index/resource_index/rclcpp_components/dm_preview
+[2.957s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.957s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/cmake/ament_cmake_export_libraries-extras.cmake
+[2.957s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.957s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/cmake/dm_previewConfig.cmake
+[2.958s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/cmake/dm_previewConfig-version.cmake
+[2.958s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/package.xml
+[2.959s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/dm_preview' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kb/Anveshika/Anveshika_ws/build/dm_preview

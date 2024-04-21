@@ -1,0 +1,4 @@
+source;share/dm_preview/local_setup.bash
+source;share/dm_preview/local_setup.dsv
+source;share/dm_preview/local_setup.sh
+source;share/dm_preview/local_setup.zsh
