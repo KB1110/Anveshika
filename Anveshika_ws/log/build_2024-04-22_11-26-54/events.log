@@ -1,0 +1,792 @@
+[0.000000] (-) TimerEvent: {}
+[0.000156] (dm_preview) JobQueued: {'identifier': 'dm_preview', 'dependencies': OrderedDict()}
+[0.000210] (dm_preview) JobStarted: {'identifier': 'dm_preview'}
+[0.009343] (dm_preview) JobProgress: {'identifier': 'dm_preview', 'progress': 'cmake'}
+[0.009974] (dm_preview) Command: {'cmd': ['/usr/bin/cmake', '/home/kb/Anveshika/Anveshika_ws/src/dm_preview', '-DCMAKE_INSTALL_PREFIX=/home/kb/Anveshika/Anveshika_ws/install/dm_preview'], 'cwd': '/home/kb/Anveshika/Anveshika_ws/build/dm_preview', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kb'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kb'), ('OLDPWD', '/home/kb/Anveshika'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1442'), ('SYSTEMD_EXEC_PID', '1615'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3355'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kb/Anveshika/Anveshika_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kb'), ('JOURNAL_STREAM', '8:35000'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kb-labs:@/tmp/.ICE-unix/1574,unix/kb-labs:/tmp/.ICE-unix/1574'), ('INVOCATION_ID', 'a9d3829468ae4ba78020ec4be3aca2f5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0Y7WM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kb/Anveshika/Anveshika_ws/install/dm_preview:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:892a370f-a5eb-4396-92f2-cde2480ffa1b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kb/Anveshika/Anveshika_ws/build/dm_preview'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kb/Anveshika/Anveshika_ws/install/dm_preview:/opt/ros/humble')]), 'shell': False}
+[0.080811] (dm_preview) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.098933] (-) TimerEvent: {}
+[0.149016] (dm_preview) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.155540] (dm_preview) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199053] (-) TimerEvent: {}
+[0.218230] (dm_preview) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.225399] (dm_preview) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.225748] (dm_preview) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.226083] (dm_preview) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.229451] (dm_preview) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299187] (-) TimerEvent: {}
+[0.308986] (dm_preview) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.317084] (dm_preview) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.317384] (dm_preview) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.317838] (dm_preview) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.318443] (dm_preview) StderrLine: {'line': b'\x1b[0mROS2 version : 0.0.0.4\x1b[0m\n'}
+[0.320300] (dm_preview) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399307] (-) TimerEvent: {}
+[0.490224] (dm_preview) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.499419] (-) TimerEvent: {}
+[0.566233] (dm_preview) StdoutLine: {'line': b'-- Found rcutils: 5.1.5 (/opt/ros/humble/share/rcutils/cmake)\n'}
+[0.575607] (dm_preview) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.599541] (-) TimerEvent: {}
+[0.602559] (dm_preview) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.606486] (dm_preview) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.613769] (dm_preview) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.625934] (dm_preview) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.648785] (dm_preview) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.699669] (-) TimerEvent: {}
+[0.731254] (dm_preview) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.733763] (dm_preview) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.799836] (-) TimerEvent: {}
+[0.824415] (dm_preview) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.850874] (dm_preview) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.899966] (-) TimerEvent: {}
+[0.915353] (dm_preview) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.931008] (dm_preview) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.000193] (-) TimerEvent: {}
+[1.034153] (dm_preview) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.035013] (dm_preview) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.100308] (-) TimerEvent: {}
+[1.108266] (dm_preview) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.109965] (dm_preview) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.200430] (-) TimerEvent: {}
+[1.268778] (dm_preview) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.300539] (-) TimerEvent: {}
+[1.331269] (dm_preview) StdoutLine: {'line': b'-- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.389528] (dm_preview) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.400640] (-) TimerEvent: {}
+[1.500950] (-) TimerEvent: {}
+[1.601298] (-) TimerEvent: {}
+[1.693534] (dm_preview) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.701373] (-) TimerEvent: {}
+[1.707400] (dm_preview) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.708581] (dm_preview) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.708781] (dm_preview) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.718862] (dm_preview) StdoutLine: {'line': b'-- Found stereo_msgs: 4.2.3 (/opt/ros/humble/share/stereo_msgs/cmake)\n'}
+[1.801482] (-) TimerEvent: {}
+[1.901841] (-) TimerEvent: {}
+[1.931887] (dm_preview) StdoutLine: {'line': b'-- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.957483] (dm_preview) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.979548] (dm_preview) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[1.979942] (dm_preview) StderrLine: {'line': b'\x1b[0mOpenCV is found.\x1b[0m\n'}
+[1.980033] (dm_preview) StderrLine: {'line': b'\x1b[0mFound OpenCV: 4.5.4\x1b[0m\n'}
+[1.980108] (dm_preview) StdoutLine: {'line': b'-- Defined WITH_OPENCV.\n'}
+[1.983216] (dm_preview) StdoutLine: {'line': b'-- eys3d_depth_INCLUDE_DIRS= /home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/lib/eSPDI/;/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include;/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility;/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility/hidapi;/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/model;/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video\n'}
+[1.983465] (dm_preview) StdoutLine: {'line': b'-- eys3d_depth_library= /home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/lib/libeys3d.X86_64.so\n'}
+[2.001951] (-) TimerEvent: {}
+[2.061750] (dm_preview) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.102078] (-) TimerEvent: {}
+[2.111031] (dm_preview) StdoutLine: {'line': b'-- Generating done\n'}
+[2.113998] (dm_preview) StdoutLine: {'line': b'-- Build files have been written to: /home/kb/Anveshika/Anveshika_ws/build/dm_preview\n'}
+[2.126369] (dm_preview) CommandEnded: {'returncode': 0}
+[2.127129] (dm_preview) JobProgress: {'identifier': 'dm_preview', 'progress': 'build'}
+[2.128373] (dm_preview) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kb/Anveshika/Anveshika_ws/build/dm_preview', '--', '-j8', '-l8'], 'cwd': '/home/kb/Anveshika/Anveshika_ws/build/dm_preview', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kb'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kb'), ('OLDPWD', '/home/kb/Anveshika'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1442'), ('SYSTEMD_EXEC_PID', '1615'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3355'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kb/Anveshika/Anveshika_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kb'), ('JOURNAL_STREAM', '8:35000'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kb-labs:@/tmp/.ICE-unix/1574,unix/kb-labs:/tmp/.ICE-unix/1574'), ('INVOCATION_ID', 'a9d3829468ae4ba78020ec4be3aca2f5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0Y7WM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kb/Anveshika/Anveshika_ws/install/dm_preview:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:892a370f-a5eb-4396-92f2-cde2480ffa1b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kb/Anveshika/Anveshika_ws/build/dm_preview'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kb/Anveshika/Anveshika_ws/install/dm_preview:/opt/ros/humble')]), 'shell': False}
+[2.177660] (dm_preview) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.o\x1b[0m\n'}
+[2.202198] (-) TimerEvent: {}
+[2.302488] (-) TimerEvent: {}
+[2.402798] (-) TimerEvent: {}
+[2.503086] (-) TimerEvent: {}
+[2.603387] (-) TimerEvent: {}
+[2.669226] (dm_preview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/base/threads/ThreadPool.h:23\x1b[m\x1b[K,\n'}
+[2.669432] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/sensors/SensorDataProducer.h:11\x1b[m\x1b[K,\n'}
+[2.669535] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/IMUDevice.h:9\x1b[m\x1b[K,\n'}
+[2.669628] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/CameraDevice.h:11\x1b[m\x1b[K,\n'}
+[2.669717] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:38\x1b[m\x1b[K,\n'}
+[2.669819] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1\x1b[m\x1b[K:\n'}
+[2.669911] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/utils.h:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"MAX" redefined\n'}
+[2.670002] (dm_preview) StderrLine: {'line': b'   30 | #define MAX(a,b) \\\n'}
+[2.670090] (dm_preview) StderrLine: {'line': b'      | \n'}
+[2.670193] (dm_preview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:52\x1b[m\x1b[K,\n'}
+[2.670283] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[2.670371] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[2.670459] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:35\x1b[m\x1b[K,\n'}
+[2.670587] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1\x1b[m\x1b[K:\n'}
+[2.670725] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cvdef.h:493:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[2.670813] (dm_preview) StderrLine: {'line': b'  493 | #  define MAX(a,b)  ((a) < (b) ? (b) : (a))\n'}
+[2.670899] (dm_preview) StderrLine: {'line': b'      | \n'}
+[2.670997] (dm_preview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/base/threads/ThreadPool.h:23\x1b[m\x1b[K,\n'}
+[2.671088] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/sensors/SensorDataProducer.h:11\x1b[m\x1b[K,\n'}
+[2.671170] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/IMUDevice.h:9\x1b[m\x1b[K,\n'}
+[2.671252] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/CameraDevice.h:11\x1b[m\x1b[K,\n'}
+[2.671341] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:38\x1b[m\x1b[K,\n'}
+[2.671426] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1\x1b[m\x1b[K:\n'}
+[2.671521] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/utils.h:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"MIN" redefined\n'}
+[2.671608] (dm_preview) StderrLine: {'line': b'   35 | #define MIN(a,b) \\\n'}
+[2.671711] (dm_preview) StderrLine: {'line': b'      | \n'}
+[2.671800] (dm_preview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:52\x1b[m\x1b[K,\n'}
+[2.671886] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[2.671997] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[2.672116] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:35\x1b[m\x1b[K,\n'}
+[2.672208] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1\x1b[m\x1b[K:\n'}
+[2.672297] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cvdef.h:489:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[2.672399] (dm_preview) StderrLine: {'line': b'  489 | #  define MIN(a,b)  ((a) > (b) ? (b) : (a))\n'}
+[2.672494] (dm_preview) StderrLine: {'line': b'      | \n'}
+[2.703489] (-) TimerEvent: {}
+[2.803818] (-) TimerEvent: {}
+[2.904152] (-) TimerEvent: {}
+[3.004506] (-) TimerEvent: {}
+[3.104814] (-) TimerEvent: {}
+[3.205115] (-) TimerEvent: {}
+[3.305423] (-) TimerEvent: {}
+[3.405735] (-) TimerEvent: {}
+[3.506065] (-) TimerEvent: {}
+[3.606376] (-) TimerEvent: {}
+[3.706739] (-) TimerEvent: {}
+[3.807018] (-) TimerEvent: {}
+[3.907315] (-) TimerEvent: {}
+[4.007613] (-) TimerEvent: {}
+[4.107913] (-) TimerEvent: {}
+[4.208230] (-) TimerEvent: {}
+[4.308513] (-) TimerEvent: {}
+[4.408834] (-) TimerEvent: {}
+[4.509150] (-) TimerEvent: {}
+[4.609491] (-) TimerEvent: {}
+[4.709814] (-) TimerEvent: {}
+[4.810127] (-) TimerEvent: {}
+[4.910478] (-) TimerEvent: {}
+[4.972552] (dm_preview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/lib/eSPDI/eSPDI.h:15\x1b[m\x1b[K,\n'}
+[4.972736] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/EYS3DSystem.h:18\x1b[m\x1b[K,\n'}
+[4.972841] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:37\x1b[m\x1b[K,\n'}
+[4.972956] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1\x1b[m\x1b[K:\n'}
+[4.973065] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/lib/eSPDI/eSPDI_def.h:543:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.973167] (dm_preview) StderrLine: {'line': b'  543 |                 struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[4.973276] (dm_preview) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.010618] (-) TimerEvent: {}
+[5.012739] (dm_preview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/CameraDevice.h:17\x1b[m\x1b[K,\n'}
+[5.012907] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:38\x1b[m\x1b[K,\n'}
+[5.013024] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1\x1b[m\x1b[K:\n'}
+[5.013124] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/model/IRProperty.h:46:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest parentheses around \xe2\x80\x98\x1b[01m\x1b[K-\x1b[m\x1b[K\xe2\x80\x99 inside \xe2\x80\x98\x1b[01m\x1b[K<<\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses\x07-Wparentheses\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.013296] (dm_preview) StderrLine: {'line': b'   46 |     IRProperty(uint16_t initValue = (1 << \x1b[01;35m\x1b[K16 - 1\x1b[m\x1b[K), bool extendIR = false);\n'}
+[5.013383] (dm_preview) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K~~~^~~\x1b[m\x1b[K\n'}
+[5.019246] (dm_preview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility/ModeConfigOptions.h:5\x1b[m\x1b[K,\n'}
+[5.019397] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/CameraDevice.h:18\x1b[m\x1b[K,\n'}
+[5.019504] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:38\x1b[m\x1b[K,\n'}
+[5.019604] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1\x1b[m\x1b[K:\n'}
+[5.019700] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility/ModeConfig.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KModeConfig::MODE_CONFIG::MODE_CONFIG()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.019798] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility/ModeConfig.h:37:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KModeConfig::MODE_CONFIG::eDecodeType_T\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.019901] (dm_preview) StderrLine: {'line': b'   37 |         DECODE_TYPE        \x1b[01;35m\x1b[KeDecodeType_T\x1b[m\x1b[K;\n'}
+[5.019999] (dm_preview) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.020094] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility/ModeConfig.h:33:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kint ModeConfig::MODE_CONFIG::iInterLeaveModeFPS\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.020196] (dm_preview) StderrLine: {'line': b'   33 |         int                \x1b[01;35m\x1b[KiInterLeaveModeFPS\x1b[m\x1b[K;\n'}
+[5.020290] (dm_preview) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.020387] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility/ModeConfig.h:50:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.020484] (dm_preview) StderrLine: {'line': b'   50 |         \x1b[01;35m\x1b[KMODE_CONFIG\x1b[m\x1b[K() : eDecodeType_L( YUYV ), eDecodeType_K( YUYV ),  eDecodeType_T( YUYV ), iInterLeaveModeFPS( 0 ) {}\n'}
+[5.020591] (dm_preview) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.029107] (dm_preview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/Producer.h:10\x1b[m\x1b[K,\n'}
+[5.029338] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/FrameProducer.h:12\x1b[m\x1b[K,\n'}
+[5.029483] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/CameraDevice.h:21\x1b[m\x1b[K,\n'}
+[5.029585] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:38\x1b[m\x1b[K,\n'}
+[5.029683] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1\x1b[m\x1b[K:\n'}
+[5.029824] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/Frame.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KlibeYs3D::video::Frame::extra::extra()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.029963] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/Frame.h:93:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid* memset(void*, int, size_t)\x1b[m\x1b[K\xe2\x80\x99 clearing an object of non-trivial type \xe2\x80\x98\x1b[01m\x1b[Kunion libeYs3D::video::Frame::extra\x1b[m\x1b[K\xe2\x80\x99; use assignment or value-initialization instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess\x07-Wclass-memaccess\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.030069] (dm_preview) StderrLine: {'line': b'   93 |         extra() { \x1b[01;35m\x1b[Kmemset(this, 0, sizeof(extra))\x1b[m\x1b[K; }\n'}
+[5.030150] (dm_preview) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.030232] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/Frame.h:90:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kunion libeYs3D::video::Frame::extra\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[5.030317] (dm_preview) StderrLine: {'line': b'   90 |     union \x1b[01;36m\x1b[Kextra\x1b[m\x1b[K    {\n'}
+[5.030398] (dm_preview) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.045614] (dm_preview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/DepthFrameProducer.h:18\x1b[m\x1b[K,\n'}
+[5.045799] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/CameraDevice.h:23\x1b[m\x1b[K,\n'}
+[5.045902] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:38\x1b[m\x1b[K,\n'}
+[5.046054] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1\x1b[m\x1b[K:\n'}
+[5.046235] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/factory.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::unique_ptr<libeYs3D::video::IImageProcess> libeYs3D::video::PostProcessFactory::createColorProcessHandle(int32_t, int32_t, APCImageType::Value, PostProcessOptions&, libeYs3D::video::PostProcessHandleCallback&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.046564] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/factory.h:46:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmoving a local object in a return statement prevents copy elision [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move\x07-Wpessimizing-move\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.046712] (dm_preview) StderrLine: {'line': b'   46 |         return \x1b[01;35m\x1b[Kstd::move(colorProcessHandle)\x1b[m\x1b[K;\n'}
+[5.046798] (dm_preview) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.046890] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/factory.h:46:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kremove \xe2\x80\x98\x1b[01m\x1b[Kstd::move\x1b[m\x1b[K\xe2\x80\x99 call\n'}
+[5.046993] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/factory.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::unique_ptr<libeYs3D::video::IImageProcess> libeYs3D::video::PostProcessFactory::createDepthProcessHandle(int32_t, int32_t, APCImageType::Value, PostProcessOptions&, libeYs3D::video::PostProcessHandleCallback&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.047085] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/factory.h:55:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmoving a local object in a return statement prevents copy elision [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move\x07-Wpessimizing-move\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.047176] (dm_preview) StderrLine: {'line': b'   55 |         return \x1b[01;35m\x1b[Kstd::move(depthProcessHandle)\x1b[m\x1b[K;\n'}
+[5.047257] (dm_preview) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.047334] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/factory.h:55:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kremove \xe2\x80\x98\x1b[01m\x1b[Kstd::move\x1b[m\x1b[K\xe2\x80\x99 call\n'}
+[5.110715] (-) TimerEvent: {}
+[5.123304] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid dmpreview::ApcCamera::getLanuchParams()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.123478] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:248:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kqos_profile\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.123588] (dm_preview) StderrLine: {'line': b'  248 |     rmw_qos_profile_t \x1b[01;35m\x1b[Kqos_profile\x1b[m\x1b[K = rmw_qos_profile_default;\n'}
+[5.123683] (dm_preview) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.188878] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KStreamIntrinsics dmpreview::ApcCamera::getCameraIntrinsics(const StreamMode&, bool*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.189150] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1015:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[KCameraIntrinsics::p\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.189401] (dm_preview) StderrLine: {'line': b' 1015 |             cam_in = {640, 480, 979.8, 942.8, 682.3 / 2, 254.9, {0, 0, 0, 0, 0}\x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[5.189514] (dm_preview) StderrLine: {'line': b'      |                                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.189614] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1015:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[KCameraIntrinsics::r\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.189725] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1018:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[KCameraIntrinsics::p\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.189828] (dm_preview) StderrLine: {'line': b' 1018 |             cam_in = {640, 480, 979.8, 942.8, 682.3, 254.9, {0, 0, 0, 0, 0}\x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[5.189928] (dm_preview) StderrLine: {'line': b'      |                                                                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.190036] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1018:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[KCameraIntrinsics::r\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.190134] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1021:81:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[KCameraIntrinsics::p\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.190338] (dm_preview) StderrLine: {'line': b' 1021 |             cam_in = {1280, 720, 979.8, 942.8, 682.3, 254.9 * 2, {0, 0, 0, 0, 0}\x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[5.190440] (dm_preview) StderrLine: {'line': b'      |                                                                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.190579] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1021:81:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[KCameraIntrinsics::r\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.190717] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1024:85:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[KCameraIntrinsics::p\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.190828] (dm_preview) StderrLine: {'line': b' 1024 |             cam_in = {1280, 720, 979.8, 942.8, 682.3 * 2, 254.9 * 2, {0, 0, 0, 0, 0}\x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[5.190931] (dm_preview) StderrLine: {'line': b'      |                                                                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.191026] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1024:85:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[KCameraIntrinsics::r\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.191107] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1027:81:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[KCameraIntrinsics::p\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.191184] (dm_preview) StderrLine: {'line': b' 1027 |             cam_in = {1280, 720, 979.8, 942.8, 682.3, 254.9 * 2, {0, 0, 0, 0, 0}\x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[5.191272] (dm_preview) StderrLine: {'line': b'      |                                                                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.191350] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1027:81:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[KCameraIntrinsics::r\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.191428] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1030:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[KStreamIntrinsics::ply_parameters\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.191510] (dm_preview) StderrLine: {'line': b' 1030 |     return {cam_in, cam_in\x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[5.191587] (dm_preview) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.191668] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KStreamIntrinsics dmpreview::ApcCamera::getCameraRectifyLog(const StreamMode&, bool*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.191754] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1041:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmoving a local object in a return statement prevents copy elision [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move\x07-Wpessimizing-move\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.191845] (dm_preview) StderrLine: {'line': b' 1041 |         return \x1b[01;35m\x1b[Kstd::move(in)\x1b[m\x1b[K;\n'}
+[5.191937] (dm_preview) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.192027] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1041:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kremove \xe2\x80\x98\x1b[01m\x1b[Kstd::move\x1b[m\x1b[K\xe2\x80\x99 call\n'}
+[5.193550] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1047:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmoving a local object in a return statement prevents copy elision [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move\x07-Wpessimizing-move\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.193783] (dm_preview) StderrLine: {'line': b' 1047 |         return \x1b[01;35m\x1b[Kstd::move(in)\x1b[m\x1b[K;\n'}
+[5.193884] (dm_preview) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.193982] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1047:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kremove \xe2\x80\x98\x1b[01m\x1b[Kstd::move\x1b[m\x1b[K\xe2\x80\x99 call\n'}
+[5.194849] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1087:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmoving a local object in a return statement prevents copy elision [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move\x07-Wpessimizing-move\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.195010] (dm_preview) StderrLine: {'line': b' 1087 |     return \x1b[01;35m\x1b[Kstd::move(in)\x1b[m\x1b[K;\n'}
+[5.195105] (dm_preview) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.195200] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1087:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kremove \xe2\x80\x98\x1b[01m\x1b[Kstd::move\x1b[m\x1b[K\xe2\x80\x99 call\n'}
+[5.210811] (-) TimerEvent: {}
+[5.311170] (-) TimerEvent: {}
+[5.411485] (-) TimerEvent: {}
+[5.511818] (-) TimerEvent: {}
+[5.612118] (-) TimerEvent: {}
+[5.712418] (-) TimerEvent: {}
+[5.812720] (-) TimerEvent: {}
+[5.913017] (-) TimerEvent: {}
+[6.013326] (-) TimerEvent: {}
+[6.113678] (-) TimerEvent: {}
+[6.213954] (-) TimerEvent: {}
+[6.314254] (-) TimerEvent: {}
+[6.414559] (-) TimerEvent: {}
+[6.514835] (-) TimerEvent: {}
+[6.615151] (-) TimerEvent: {}
+[6.640221] (dm_preview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/CameraDevice.h:18\x1b[m\x1b[K,\n'}
+[6.640419] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:38\x1b[m\x1b[K,\n'}
+[6.640533] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1\x1b[m\x1b[K:\n'}
+[6.640640] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility/ModeConfigOptions.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint ModeConfigOptions::TransformVectoDB(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.640753] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility/ModeConfigOptions.h:48:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.640869] (dm_preview) StderrLine: {'line': b'   48 |     \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[6.640975] (dm_preview) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.715274] (-) TimerEvent: {}
+[6.815572] (-) TimerEvent: {}
+[6.915871] (-) TimerEvent: {}
+[7.016159] (-) TimerEvent: {}
+[7.116441] (-) TimerEvent: {}
+[7.216720] (-) TimerEvent: {}
+[7.316985] (-) TimerEvent: {}
+[7.417248] (-) TimerEvent: {}
+[7.517516] (-) TimerEvent: {}
+[7.617782] (-) TimerEvent: {}
+[7.718047] (-) TimerEvent: {}
+[7.818314] (-) TimerEvent: {}
+[7.918603] (-) TimerEvent: {}
+[8.018875] (-) TimerEvent: {}
+[8.119158] (-) TimerEvent: {}
+[8.219425] (-) TimerEvent: {}
+[8.319778] (-) TimerEvent: {}
+[8.420167] (-) TimerEvent: {}
+[8.520483] (-) TimerEvent: {}
+[8.620780] (-) TimerEvent: {}
+[8.721094] (-) TimerEvent: {}
+[8.821702] (-) TimerEvent: {}
+[8.916442] (dm_preview) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libapc_camera_component.so\x1b[0m\n'}
+[8.921920] (-) TimerEvent: {}
+[9.022369] (-) TimerEvent: {}
+[9.122686] (-) TimerEvent: {}
+[9.222955] (-) TimerEvent: {}
+[9.323276] (-) TimerEvent: {}
+[9.386608] (dm_preview) StdoutLine: {'line': b'[ 33%] Built target apc_camera_component\n'}
+[9.411161] (dm_preview) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/apc_camera_node.dir/src/apc_wrapper.cpp.o\x1b[0m\n'}
+[9.412114] (dm_preview) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/apc_camera_listener_node.dir/src/apc_camera_listener.cpp.o\x1b[0m\n'}
+[9.423388] (-) TimerEvent: {}
+[9.523692] (-) TimerEvent: {}
+[9.623989] (-) TimerEvent: {}
+[9.724286] (-) TimerEvent: {}
+[9.824577] (-) TimerEvent: {}
+[9.899365] (dm_preview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/base/threads/ThreadPool.h:23\x1b[m\x1b[K,\n'}
+[9.899612] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/sensors/SensorDataProducer.h:11\x1b[m\x1b[K,\n'}
+[9.899693] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/IMUDevice.h:9\x1b[m\x1b[K,\n'}
+[9.899779] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/CameraDevice.h:11\x1b[m\x1b[K,\n'}
+[9.899848] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:38\x1b[m\x1b[K,\n'}
+[9.899915] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_wrapper.cpp:2\x1b[m\x1b[K:\n'}
+[9.899987] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/utils.h:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"MAX" redefined\n'}
+[9.900053] (dm_preview) StderrLine: {'line': b'   30 | #define MAX(a,b) \\\n'}
+[9.900117] (dm_preview) StderrLine: {'line': b'      | \n'}
+[9.900182] (dm_preview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:52\x1b[m\x1b[K,\n'}
+[9.900247] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[9.900311] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[9.900376] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:35\x1b[m\x1b[K,\n'}
+[9.900440] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_wrapper.cpp:2\x1b[m\x1b[K:\n'}
+[9.900504] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cvdef.h:493:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[9.900569] (dm_preview) StderrLine: {'line': b'  493 | #  define MAX(a,b)  ((a) < (b) ? (b) : (a))\n'}
+[9.900634] (dm_preview) StderrLine: {'line': b'      | \n'}
+[9.900697] (dm_preview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/base/threads/ThreadPool.h:23\x1b[m\x1b[K,\n'}
+[9.900762] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/sensors/SensorDataProducer.h:11\x1b[m\x1b[K,\n'}
+[9.900826] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/IMUDevice.h:9\x1b[m\x1b[K,\n'}
+[9.900891] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/CameraDevice.h:11\x1b[m\x1b[K,\n'}
+[9.900965] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:38\x1b[m\x1b[K,\n'}
+[9.901030] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_wrapper.cpp:2\x1b[m\x1b[K:\n'}
+[9.901094] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/utils.h:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"MIN" redefined\n'}
+[9.901158] (dm_preview) StderrLine: {'line': b'   35 | #define MIN(a,b) \\\n'}
+[9.901223] (dm_preview) StderrLine: {'line': b'      | \n'}
+[9.901286] (dm_preview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:52\x1b[m\x1b[K,\n'}
+[9.901350] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[9.901414] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[9.901478] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:35\x1b[m\x1b[K,\n'}
+[9.901542] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_wrapper.cpp:2\x1b[m\x1b[K:\n'}
+[9.901605] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cvdef.h:489:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[9.901669] (dm_preview) StderrLine: {'line': b'  489 | #  define MIN(a,b)  ((a) > (b) ? (b) : (a))\n'}
+[9.901733] (dm_preview) StderrLine: {'line': b'      | \n'}
+[9.924712] (-) TimerEvent: {}
+[10.025004] (-) TimerEvent: {}
+[10.125378] (-) TimerEvent: {}
+[10.225687] (-) TimerEvent: {}
+[10.325982] (-) TimerEvent: {}
+[10.426263] (-) TimerEvent: {}
+[10.526642] (-) TimerEvent: {}
+[10.626997] (-) TimerEvent: {}
+[10.727340] (-) TimerEvent: {}
+[10.827674] (-) TimerEvent: {}
+[10.928008] (-) TimerEvent: {}
+[11.028339] (-) TimerEvent: {}
+[11.128704] (-) TimerEvent: {}
+[11.229024] (-) TimerEvent: {}
+[11.329324] (-) TimerEvent: {}
+[11.429645] (-) TimerEvent: {}
+[11.529955] (-) TimerEvent: {}
+[11.630297] (-) TimerEvent: {}
+[11.730645] (-) TimerEvent: {}
+[11.830974] (-) TimerEvent: {}
+[11.931327] (-) TimerEvent: {}
+[12.031702] (-) TimerEvent: {}
+[12.132076] (-) TimerEvent: {}
+[12.232391] (-) TimerEvent: {}
+[12.332729] (-) TimerEvent: {}
+[12.433050] (-) TimerEvent: {}
+[12.533374] (-) TimerEvent: {}
+[12.633703] (-) TimerEvent: {}
+[12.657706] (dm_preview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/lib/eSPDI/eSPDI.h:15\x1b[m\x1b[K,\n'}
+[12.657934] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/EYS3DSystem.h:18\x1b[m\x1b[K,\n'}
+[12.658060] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:37\x1b[m\x1b[K,\n'}
+[12.658172] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_wrapper.cpp:2\x1b[m\x1b[K:\n'}
+[12.658285] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/lib/eSPDI/eSPDI_def.h:543:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.658421] (dm_preview) StderrLine: {'line': b'  543 |                 struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[12.658636] (dm_preview) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.710273] (dm_preview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/CameraDevice.h:17\x1b[m\x1b[K,\n'}
+[12.710445] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:38\x1b[m\x1b[K,\n'}
+[12.710527] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_wrapper.cpp:2\x1b[m\x1b[K:\n'}
+[12.710645] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/model/IRProperty.h:46:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest parentheses around \xe2\x80\x98\x1b[01m\x1b[K-\x1b[m\x1b[K\xe2\x80\x99 inside \xe2\x80\x98\x1b[01m\x1b[K<<\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses\x07-Wparentheses\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.710730] (dm_preview) StderrLine: {'line': b'   46 |     IRProperty(uint16_t initValue = (1 << \x1b[01;35m\x1b[K16 - 1\x1b[m\x1b[K), bool extendIR = false);\n'}
+[12.710802] (dm_preview) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K~~~^~~\x1b[m\x1b[K\n'}
+[12.717938] (dm_preview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility/ModeConfigOptions.h:5\x1b[m\x1b[K,\n'}
+[12.718185] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/CameraDevice.h:18\x1b[m\x1b[K,\n'}
+[12.718313] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:38\x1b[m\x1b[K,\n'}
+[12.718435] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_wrapper.cpp:2\x1b[m\x1b[K:\n'}
+[12.718593] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility/ModeConfig.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KModeConfig::MODE_CONFIG::MODE_CONFIG()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.718731] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility/ModeConfig.h:37:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KModeConfig::MODE_CONFIG::eDecodeType_T\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.718872] (dm_preview) StderrLine: {'line': b'   37 |         DECODE_TYPE        \x1b[01;35m\x1b[KeDecodeType_T\x1b[m\x1b[K;\n'}
+[12.718993] (dm_preview) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.719112] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility/ModeConfig.h:33:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kint ModeConfig::MODE_CONFIG::iInterLeaveModeFPS\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.719242] (dm_preview) StderrLine: {'line': b'   33 |         int                \x1b[01;35m\x1b[KiInterLeaveModeFPS\x1b[m\x1b[K;\n'}
+[12.719361] (dm_preview) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.719478] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility/ModeConfig.h:50:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.719609] (dm_preview) StderrLine: {'line': b'   50 |         \x1b[01;35m\x1b[KMODE_CONFIG\x1b[m\x1b[K() : eDecodeType_L( YUYV ), eDecodeType_K( YUYV ),  eDecodeType_T( YUYV ), iInterLeaveModeFPS( 0 ) {}\n'}
+[12.719730] (dm_preview) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.730459] (dm_preview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/Producer.h:10\x1b[m\x1b[K,\n'}
+[12.730701] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/FrameProducer.h:12\x1b[m\x1b[K,\n'}
+[12.730804] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/CameraDevice.h:21\x1b[m\x1b[K,\n'}
+[12.730897] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:38\x1b[m\x1b[K,\n'}
+[12.731034] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_wrapper.cpp:2\x1b[m\x1b[K:\n'}
+[12.731166] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/Frame.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KlibeYs3D::video::Frame::extra::extra()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.731275] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/Frame.h:93:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid* memset(void*, int, size_t)\x1b[m\x1b[K\xe2\x80\x99 clearing an object of non-trivial type \xe2\x80\x98\x1b[01m\x1b[Kunion libeYs3D::video::Frame::extra\x1b[m\x1b[K\xe2\x80\x99; use assignment or value-initialization instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess\x07-Wclass-memaccess\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.731377] (dm_preview) StderrLine: {'line': b'   93 |         extra() { \x1b[01;35m\x1b[Kmemset(this, 0, sizeof(extra))\x1b[m\x1b[K; }\n'}
+[12.731461] (dm_preview) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.731545] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/Frame.h:90:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kunion libeYs3D::video::Frame::extra\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[12.731646] (dm_preview) StderrLine: {'line': b'   90 |     union \x1b[01;36m\x1b[Kextra\x1b[m\x1b[K    {\n'}
+[12.731731] (dm_preview) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[12.733789] (-) TimerEvent: {}
+[12.748048] (dm_preview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/DepthFrameProducer.h:18\x1b[m\x1b[K,\n'}
+[12.748283] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/CameraDevice.h:23\x1b[m\x1b[K,\n'}
+[12.748409] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:38\x1b[m\x1b[K,\n'}
+[12.748553] (dm_preview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_wrapper.cpp:2\x1b[m\x1b[K:\n'}
+[12.748754] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/factory.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::unique_ptr<libeYs3D::video::IImageProcess> libeYs3D::video::PostProcessFactory::createColorProcessHandle(int32_t, int32_t, APCImageType::Value, PostProcessOptions&, libeYs3D::video::PostProcessHandleCallback&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.749035] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/factory.h:46:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmoving a local object in a return statement prevents copy elision [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move\x07-Wpessimizing-move\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.749144] (dm_preview) StderrLine: {'line': b'   46 |         return \x1b[01;35m\x1b[Kstd::move(colorProcessHandle)\x1b[m\x1b[K;\n'}
+[12.749244] (dm_preview) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.749351] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/factory.h:46:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kremove \xe2\x80\x98\x1b[01m\x1b[Kstd::move\x1b[m\x1b[K\xe2\x80\x99 call\n'}
+[12.749464] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/factory.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::unique_ptr<libeYs3D::video::IImageProcess> libeYs3D::video::PostProcessFactory::createDepthProcessHandle(int32_t, int32_t, APCImageType::Value, PostProcessOptions&, libeYs3D::video::PostProcessHandleCallback&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.749574] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/factory.h:55:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmoving a local object in a return statement prevents copy elision [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move\x07-Wpessimizing-move\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.749667] (dm_preview) StderrLine: {'line': b'   55 |         return \x1b[01;35m\x1b[Kstd::move(depthProcessHandle)\x1b[m\x1b[K;\n'}
+[12.749755] (dm_preview) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.749842] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/factory.h:55:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kremove \xe2\x80\x98\x1b[01m\x1b[Kstd::move\x1b[m\x1b[K\xe2\x80\x99 call\n'}
+[12.823044] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_wrapper.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid sigintHandler(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.823270] (dm_preview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_wrapper.cpp:4:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksig\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.823404] (dm_preview) StderrLine: {'line': b'    4 | void sigintHandler(\x1b[01;35m\x1b[Kint sig\x1b[m\x1b[K){\n'}
+[12.823526] (dm_preview) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[12.833909] (-) TimerEvent: {}
+[12.934241] (-) TimerEvent: {}
+[13.034610] (-) TimerEvent: {}
+[13.134957] (-) TimerEvent: {}
+[13.235284] (-) TimerEvent: {}
+[13.335604] (-) TimerEvent: {}
+[13.435897] (-) TimerEvent: {}
+[13.536213] (-) TimerEvent: {}
+[13.598342] (dm_preview) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable apc_camera_node\x1b[0m\n'}
+[13.636358] (-) TimerEvent: {}
+[13.736762] (-) TimerEvent: {}
+[13.837121] (-) TimerEvent: {}
+[13.907838] (dm_preview) StdoutLine: {'line': b'[ 83%] Built target apc_camera_node\n'}
+[13.937276] (-) TimerEvent: {}
+[14.037645] (-) TimerEvent: {}
+[14.137930] (-) TimerEvent: {}
+[14.238207] (-) TimerEvent: {}
+[14.338492] (-) TimerEvent: {}
+[14.438837] (-) TimerEvent: {}
+[14.539127] (-) TimerEvent: {}
+[14.639425] (-) TimerEvent: {}
+[14.739725] (-) TimerEvent: {}
+[14.840017] (-) TimerEvent: {}
+[14.940303] (-) TimerEvent: {}
+[15.040590] (-) TimerEvent: {}
+[15.140912] (-) TimerEvent: {}
+[15.241201] (-) TimerEvent: {}
+[15.341502] (-) TimerEvent: {}
+[15.441782] (-) TimerEvent: {}
+[15.542059] (-) TimerEvent: {}
+[15.642336] (-) TimerEvent: {}
+[15.742626] (-) TimerEvent: {}
+[15.842895] (-) TimerEvent: {}
+[15.943162] (-) TimerEvent: {}
+[16.043426] (-) TimerEvent: {}
+[16.143693] (-) TimerEvent: {}
+[16.243959] (-) TimerEvent: {}
+[16.344234] (-) TimerEvent: {}
+[16.444505] (-) TimerEvent: {}
+[16.544770] (-) TimerEvent: {}
+[16.645041] (-) TimerEvent: {}
+[16.745307] (-) TimerEvent: {}
+[16.845577] (-) TimerEvent: {}
+[16.945843] (-) TimerEvent: {}
+[17.046111] (-) TimerEvent: {}
+[17.146398] (-) TimerEvent: {}
+[17.246676] (-) TimerEvent: {}
+[17.346914] (-) TimerEvent: {}
+[17.447176] (-) TimerEvent: {}
+[17.547465] (-) TimerEvent: {}
+[17.647814] (-) TimerEvent: {}
+[17.748114] (-) TimerEvent: {}
+[17.848445] (-) TimerEvent: {}
+[17.948700] (-) TimerEvent: {}
+[18.049068] (-) TimerEvent: {}
+[18.149663] (-) TimerEvent: {}
+[18.250512] (-) TimerEvent: {}
+[18.351384] (-) TimerEvent: {}
+[18.452240] (-) TimerEvent: {}
+[18.552993] (-) TimerEvent: {}
+[18.653855] (-) TimerEvent: {}
+[18.754690] (-) TimerEvent: {}
+[18.855474] (-) TimerEvent: {}
+[18.956313] (-) TimerEvent: {}
+[19.057144] (-) TimerEvent: {}
+[19.157898] (-) TimerEvent: {}
+[19.258754] (-) TimerEvent: {}
+[19.359310] (-) TimerEvent: {}
+[19.459580] (-) TimerEvent: {}
+[19.559879] (-) TimerEvent: {}
+[19.660179] (-) TimerEvent: {}
+[19.760527] (-) TimerEvent: {}
+[19.849838] (dm_preview) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable apc_camera_listener_node\x1b[0m\n'}
+[19.860667] (-) TimerEvent: {}
+[19.960956] (-) TimerEvent: {}
+[20.061259] (-) TimerEvent: {}
+[20.161539] (-) TimerEvent: {}
+[20.261832] (-) TimerEvent: {}
+[20.362109] (-) TimerEvent: {}
+[20.462431] (-) TimerEvent: {}
+[20.562841] (-) TimerEvent: {}
+[20.635063] (dm_preview) StdoutLine: {'line': b'[100%] Built target apc_camera_listener_node\n'}
+[20.647614] (dm_preview) CommandEnded: {'returncode': 0}
+[20.662916] (-) TimerEvent: {}
+[20.683104] (dm_preview) JobProgress: {'identifier': 'dm_preview', 'progress': 'install'}
+[20.692990] (dm_preview) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kb/Anveshika/Anveshika_ws/build/dm_preview'], 'cwd': '/home/kb/Anveshika/Anveshika_ws/build/dm_preview', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kb'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kb'), ('OLDPWD', '/home/kb/Anveshika'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1442'), ('SYSTEMD_EXEC_PID', '1615'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3355'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kb/Anveshika/Anveshika_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kb'), ('JOURNAL_STREAM', '8:35000'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kb-labs:@/tmp/.ICE-unix/1574,unix/kb-labs:/tmp/.ICE-unix/1574'), ('INVOCATION_ID', 'a9d3829468ae4ba78020ec4be3aca2f5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0Y7WM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kb/Anveshika/Anveshika_ws/install/dm_preview:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:892a370f-a5eb-4396-92f2-cde2480ffa1b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kb/Anveshika/Anveshika_ws/build/dm_preview'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kb/Anveshika/Anveshika_ws/install/dm_preview:/opt/ros/humble')]), 'shell': False}
+[20.700397] (dm_preview) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.700729] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib/dm_preview/apc_camera_listener_node\n'}
+[20.704383] (dm_preview) StdoutLine: {'line': b'-- Set runtime path of "/home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib/dm_preview/apc_camera_listener_node" to ""\n'}
+[20.704773] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib/libapc_camera_component.so\n'}
+[20.707439] (dm_preview) StdoutLine: {'line': b'-- Set runtime path of "/home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib/libapc_camera_component.so" to ""\n'}
+[20.707698] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib/dm_preview/apc_camera_node\n'}
+[20.708150] (dm_preview) StdoutLine: {'line': b'-- Set runtime path of "/home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib/dm_preview/apc_camera_node" to ""\n'}
+[20.708418] (dm_preview) StdoutLine: {'line': b'-- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib/\n'}
+[20.708630] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI\n'}
+[20.708723] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/libeSPDI_NVIDIA_64.so\n'}
+[20.708820] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/libeSPDI_X86_64.so\n'}
+[20.708915] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/libeSPDI_NVIDIA_64.so.5.0.1.37\n'}
+[20.737703] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/eSPDI.h\n'}
+[20.737958] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/Debug\n'}
+[20.738229] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/Debug/libeSPDI_X86_64_debug.so.5.0.1.37\n'}
+[20.763021] (-) TimerEvent: {}
+[20.789786] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/Debug/libeSPDI_NVIDIA_64_debug.so.5.0.1.37\n'}
+[20.830910] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/Debug/libeSPDI_NVIDIA_64_debug.so\n'}
+[20.831331] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/Debug/libeSPDI_X86_64_debug.so\n'}
+[20.831565] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL\n'}
+[20.831785] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64\n'}
+[20.832017] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include\n'}
+[20.832230] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl.h\n'}
+[20.832390] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_ext.h\n'}
+[20.832595] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_icd.h\n'}
+[20.832816] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_gl.h\n'}
+[20.833014] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_platform.h\n'}
+[20.833197] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_gl_ext.h\n'}
+[20.833338] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_d3d10.h\n'}
+[20.833461] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_d3d11.h\n'}
+[20.833645] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_ext_intel.h\n'}
+[20.833787] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_va_api_media_sharing_intel.h\n'}
+[20.833977] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_dx9_media_sharing_intel.h\n'}
+[20.834104] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_egl.h\n'}
+[20.834301] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_dx9_media_sharing.h\n'}
+[20.834486] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_half.h\n'}
+[20.834683] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_version.h\n'}
+[20.834920] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/opencl.h\n'}
+[20.835026] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/lib\n'}
+[20.835133] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/lib/libOpenCL.so.1.2\n'}
+[20.835275] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/lib/libOpenCL.so.1\n'}
+[20.835395] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/lib/libOpenCL.so\n'}
+[20.835524] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/eSPDI_def.h\n'}
+[20.835645] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/libeSPDI_X86_64.so.5.0.1.37\n'}
+[20.863127] (-) TimerEvent: {}
+[20.871666] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/thermal\n'}
+[20.872058] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/thermal/x86_64\n'}
+[20.872264] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/thermal/x86_64/include\n'}
+[20.872476] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/thermal/x86_64/include/measure.h\n'}
+[20.872634] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/thermal/x86_64/include/mapping.h\n'}
+[20.872765] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/thermal/x86_64/lib\n'}
+[20.872886] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/thermal/x86_64/lib/libMapping.a\n'}
+[20.873021] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/thermal/x86_64/lib/libMeasure.a\n'}
+[20.873434] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration\n'}
+[20.873619] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug\n'}
+[20.873804] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API\n'}
+[20.873927] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/x86_64\n'}
+[20.874110] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/x86_64/include\n'}
+[20.874343] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/x86_64/include/Self_Calibration_API.h\n'}
+[20.874487] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/x86_64/lib\n'}
+[20.874670] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/x86_64/lib/libSelf_Calibration_API.so\n'}
+[20.874791] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/x86_64/lib/libSelf_Calibration_API.so.76613ba\n'}
+[20.915288] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/aarch64\n'}
+[20.915635] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/aarch64/include\n'}
+[20.915910] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/aarch64/include/Self_Calibration_API.h\n'}
+[20.916022] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/aarch64/lib\n'}
+[20.916113] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/aarch64/lib/libSelf_Calibration_API.so\n'}
+[20.916215] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/aarch64/lib/libSelf_Calibration_API.so.76613ba\n'}
+[20.952945] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API\n'}
+[20.953364] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/x86_64\n'}
+[20.953583] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/x86_64/include\n'}
+[20.953846] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/x86_64/include/Self_Calibration_API.h\n'}
+[20.953981] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/x86_64/lib\n'}
+[20.954103] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/x86_64/lib/libSelf_Calibration_API.so\n'}
+[20.954220] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/x86_64/lib/libSelf_Calibration_API.so.76613ba\n'}
+[20.963238] (-) TimerEvent: {}
+[21.004173] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/aarch64\n'}
+[21.004656] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/aarch64/include\n'}
+[21.004770] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/aarch64/include/Self_Calibration_API.h\n'}
+[21.004986] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/aarch64/lib\n'}
+[21.005090] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/aarch64/lib/libSelf_Calibration_API.so\n'}
+[21.005167] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/aarch64/lib/libSelf_Calibration_API.so.76613ba\n'}
+[21.049191] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/eSPDI_version.h\n'}
+[21.049505] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//Debug\n'}
+[21.049725] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//Debug/libeys3d.X86_64.so\n'}
+[21.049875] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//Debug/libeys3d.NVIDIA_64.so\n'}
+[21.049984] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//Debug/libeys3d.X86_64.so.d5be8506\n'}
+[21.063364] (-) TimerEvent: {}
+[21.081748] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//Debug/libeys3d.NVIDIA_64.so.d5be8506\n'}
+[21.105603] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//libeys3d.X86_64.so\n'}
+[21.105839] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//libeys3d.NVIDIA_64.so\n'}
+[21.105910] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//libeys3d.X86_64.so.d5be8506\n'}
+[21.110974] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//libeys3d.NVIDIA_64.so.d5be8506\n'}
+[21.115681] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview/\n'}
+[21.116101] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//versionInfo.h\n'}
+[21.116316] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//apc_camera_component.hpp\n'}
+[21.116487] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//types_calib.h\n'}
+[21.116629] (dm_preview) StdoutLine: {'line': b'-- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview/\n'}
+[21.116823] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//version_utils.h\n'}
+[21.116946] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//APC_unity.def\n'}
+[21.117130] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//APC.def\n'}
+[21.118823] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base\n'}
+[21.119082] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/Optional.h\n'}
+[21.119224] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads\n'}
+[21.119359] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads/ThreadStore.h\n'}
+[21.119574] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads/Async.h\n'}
+[21.119767] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads/Thread.h\n'}
+[21.119963] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads/ThreadPool.h\n'}
+[21.120104] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads/Types.h\n'}
+[21.120265] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads/FunctorThread.h\n'}
+[21.120438] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads/WorkerThread.h\n'}
+[21.120619] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/Compiler.h\n'}
+[21.120794] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/EnumFlags.h\n'}
+[21.120970] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/synchronization\n'}
+[21.121124] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/synchronization/Event.h\n'}
+[21.121284] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/synchronization/Lock.h\n'}
+[21.121467] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/synchronization/MessageChannel.h\n'}
+[21.121637] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/synchronization/ConditionVariable.h\n'}
+[21.121826] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/TypeTraits.h\n'}
+[21.122002] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/memory\n'}
+[21.122141] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/memory/LazyInstance.h\n'}
+[21.122330] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//EYS3DSystem_def.h\n'}
+[21.122505] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//debug.h\n'}
+[21.122703] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//utils.h\n'}
+[21.122876] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//VersionInfo.rc.in\n'}
+[21.123050] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//single_consumer_queue.h\n'}
+[21.123230] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//objectarray.h\n'}
+[21.123437] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices\n'}
+[21.123617] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/model\n'}
+[21.123784] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/model/DepthAccuracyOptions.h\n'}
+[21.123930] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/model/DepthFilterOptions.h\n'}
+[21.124125] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/model/CameraDeviceProperties.h\n'}
+[21.124323] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/model/RegisterReadWriteOptions.h\n'}
+[21.124524] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/model/PostProcessOptions.h\n'}
+[21.124752] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/model/IRProperty.h\n'}
+[21.124948] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8037.h\n'}
+[21.125139] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8067.h\n'}
+[21.125314] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8081.h\n'}
+[21.125515] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8062.h\n'}
+[21.125689] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8036.h\n'}
+[21.125890] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/FrameSetPipeline.h\n'}
+[21.126084] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_StacyJunior.h\n'}
+[21.126286] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_Hypatia.h\n'}
+[21.126467] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/MemoryAllocator.h\n'}
+[21.126689] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/Pipeline.h\n'}
+[21.126923] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/controller\n'}
+[21.127075] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/controller/RegisterReadWriteController.h\n'}
+[21.127280] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice.h\n'}
+[21.127506] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8059.h\n'}
+[21.127685] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8073.h\n'}
+[21.127879] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8053.h\n'}
+[21.128051] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_80362.h\n'}
+[21.128236] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_Stacy.h\n'}
+[21.128414] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_Hypatia2.h\n'}
+[21.128618] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/IMUDevice.h\n'}
+[21.128822] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/IMUDevice_8062.h\n'}
+[21.129041] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8052.h\n'}
+[21.129236] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//UnityBinder.h\n'}
+[21.129413] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//macros.h\n'}
+[21.129583] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility\n'}
+[21.129735] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/IMUData.h\n'}
+[21.129945] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/IMU\n'}
+[21.130079] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/IMU/IMU_Filter\n'}
+[21.130299] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/IMU/IMU_Filter/IMUFilter.h\n'}
+[21.130439] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/IMU/IMU_Filter/quaternion.h\n'}
+[21.130655] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/IMU/IMU_Filter/Quaternion1.h\n'}
+[21.130869] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/IMU/IMU_Filter/IMUFilter_Complementary.h\n'}
+[21.131138] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/RegisterSettings.h\n'}
+[21.131359] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/ModeConfig.h\n'}
+[21.131524] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/PlyWriter.h\n'}
+[21.131711] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/PlyFilter.h\n'}
+[21.131906] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/ColorPaletteGenerator.h\n'}
+[21.132078] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/sqlite3\n'}
+[21.132313] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/sqlite3/sqlite3ext.h\n'}
+[21.132502] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/sqlite3/sqlite3.h\n'}
+[21.133320] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/utImageProcessingUtility.h\n'}
+[21.133497] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/ModeConfigOptions.h\n'}
+[21.133715] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/hidapi\n'}
+[21.133841] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/hidapi/hidapi.h\n'}
+[21.133931] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video\n'}
+[21.134018] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/FrameSet.h\n'}
+[21.134120] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/GeneralFrame.h\n'}
+[21.134238] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/pc_coders.h\n'}
+[21.134362] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/PCFrame.h\n'}
+[21.134488] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/DepthFrameProducer.h\n'}
+[21.134636] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/coders.h\n'}
+[21.134754] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/factory.h\n'}
+[21.134903] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/Frame.h\n'}
+[21.135020] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/GuestReadbackWorker.h\n'}
+[21.135169] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/video.h\n'}
+[21.135287] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/PostProcessHandle.h\n'}
+[21.135406] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/PCFrameProducer.h\n'}
+[21.135529] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/PCProducer.h\n'}
+[21.135649] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/IImageProcess.h\n'}
+[21.135770] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/Producer.h\n'}
+[21.135890] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/FrameProducer.h\n'}
+[21.136015] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/ColorProcessHandle.h\n'}
+[21.136135] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/ColorFrameProducer.h\n'}
+[21.136262] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/eYs3D.h\n'}
+[21.136382] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//cgroup.h\n'}
+[21.136503] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//unity_debug.h\n'}
+[21.136625] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//Constants.h\n'}
+[21.136744] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DebugCPP.hpp\n'}
+[21.136858] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//sensors\n'}
+[21.136951] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//sensors/SensorDataProducer.h\n'}
+[21.137059] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//sensors/SensorData.h\n'}
+[21.137183] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//sensors/IMUDataProducer.h\n'}
+[21.137301] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//EYS3DSystem.h\n'}
+[21.137430] (dm_preview) StdoutLine: {'line': b'-- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview/\n'}
+[21.137579] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//IMUData.h\n'}
+[21.137807] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//IMU\n'}
+[21.137981] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//IMU/IMU_Filter\n'}
+[21.138121] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//IMU/IMU_Filter/IMUFilter.h\n'}
+[21.138261] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//IMU/IMU_Filter/quaternion.h\n'}
+[21.138390] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//IMU/IMU_Filter/Quaternion1.h\n'}
+[21.138522] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//IMU/IMU_Filter/IMUFilter_Complementary.h\n'}
+[21.138693] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//RegisterSettings.h\n'}
+[21.138892] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//ModeConfig.h\n'}
+[21.139074] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//PlyWriter.h\n'}
+[21.139206] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//PlyFilter.h\n'}
+[21.139337] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//ColorPaletteGenerator.h\n'}
+[21.139447] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//sqlite3\n'}
+[21.139556] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//sqlite3/sqlite3ext.h\n'}
+[21.139665] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//sqlite3/sqlite3.h\n'}
+[21.140094] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//utImageProcessingUtility.h\n'}
+[21.140302] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//ModeConfigOptions.h\n'}
+[21.140490] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//hidapi\n'}
+[21.140636] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//hidapi/hidapi.h\n'}
+[21.140782] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/launch\n'}
+[21.140925] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/launch/apc_camera_launch.py\n'}
+[21.141057] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/rviz\n'}
+[21.141191] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/rviz/apc.rviz\n'}
+[21.141334] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D\n'}
+[21.141507] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg\n'}
+[21.141671] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/SWPP.cfg\n'}
+[21.141838] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/ModeConfig.db\n'}
+[21.142306] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/libeYs3D.log.config\n'}
+[21.142469] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/libeYs3D_win.log.config\n'}
+[21.142637] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg\n'}
+[21.142798] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8037_DM_Quality_Register_Setting.cfg\n'}
+[21.142943] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/YX8063_DM_Quality_Register_Setting.cfg\n'}
+[21.143086] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/YX8062_DM_Quality_Register_Setting.cfg\n'}
+[21.143237] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8038_BL3cm_DM_Quality_Register_Setting.cfg\n'}
+[21.143375] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/SANDRA_DM_Quality_Register_Setting.cfg\n'}
+[21.143531] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/YX8081_DM_Quality_Register_Setting.cfg\n'}
+[21.143687] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8052_DM_Quality_Register_Setting.cfg\n'}
+[21.143825] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8040S_DM_Quality_Register_Setting.cfg\n'}
+[21.143975] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/NORA_DM_Quality_Register_Setting.cfg\n'}
+[21.144128] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/HYPATIA2_DM_Quality_Register_Setting.cfg\n'}
+[21.144282] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/IVY2_DM_Quality_Register_Setting.cfg\n'}
+[21.144434] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/YX8076_DM_Quality_Register_Setting.cfg\n'}
+[21.144590] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8054_DM_Quality_Register_Setting.cfg\n'}
+[21.144739] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/YX8059_DM_Quality_Register_Setting.cfg\n'}
+[21.144897] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/IVY_DM_Quality_Register_Setting.cfg\n'}
+[21.145055] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8038_BL15cm_DM_Quality_Register_Setting.cfg\n'}
+[21.145212] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/ORANGEITRI_DM_Quality_Register_Setting.cfg\n'}
+[21.145370] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8036_DM_Quality_Register_Setting.cfg\n'}
+[21.145529] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8038_BL6cm_DM_Quality_Register_Setting.cfg\n'}
+[21.145685] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/DEFAULT_DM_Quality_Register_Setting.cfg\n'}
+[21.145845] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/YX80362_DM_Quality_Register_Setting.cfg\n'}
+[21.146005] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8053_DM_Quality_Register_Setting.cfg\n'}
+[21.146169] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/HYPATIA_DM_Quality_Register_Setting.cfg\n'}
+[21.146381] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/config\n'}
+[21.146544] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/config/common.yaml\n'}
+[21.146770] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/environment/library_path.sh\n'}
+[21.146953] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/environment/library_path.dsv\n'}
+[21.147241] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/ament_index/resource_index/package_run_dependencies/dm_preview\n'}
+[21.147511] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/ament_index/resource_index/parent_prefix_path/dm_preview\n'}
+[21.147719] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/environment/ament_prefix_path.sh\n'}
+[21.147950] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/environment/ament_prefix_path.dsv\n'}
+[21.148149] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/environment/path.sh\n'}
+[21.148348] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/environment/path.dsv\n'}
+[21.148544] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/local_setup.bash\n'}
+[21.148745] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/local_setup.sh\n'}
+[21.148948] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/local_setup.zsh\n'}
+[21.149135] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/local_setup.dsv\n'}
+[21.149321] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/package.dsv\n'}
+[21.149555] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/ament_index/resource_index/packages/dm_preview\n'}
+[21.149782] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/ament_index/resource_index/rclcpp_components/dm_preview\n'}
+[21.150026] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[21.150228] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[21.150416] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[21.150725] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/cmake/dm_previewConfig.cmake\n'}
+[21.150917] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/cmake/dm_previewConfig-version.cmake\n'}
+[21.151096] (dm_preview) StdoutLine: {'line': b'-- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/package.xml\n'}
+[21.153126] (dm_preview) CommandEnded: {'returncode': 0}
+[21.163434] (-) TimerEvent: {}
+[21.205168] (dm_preview) JobEnded: {'identifier': 'dm_preview', 'rc': 0}
+[21.206309] (-) EventReactorShutdown: {}

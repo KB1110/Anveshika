@@ -1,1 +1,3 @@
-/home/kb/Anveshika/Anveshika_ws/build/dm_preview/ament_cmake_environment_hooks/local_setup.dsv
+source;share/dm_preview/environment/ament_prefix_path.sh
+source;share/dm_preview/environment/library_path.sh
+source;share/dm_preview/environment/path.sh

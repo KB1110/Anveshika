@@ -399,7 +399,7 @@ void ApcCamera::openDevice() {
     } else {
         RCLCPP_INFO(get_logger(), "launch single module");
         index = -1;
-        for (int i = 0; i < eYs3DSystem_->getCameraDeviceCount() ; ++i) {
+        for (int i = 0; i <= eYs3DSystem_->getCameraDeviceCount() ; ++i) {
             device = eYs3DSystem_->getCameraDevice(i);
 
             if (!device) continue;
@@ -416,6 +416,8 @@ void ApcCamera::openDevice() {
             break;
         }
     }
+
+    index = 0;
 
     if(device != nullptr) {
         device.reset();

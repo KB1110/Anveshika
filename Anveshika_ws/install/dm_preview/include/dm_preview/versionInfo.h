@@ -1,1 +1,11 @@
-/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/versionInfo.h
+#ifndef VERSIONINFO_H_IN
+#define VERSIONINFO_H_IN
+
+#define EYS3D_ROS2_VERSION_MAJOR 0
+#define EYS3D_ROS2_VERSION_MINOR 0
+#define EYS3D_ROS2_VERSION_PATCH 0
+#define EYS3D_ROS2_VERSION_TWEAK 4
+
+#define EYS3D_ROS2_VERSION "0.0.0.4"
+
+#endif // VERSIONINFO_H_IN
