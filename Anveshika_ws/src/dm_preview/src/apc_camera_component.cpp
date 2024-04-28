@@ -77,8 +77,8 @@ void ApcCamera::setDefaultParams() {
     //enable/disable stream
     this->declare_parameter<bool>("enable_color_stream", true, descriptor);
     this->declare_parameter<bool>("enable_depth_stream", true, descriptor);
-    this->declare_parameter<bool>("enable_point_cloud_stream", false, descriptor);
-    this->declare_parameter<bool>("enable_imu_stream", false, descriptor);
+    this->declare_parameter<bool>("enable_point_cloud_stream", true, descriptor);
+    this->declare_parameter<bool>("enable_imu_stream", true, descriptor);
 
     //for camera params
     this->declare_parameter<int>("framerate", 30, descriptor);

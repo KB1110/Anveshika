@@ -1,0 +1,429 @@
+[0.061s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/dm_preview': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kb/Anveshika/Anveshika_ws/build/dm_preview -- -j8 -l8
+[0.189s] [35m[1mConsolidate compiler generated dependencies of target apc_camera_component[0m
+[0.211s] [ 16%] [32mBuilding CXX object CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.o[0m
+[0.823s] In file included from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/base/threads/ThreadPool.h:23[m[K,
+[0.823s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/sensors/SensorDataProducer.h:11[m[K,
+[0.823s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/IMUDevice.h:9[m[K,
+[0.823s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/CameraDevice.h:11[m[K,
+[0.823s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:38[m[K,
+[0.823s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1[m[K:
+[0.823s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/utils.h:30:[m[K [01;35m[Kwarning: [m[K"MAX" redefined
+[0.823s]    30 | #define MAX(a,b) \
+[0.823s]       | 
+[1.311s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:52[m[K,
+[1.311s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[1.311s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[1.311s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:35[m[K,
+[1.311s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1[m[K:
+[1.311s] [01m[K/usr/include/opencv4/opencv2/core/cvdef.h:493:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[1.311s]   493 | #  define MAX(a,b)  ((a) < (b) ? (b) : (a))
+[1.311s]       | 
+[1.311s] In file included from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/base/threads/ThreadPool.h:23[m[K,
+[1.311s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/sensors/SensorDataProducer.h:11[m[K,
+[1.312s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/IMUDevice.h:9[m[K,
+[1.312s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/CameraDevice.h:11[m[K,
+[1.312s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:38[m[K,
+[1.312s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1[m[K:
+[1.312s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/utils.h:35:[m[K [01;35m[Kwarning: [m[K"MIN" redefined
+[1.312s]    35 | #define MIN(a,b) \
+[1.312s]       | 
+[1.312s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:52[m[K,
+[1.312s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[1.312s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[1.312s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:35[m[K,
+[1.312s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1[m[K:
+[1.312s] [01m[K/usr/include/opencv4/opencv2/core/cvdef.h:489:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[1.312s]   489 | #  define MIN(a,b)  ((a) > (b) ? (b) : (a))
+[1.312s]       | 
+[10.139s] In file included from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/lib/eSPDI/eSPDI.h:15[m[K,
+[10.139s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/EYS3DSystem.h:18[m[K,
+[10.139s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:37[m[K,
+[10.139s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1[m[K:
+[10.139s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/lib/eSPDI/eSPDI_def.h:543:24:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[10.139s]   543 |                 struct [01;35m[K{[m[K
+[10.139s]       |                        [01;35m[K^[m[K
+[10.169s] In file included from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/CameraDevice.h:17[m[K,
+[10.169s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:38[m[K,
+[10.169s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1[m[K:
+[10.170s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/model/IRProperty.h:46:46:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K-[m[K’ inside ‘[01m[K<<[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[10.170s]    46 |     IRProperty(uint16_t initValue = (1 << [01;35m[K16 - 1[m[K), bool extendIR = false);
+[10.170s]       |                                           [01;35m[K~~~^~~[m[K
+[10.176s] In file included from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility/ModeConfigOptions.h:5[m[K,
+[10.176s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/CameraDevice.h:18[m[K,
+[10.176s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:38[m[K,
+[10.176s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1[m[K:
+[10.176s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility/ModeConfig.h:[m[K In constructor ‘[01m[KModeConfig::MODE_CONFIG::MODE_CONFIG()[m[K’:
+[10.176s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility/ModeConfig.h:37:28:[m[K [01;35m[Kwarning: [m[K‘[01m[KModeConfig::MODE_CONFIG::eDecodeType_T[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[10.176s]    37 |         DECODE_TYPE        [01;35m[KeDecodeType_T[m[K;
+[10.176s]       |                            [01;35m[K^~~~~~~~~~~~~[m[K
+[10.176s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility/ModeConfig.h:33:28:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint ModeConfig::MODE_CONFIG::iInterLeaveModeFPS[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[10.176s]    33 |         int                [01;35m[KiInterLeaveModeFPS[m[K;
+[10.176s]       |                            [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[10.176s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility/ModeConfig.h:50:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[10.176s]    50 |         [01;35m[KMODE_CONFIG[m[K() : eDecodeType_L( YUYV ), eDecodeType_K( YUYV ),  eDecodeType_T( YUYV ), iInterLeaveModeFPS( 0 ) {}
+[10.176s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[10.185s] In file included from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/Producer.h:10[m[K,
+[10.185s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/FrameProducer.h:12[m[K,
+[10.185s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/CameraDevice.h:21[m[K,
+[10.185s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:38[m[K,
+[10.185s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1[m[K:
+[10.185s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/Frame.h:[m[K In constructor ‘[01m[KlibeYs3D::video::Frame::extra::extra()[m[K’:
+[10.185s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/Frame.h:93:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memset(void*, int, size_t)[m[K’ clearing an object of non-trivial type ‘[01m[Kunion libeYs3D::video::Frame::extra[m[K’; use assignment or value-initialization instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[10.185s]    93 |         extra() { [01;35m[Kmemset(this, 0, sizeof(extra))[m[K; }
+[10.185s]       |                   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.185s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/Frame.h:90:11:[m[K [01;36m[Knote: [m[K‘[01m[Kunion libeYs3D::video::Frame::extra[m[K’ declared here
+[10.186s]    90 |     union [01;36m[Kextra[m[K    {
+[10.186s]       |           [01;36m[K^~~~~[m[K
+[10.198s] In file included from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/DepthFrameProducer.h:18[m[K,
+[10.198s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/CameraDevice.h:23[m[K,
+[10.198s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:38[m[K,
+[10.198s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1[m[K:
+[10.198s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/factory.h:[m[K In member function ‘[01m[Kvirtual std::unique_ptr<libeYs3D::video::IImageProcess> libeYs3D::video::PostProcessFactory::createColorProcessHandle(int32_t, int32_t, APCImageType::Value, PostProcessOptions&, libeYs3D::video::PostProcessHandleCallback&) const[m[K’:
+[10.198s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/factory.h:46:25:[m[K [01;35m[Kwarning: [m[Kmoving a local object in a return statement prevents copy elision [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move-Wpessimizing-move]8;;[m[K]
+[10.198s]    46 |         return [01;35m[Kstd::move(colorProcessHandle)[m[K;
+[10.198s]       |                [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[10.198s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/factory.h:46:25:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[10.199s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/factory.h:[m[K In member function ‘[01m[Kvirtual std::unique_ptr<libeYs3D::video::IImageProcess> libeYs3D::video::PostProcessFactory::createDepthProcessHandle(int32_t, int32_t, APCImageType::Value, PostProcessOptions&, libeYs3D::video::PostProcessHandleCallback&) const[m[K’:
+[10.199s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/factory.h:55:25:[m[K [01;35m[Kwarning: [m[Kmoving a local object in a return statement prevents copy elision [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move-Wpessimizing-move]8;;[m[K]
+[10.199s]    55 |         return [01;35m[Kstd::move(depthProcessHandle)[m[K;
+[10.199s]       |                [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[10.199s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/factory.h:55:25:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[10.272s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:[m[K In member function ‘[01m[Kvoid dmpreview::ApcCamera::getLanuchParams()[m[K’:
+[10.272s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:248:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kqos_profile[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[10.272s]   248 |     rmw_qos_profile_t [01;35m[Kqos_profile[m[K = rmw_qos_profile_default;
+[10.272s]       |                       [01;35m[K^~~~~~~~~~~[m[K
+[10.345s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:[m[K In member function ‘[01m[KStreamIntrinsics dmpreview::ApcCamera::getCameraIntrinsics(const StreamMode&, bool*)[m[K’:
+[10.345s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1017:80:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[KCameraIntrinsics::p[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.345s]  1017 |             cam_in = {640, 480, 979.8, 942.8, 682.3 / 2, 254.9, {0, 0, 0, 0, 0}[01;35m[K}[m[K;
+[10.345s]       |                                                                                [01;35m[K^[m[K
+[10.345s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1017:80:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[KCameraIntrinsics::r[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.346s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1020:76:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[KCameraIntrinsics::p[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.346s]  1020 |             cam_in = {640, 480, 979.8, 942.8, 682.3, 254.9, {0, 0, 0, 0, 0}[01;35m[K}[m[K;
+[10.346s]       |                                                                            [01;35m[K^[m[K
+[10.346s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1020:76:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[KCameraIntrinsics::r[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.346s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1023:81:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[KCameraIntrinsics::p[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.346s]  1023 |             cam_in = {1280, 720, 979.8, 942.8, 682.3, 254.9 * 2, {0, 0, 0, 0, 0}[01;35m[K}[m[K;
+[10.346s]       |                                                                                 [01;35m[K^[m[K
+[10.346s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1023:81:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[KCameraIntrinsics::r[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.346s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1026:85:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[KCameraIntrinsics::p[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.346s]  1026 |             cam_in = {1280, 720, 979.8, 942.8, 682.3 * 2, 254.9 * 2, {0, 0, 0, 0, 0}[01;35m[K}[m[K;
+[10.346s]       |                                                                                     [01;35m[K^[m[K
+[10.346s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1026:85:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[KCameraIntrinsics::r[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.346s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1029:81:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[KCameraIntrinsics::p[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.346s]  1029 |             cam_in = {1280, 720, 979.8, 942.8, 682.3, 254.9 * 2, {0, 0, 0, 0, 0}[01;35m[K}[m[K;
+[10.346s]       |                                                                                 [01;35m[K^[m[K
+[10.347s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1029:81:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[KCameraIntrinsics::r[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.347s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1032:27:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[KStreamIntrinsics::ply_parameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.347s]  1032 |     return {cam_in, cam_in[01;35m[K}[m[K;
+[10.347s]       |                           [01;35m[K^[m[K
+[10.347s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:[m[K In member function ‘[01m[KStreamIntrinsics dmpreview::ApcCamera::getCameraRectifyLog(const StreamMode&, bool*)[m[K’:
+[10.347s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1043:25:[m[K [01;35m[Kwarning: [m[Kmoving a local object in a return statement prevents copy elision [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move-Wpessimizing-move]8;;[m[K]
+[10.347s]  1043 |         return [01;35m[Kstd::move(in)[m[K;
+[10.347s]       |                [01;35m[K~~~~~~~~~^~~~[m[K
+[10.347s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1043:25:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[10.348s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1049:25:[m[K [01;35m[Kwarning: [m[Kmoving a local object in a return statement prevents copy elision [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move-Wpessimizing-move]8;;[m[K]
+[10.348s]  1049 |         return [01;35m[Kstd::move(in)[m[K;
+[10.348s]       |                [01;35m[K~~~~~~~~~^~~~[m[K
+[10.348s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1049:25:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[10.349s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1089:21:[m[K [01;35m[Kwarning: [m[Kmoving a local object in a return statement prevents copy elision [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move-Wpessimizing-move]8;;[m[K]
+[10.349s]  1089 |     return [01;35m[Kstd::move(in)[m[K;
+[10.349s]       |            [01;35m[K~~~~~~~~~^~~~[m[K
+[10.349s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1089:21:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[11.659s] In file included from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/CameraDevice.h:18[m[K,
+[11.659s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp:38[m[K,
+[11.659s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp:1[m[K:
+[11.659s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility/ModeConfigOptions.h:[m[K In member function ‘[01m[Kint ModeConfigOptions::TransformVectoDB(int)[m[K’:
+[11.659s] [01m[K/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/DMPreview_utility/ModeConfigOptions.h:48:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[11.659s]    48 |     [01;35m[K}[m[K
+[11.659s]       |     [01;35m[K^[m[K
+[15.316s] [ 33%] [32m[1mLinking CXX shared library libapc_camera_component.so[0m
+[15.831s] [ 33%] Built target apc_camera_component
+[15.908s] [35m[1mConsolidate compiler generated dependencies of target apc_camera_listener_node[0m
+[15.934s] [ 50%] [32m[1mLinking CXX executable apc_camera_node[0m
+[15.937s] [ 66%] [32m[1mLinking CXX executable apc_camera_listener_node[0m
+[16.489s] [ 83%] Built target apc_camera_node
+[17.234s] [100%] Built target apc_camera_listener_node
+[17.245s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/dm_preview' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kb/Anveshika/Anveshika_ws/build/dm_preview -- -j8 -l8
+[17.288s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/dm_preview': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kb/Anveshika/Anveshika_ws/build/dm_preview
+[17.346s] -- Install configuration: ""
+[17.348s] -- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib/dm_preview/apc_camera_listener_node
+[17.356s] -- Set runtime path of "/home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib/dm_preview/apc_camera_listener_node" to ""
+[17.356s] -- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib/libapc_camera_component.so
+[17.360s] -- Set runtime path of "/home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib/libapc_camera_component.so" to ""
+[17.360s] -- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib/dm_preview/apc_camera_node
+[17.361s] -- Set runtime path of "/home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib/dm_preview/apc_camera_node" to ""
+[17.361s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib/
+[17.361s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI
+[17.362s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/libeSPDI_NVIDIA_64.so
+[17.362s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/libeSPDI_X86_64.so
+[17.362s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/libeSPDI_NVIDIA_64.so.5.0.1.37
+[17.362s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/eSPDI.h
+[17.362s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/Debug
+[17.363s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/Debug/libeSPDI_X86_64_debug.so.5.0.1.37
+[17.363s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/Debug/libeSPDI_NVIDIA_64_debug.so.5.0.1.37
+[17.363s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/Debug/libeSPDI_NVIDIA_64_debug.so
+[17.363s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/Debug/libeSPDI_X86_64_debug.so
+[17.364s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL
+[17.364s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64
+[17.364s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include
+[17.364s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl.h
+[17.365s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_ext.h
+[17.365s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_icd.h
+[17.365s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_gl.h
+[17.365s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_platform.h
+[17.366s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_gl_ext.h
+[17.366s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_d3d10.h
+[17.366s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_d3d11.h
+[17.366s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_ext_intel.h
+[17.366s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_va_api_media_sharing_intel.h
+[17.367s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_dx9_media_sharing_intel.h
+[17.367s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_egl.h
+[17.367s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_dx9_media_sharing.h
+[17.367s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_half.h
+[17.367s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/cl_version.h
+[17.367s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/include/opencl.h
+[17.368s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/lib
+[17.368s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/lib/libOpenCL.so.1.2
+[17.368s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/lib/libOpenCL.so.1
+[17.368s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/OpenCL/x86_64/lib/libOpenCL.so
+[17.368s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/eSPDI_def.h
+[17.369s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/libeSPDI_X86_64.so.5.0.1.37
+[17.369s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/thermal
+[17.369s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/thermal/x86_64
+[17.369s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/thermal/x86_64/include
+[17.369s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/thermal/x86_64/include/measure.h
+[17.370s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/thermal/x86_64/include/mapping.h
+[17.370s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/thermal/x86_64/lib
+[17.370s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/thermal/x86_64/lib/libMapping.a
+[17.370s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/thermal/x86_64/lib/libMeasure.a
+[17.370s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration
+[17.370s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug
+[17.370s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API
+[17.370s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/x86_64
+[17.370s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/x86_64/include
+[17.371s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/x86_64/include/Self_Calibration_API.h
+[17.371s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/x86_64/lib
+[17.371s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/x86_64/lib/libSelf_Calibration_API.so
+[17.371s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/x86_64/lib/libSelf_Calibration_API.so.76613ba
+[17.371s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/aarch64
+[17.371s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/aarch64/include
+[17.371s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/aarch64/include/Self_Calibration_API.h
+[17.371s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/aarch64/lib
+[17.371s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/aarch64/lib/libSelf_Calibration_API.so
+[17.372s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Debug/Self_Calibration_API/aarch64/lib/libSelf_Calibration_API.so.76613ba
+[17.372s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API
+[17.372s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/x86_64
+[17.372s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/x86_64/include
+[17.372s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/x86_64/include/Self_Calibration_API.h
+[17.373s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/x86_64/lib
+[17.373s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/x86_64/lib/libSelf_Calibration_API.so
+[17.374s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/x86_64/lib/libSelf_Calibration_API.so.76613ba
+[17.374s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/aarch64
+[17.374s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/aarch64/include
+[17.374s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/aarch64/include/Self_Calibration_API.h
+[17.374s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/aarch64/lib
+[17.374s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/aarch64/lib/libSelf_Calibration_API.so
+[17.374s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/self_calibration/Self_Calibration_API/aarch64/lib/libSelf_Calibration_API.so.76613ba
+[17.375s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//eSPDI/eSPDI_version.h
+[17.375s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//Debug
+[17.375s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//Debug/libeys3d.X86_64.so
+[17.375s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//Debug/libeys3d.NVIDIA_64.so
+[17.375s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//Debug/libeys3d.X86_64.so.d5be8506
+[17.375s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//Debug/libeys3d.NVIDIA_64.so.d5be8506
+[17.375s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//libeys3d.X86_64.so
+[17.375s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//libeys3d.NVIDIA_64.so
+[17.375s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//libeys3d.X86_64.so.d5be8506
+[17.375s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/lib//libeys3d.NVIDIA_64.so.d5be8506
+[17.375s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview/
+[17.376s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//versionInfo.h
+[17.376s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//apc_camera_component.hpp
+[17.376s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//types_calib.h
+[17.376s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview/
+[17.376s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//version_utils.h
+[17.376s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//APC_unity.def
+[17.376s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//APC.def
+[17.376s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base
+[17.376s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/Optional.h
+[17.376s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads
+[17.376s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads/ThreadStore.h
+[17.376s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads/Async.h
+[17.377s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads/Thread.h
+[17.377s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads/ThreadPool.h
+[17.377s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads/Types.h
+[17.377s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads/FunctorThread.h
+[17.377s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/threads/WorkerThread.h
+[17.377s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/Compiler.h
+[17.377s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/EnumFlags.h
+[17.377s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/synchronization
+[17.377s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/synchronization/Event.h
+[17.377s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/synchronization/Lock.h
+[17.377s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/synchronization/MessageChannel.h
+[17.377s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/synchronization/ConditionVariable.h
+[17.377s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/TypeTraits.h
+[17.377s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/memory
+[17.377s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//base/memory/LazyInstance.h
+[17.377s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//EYS3DSystem_def.h
+[17.377s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//debug.h
+[17.378s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//utils.h
+[17.378s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//VersionInfo.rc.in
+[17.378s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//single_consumer_queue.h
+[17.378s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//objectarray.h
+[17.378s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices
+[17.378s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/model
+[17.378s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/model/DepthAccuracyOptions.h
+[17.378s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/model/DepthFilterOptions.h
+[17.378s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/model/CameraDeviceProperties.h
+[17.378s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/model/RegisterReadWriteOptions.h
+[17.378s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/model/PostProcessOptions.h
+[17.378s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/model/IRProperty.h
+[17.378s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8037.h
+[17.378s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8067.h
+[17.378s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8081.h
+[17.378s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8062.h
+[17.378s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8036.h
+[17.378s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/FrameSetPipeline.h
+[17.379s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_StacyJunior.h
+[17.379s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_Hypatia.h
+[17.379s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/MemoryAllocator.h
+[17.379s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/Pipeline.h
+[17.379s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/controller
+[17.379s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/controller/RegisterReadWriteController.h
+[17.379s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice.h
+[17.379s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8059.h
+[17.379s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8073.h
+[17.379s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8053.h
+[17.379s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_80362.h
+[17.379s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_Stacy.h
+[17.379s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_Hypatia2.h
+[17.379s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/IMUDevice.h
+[17.379s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/IMUDevice_8062.h
+[17.379s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//devices/CameraDevice_8052.h
+[17.379s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//UnityBinder.h
+[17.380s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//macros.h
+[17.380s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility
+[17.380s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/IMUData.h
+[17.380s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/IMU
+[17.380s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/IMU/IMU_Filter
+[17.380s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/IMU/IMU_Filter/IMUFilter.h
+[17.380s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/IMU/IMU_Filter/quaternion.h
+[17.380s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/IMU/IMU_Filter/Quaternion1.h
+[17.380s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/IMU/IMU_Filter/IMUFilter_Complementary.h
+[17.380s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/RegisterSettings.h
+[17.381s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/ModeConfig.h
+[17.381s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/PlyWriter.h
+[17.381s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/PlyFilter.h
+[17.381s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/ColorPaletteGenerator.h
+[17.381s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/sqlite3
+[17.381s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/sqlite3/sqlite3ext.h
+[17.381s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/sqlite3/sqlite3.h
+[17.381s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/utImageProcessingUtility.h
+[17.381s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/ModeConfigOptions.h
+[17.381s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/hidapi
+[17.381s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DMPreview_utility/hidapi/hidapi.h
+[17.381s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video
+[17.381s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/FrameSet.h
+[17.381s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/GeneralFrame.h
+[17.381s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/pc_coders.h
+[17.381s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/PCFrame.h
+[17.381s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/DepthFrameProducer.h
+[17.381s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/coders.h
+[17.381s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/factory.h
+[17.382s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/Frame.h
+[17.382s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/GuestReadbackWorker.h
+[17.382s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/video.h
+[17.382s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/PostProcessHandle.h
+[17.382s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/PCFrameProducer.h
+[17.382s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/PCProducer.h
+[17.382s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/IImageProcess.h
+[17.382s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/Producer.h
+[17.382s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/FrameProducer.h
+[17.382s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/ColorProcessHandle.h
+[17.382s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/ColorFrameProducer.h
+[17.382s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//video/eYs3D.h
+[17.382s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//cgroup.h
+[17.382s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//unity_debug.h
+[17.382s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//Constants.h
+[17.382s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//DebugCPP.hpp
+[17.382s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//sensors
+[17.382s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//sensors/SensorDataProducer.h
+[17.383s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//sensors/SensorData.h
+[17.383s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//sensors/IMUDataProducer.h
+[17.383s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//EYS3DSystem.h
+[17.383s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview/
+[17.383s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//IMUData.h
+[17.383s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//IMU
+[17.383s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//IMU/IMU_Filter
+[17.383s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//IMU/IMU_Filter/IMUFilter.h
+[17.383s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//IMU/IMU_Filter/quaternion.h
+[17.383s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//IMU/IMU_Filter/Quaternion1.h
+[17.383s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//IMU/IMU_Filter/IMUFilter_Complementary.h
+[17.383s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//RegisterSettings.h
+[17.383s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//ModeConfig.h
+[17.383s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//PlyWriter.h
+[17.383s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//PlyFilter.h
+[17.383s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//ColorPaletteGenerator.h
+[17.383s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//sqlite3
+[17.383s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//sqlite3/sqlite3ext.h
+[17.384s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//sqlite3/sqlite3.h
+[17.384s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//utImageProcessingUtility.h
+[17.384s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//ModeConfigOptions.h
+[17.384s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//hidapi
+[17.384s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/include/dm_preview//hidapi/hidapi.h
+[17.384s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/launch
+[17.384s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/launch/apc_camera_launch.py
+[17.384s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/rviz
+[17.384s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/rviz/apc.rviz
+[17.384s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D
+[17.384s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg
+[17.384s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/SWPP.cfg
+[17.384s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/ModeConfig.db
+[17.384s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/libeYs3D.log.config
+[17.384s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/libeYs3D_win.log.config
+[17.384s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg
+[17.384s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8037_DM_Quality_Register_Setting.cfg
+[17.384s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/YX8063_DM_Quality_Register_Setting.cfg
+[17.384s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/YX8062_DM_Quality_Register_Setting.cfg
+[17.385s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8038_BL3cm_DM_Quality_Register_Setting.cfg
+[17.385s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/SANDRA_DM_Quality_Register_Setting.cfg
+[17.385s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/YX8081_DM_Quality_Register_Setting.cfg
+[17.385s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8052_DM_Quality_Register_Setting.cfg
+[17.385s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8040S_DM_Quality_Register_Setting.cfg
+[17.385s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/NORA_DM_Quality_Register_Setting.cfg
+[17.385s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/HYPATIA2_DM_Quality_Register_Setting.cfg
+[17.385s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/IVY2_DM_Quality_Register_Setting.cfg
+[17.385s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/YX8076_DM_Quality_Register_Setting.cfg
+[17.385s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8054_DM_Quality_Register_Setting.cfg
+[17.385s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/YX8059_DM_Quality_Register_Setting.cfg
+[17.385s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/IVY_DM_Quality_Register_Setting.cfg
+[17.385s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8038_BL15cm_DM_Quality_Register_Setting.cfg
+[17.385s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/ORANGEITRI_DM_Quality_Register_Setting.cfg
+[17.385s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8036_DM_Quality_Register_Setting.cfg
+[17.385s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8038_BL6cm_DM_Quality_Register_Setting.cfg
+[17.385s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/DEFAULT_DM_Quality_Register_Setting.cfg
+[17.385s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/YX80362_DM_Quality_Register_Setting.cfg
+[17.385s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/EX8053_DM_Quality_Register_Setting.cfg
+[17.386s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/../..//eYs3D/cfg/DM_Quality_Cfg/HYPATIA_DM_Quality_Register_Setting.cfg
+[17.386s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/config
+[17.386s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/config/common.yaml
+[17.386s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/environment/library_path.sh
+[17.386s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/environment/library_path.dsv
+[17.386s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/ament_index/resource_index/package_run_dependencies/dm_preview
+[17.386s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/ament_index/resource_index/parent_prefix_path/dm_preview
+[17.386s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/environment/ament_prefix_path.sh
+[17.386s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/environment/ament_prefix_path.dsv
+[17.386s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/environment/path.sh
+[17.386s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/environment/path.dsv
+[17.386s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/local_setup.bash
+[17.386s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/local_setup.sh
+[17.386s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/local_setup.zsh
+[17.386s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/local_setup.dsv
+[17.386s] -- Installing: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/package.dsv
+[17.386s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/ament_index/resource_index/packages/dm_preview
+[17.387s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/ament_index/resource_index/rclcpp_components/dm_preview
+[17.387s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.387s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/cmake/ament_cmake_export_libraries-extras.cmake
+[17.387s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.387s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/cmake/dm_previewConfig.cmake
+[17.387s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/cmake/dm_previewConfig-version.cmake
+[17.387s] -- Up-to-date: /home/kb/Anveshika/Anveshika_ws/install/dm_preview/share/dm_preview/package.xml
+[17.387s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/dm_preview' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kb/Anveshika/Anveshika_ws/build/dm_preview
