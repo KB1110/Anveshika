@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/box.stl
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/drive_motor_mount.stl
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/left_bogie.stl
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/right_bogie.stl
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/wheel.stl
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//urdf/anveshika.urdf.xacro
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/ament_index/resource_index/package_run_dependencies/anveshika_description
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/ament_index/resource_index/parent_prefix_path/anveshika_description
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/environment/path.sh
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/environment/path.dsv
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/local_setup.bash
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/local_setup.sh
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/local_setup.zsh
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/local_setup.dsv
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/package.dsv
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/ament_index/resource_index/packages/anveshika_description
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/cmake/anveshika_descriptionConfig.cmake
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/cmake/anveshika_descriptionConfig-version.cmake
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/package.xml

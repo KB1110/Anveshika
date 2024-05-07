@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/rover/box.stl
+-- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/rover/drive_motor_mount.stl
+-- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/rover/left_bogie.stl
+-- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/rover/right_bogie.stl
+-- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/rover/wheel.stl
+-- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//launch/display.launch.xml
+-- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//urdf/anveshika.urdf.xacro
+-- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/ament_index/resource_index/package_run_dependencies/anveshika_description
+-- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/ament_index/resource_index/parent_prefix_path/anveshika_description
+-- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/environment/path.sh
+-- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/environment/path.dsv
+-- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/local_setup.bash
+-- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/local_setup.sh
+-- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/local_setup.zsh
+-- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/local_setup.dsv
+-- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/package.dsv
+-- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/ament_index/resource_index/packages/anveshika_description
+-- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/cmake/anveshika_descriptionConfig.cmake
+-- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/cmake/anveshika_descriptionConfig-version.cmake
+-- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/package.xml

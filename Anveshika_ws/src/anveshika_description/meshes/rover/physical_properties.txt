@@ -1,0 +1,225 @@
+General
+	Part Number	Chassis Assembly
+	Part Name	Chassis Assembly v11
+	Description
+	Material Name	(Various)
+
+Manage
+	Item Number
+	Lifecycle
+	Revision
+	State	Working
+	Change Order
+
+Physical
+	Mass	3599.335 g
+	Volume	1.308E+06 mm^3
+	Density	0.003 g / mm^3
+	Area	1.501E+06 mm^2
+	World X,Y,Z	0.00 mm, 0.00 mm, 0.00 mm
+	Center of Mass	-1.956 mm, -2.260E-05 mm, 51.793 mm
+	Bounding Box
+		Length	374.85 mm
+		Width	326.70 mm
+		Height	124.00 mm
+	Moment of Inertia at Center of Mass   (g mm^2)
+		Ixx	4.870E+07
+		Ixy	10.829
+		Ixz	-1.245E+06
+		Iyx	10.829
+		Iyy	5.927E+07
+		Iyz	-0.348
+		Izx	-1.245E+06
+		Izy	-0.348
+		Izz	9.217E+07
+	Moment of Inertia at Origin   (g mm^2)
+		Ixx	5.835E+07
+		Ixy	10.669
+		Ixz	-8.805E+05
+		Iyx	10.669
+		Iyy	6.894E+07
+		Iyz	3.865
+		Izx	-8.805E+05
+		Izy	3.865
+		Izz	9.218E+07
+-----------------------------------------------------------------------
+General
+	Part Number	Left Bogie
+	Part Name	Left Bogie
+	Description
+	Material Name	(Various)
+
+Manage
+	Item Number
+	Lifecycle
+	Revision
+	State	Working
+	Change Order
+
+Physical
+	Mass	925.17 g
+	Volume	3.725E+05 mm^3
+	Density	0.002 g / mm^3
+	Area	2.039E+05 mm^2
+	World X,Y,Z	0.00 mm, 0.00 mm, 0.00 mm
+	Center of Mass	1.392 mm, 15.024 mm, -82.627 mm
+	Bounding Box
+		Length	534.958 mm
+		Width	75.00 mm
+		Height	164.982 mm
+	Moment of Inertia at Center of Mass   (g mm^2)
+		Ixx	2.120E+06
+		Ixy	-37334.973
+		Ixz	48110.352
+		Iyx	-37334.973
+		Iyy	4.385E+07
+		Iyz	3627.347
+		Izx	48110.352
+		Izy	3627.347
+		Izz	4.200E+07
+	Moment of Inertia at Origin   (g mm^2)
+		Ixx	8.645E+06
+		Ixy	-56690.565
+		Ixz	1.546E+05
+		Iyx	-56690.565
+		Iyy	5.017E+07
+		Iyz	1.152E+06
+		Izx	1.546E+05
+		Izy	1.152E+06
+		Izz	4.221E+07
+-----------------------------------------------------------------------
+General
+	Part Number	Right Bogie
+	Part Name	Right Bogie
+	Description
+	Material Name	(Various)
+
+Manage
+	Item Number
+	Lifecycle
+	Revision
+	State
+	Change Order
+
+Physical
+	Mass	925.17 g
+	Volume	3.725E+05 mm^3
+	Density	0.002 g / mm^3
+	Area	2.039E+05 mm^2
+	World X,Y,Z	0.00 mm, 0.00 mm, 0.00 mm
+	Center of Mass	1.392 mm, -15.024 mm, -82.627 mm
+	Bounding Box
+		Length	534.958 mm
+		Width	75.00 mm
+		Height	164.982 mm
+	Moment of Inertia at Center of Mass   (g mm^2)
+		Ixx	2.120E+06
+		Ixy	37334.973
+		Ixz	48110.318
+		Iyx	37334.973
+		Iyy	4.385E+07
+		Iyz	-3627.347
+		Izx	48110.318
+		Izy	-3627.347
+		Izz	4.200E+07
+	Moment of Inertia at Origin   (g mm^2)
+		Ixx	8.645E+06
+		Ixy	56690.551
+		Ixz	1.546E+05
+		Iyx	56690.551
+		Iyy	5.017E+07
+		Iyz	-1.152E+06
+		Izx	1.546E+05
+		Izy	-1.152E+06
+		Izz	4.221E+07
+-----------------------------------------------------------------------
+General
+	Part Number	Motor Mount
+	Part Name	Motor Mount
+	Description
+	Material Name	(Various)
+
+Manage
+	Item Number
+	Lifecycle
+	Revision
+	State
+	Change Order
+
+Physical
+	Mass	291.135 g
+	Volume	1.272E+05 mm^3
+	Density	0.002 g / mm^3
+	Area	42353.097 mm^2
+	World X,Y,Z	0.00 mm, 0.00 mm, 0.00 mm
+	Center of Mass	40.223 mm, -5.500E-05 mm, 17.052 mm
+	Bounding Box
+		Length	131.30 mm
+		Width	40.01 mm
+		Height	91.00 mm
+	Moment of Inertia at Center of Mass   (g mm^2)
+		Ixx	2.397E+05
+		Ixy	-0.967
+		Ixz	-91714.634
+		Iyx	-0.967
+		Iyy	4.563E+05
+		Iyz	-0.329
+		Izx	-91714.634
+		Izy	-0.329
+		Izz	2.809E+05
+	Moment of Inertia at Origin   (g mm^2)
+		Ixx	3.244E+05
+		Ixy	-0.323
+		Ixz	-2.914E+05
+		Iyx	-0.323
+		Iyy	1.012E+06
+		Iyz	-0.056
+		Izx	-2.914E+05
+		Izy	-0.056
+		Izz	7.519E+05
+-----------------------------------------------------------------------
+General
+	Part Number	Wheel
+	Part Name	Wheel
+	Description
+	Material Name	ABS Plastic
+
+Manage
+	Item Number
+	Lifecycle
+	Revision
+	State	Working
+	Change Order
+
+Physical
+	Mass	429.97 g
+	Volume	4.056E+05 mm^3
+	Density	0.001 g / mm^3
+	Area	1.744E+05 mm^2
+	World X,Y,Z	0.00 mm, 0.00 mm, 0.00 mm
+	Center of Mass	7.594E-08 mm, 6.404E-07 mm, 46.466 mm
+	Bounding Box
+		Length	115.589 mm
+		Width	116.019 mm
+		Height	100.00 mm
+	Moment of Inertia at Center of Mass   (g mm^2)
+		Ixx	8.070E+05
+		Ixy	19.977
+		Ixz	0.00
+		Iyx	19.977
+		Iyy	8.070E+05
+		Iyz	0.003
+		Izx	0.00
+		Izy	0.003
+		Izz	8.776E+05
+	Moment of Inertia at Origin   (g mm^2)
+		Ixx	1.735E+06
+		Ixy	19.977
+		Ixz	-0.001
+		Iyx	19.977
+		Iyy	1.735E+06
+		Iyz	-0.01
+		Izx	-0.001
+		Izy	-0.01
+		Izz	8.776E+05
+

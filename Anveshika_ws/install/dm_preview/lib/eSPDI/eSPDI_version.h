@@ -1,4 +1,1 @@
-#ifndef LIB_ESPDI_VERSION_H
-#define LIB_ESPDI_VERSION_H
-#define APC_VERSION "5.0.1.37"
-#endif
+/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/lib/eSPDI/eSPDI_version.h

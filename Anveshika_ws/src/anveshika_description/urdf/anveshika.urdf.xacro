@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<robot name= "anveshika" xmlns:xacro="https://www.ros.org/wiki/xacro">
+
+    <xacro:include filename="rover.xacro"/>
+
+</robot>

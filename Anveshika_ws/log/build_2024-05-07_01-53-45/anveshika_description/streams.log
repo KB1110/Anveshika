@@ -1,0 +1,53 @@
+[0.070s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kb/Anveshika/Anveshika_ws/src/anveshika_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kb/Anveshika/Anveshika_ws/install/anveshika_description
+[0.392s] -- The C compiler identification is GNU 11.4.0
+[0.695s] -- The CXX compiler identification is GNU 11.4.0
+[0.724s] -- Detecting C compiler ABI info
+[0.861s] -- Detecting C compiler ABI info - done
+[0.874s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.874s] -- Detecting C compile features
+[0.876s] -- Detecting C compile features - done
+[0.882s] -- Detecting CXX compiler ABI info
+[1.106s] -- Detecting CXX compiler ABI info - done
+[1.150s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.152s] -- Detecting CXX compile features
+[1.156s] -- Detecting CXX compile features - done
+[1.194s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.728s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.901s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.217s] -- Configuring done
+[2.225s] -- Generating done
+[2.227s] -- Build files have been written to: /home/kb/Anveshika/Anveshika_ws/build/anveshika_description
+[2.238s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kb/Anveshika/Anveshika_ws/src/anveshika_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kb/Anveshika/Anveshika_ws/install/anveshika_description
+[2.242s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kb/Anveshika/Anveshika_ws/build/anveshika_description -- -j8 -l8
+[2.365s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kb/Anveshika/Anveshika_ws/build/anveshika_description -- -j8 -l8
+[2.510s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kb/Anveshika/Anveshika_ws/build/anveshika_description
+[2.550s] -- Install configuration: ""
+[2.552s] -- Execute custom install script
+[2.555s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/rover/box.stl
+[2.590s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/rover/collision_bogie.stl
+[2.630s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/rover/collision_motor_mount.stl
+[2.677s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/rover/drive_motor_mount.stl
+[2.713s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/rover/left_bogie.stl
+[2.758s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/rover/physical_properties.txt
+[2.796s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/rover/right_bogie.stl
+[2.817s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/rover/wheel.stl
+[2.833s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//launch/display.launch.xml
+[2.852s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//rviz/anveshika_rviz_config.rviz
+[2.870s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//urdf/anveshika.urdf.xacro
+[2.888s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//urdf/rover.xacro
+[2.906s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/ament_index/resource_index/package_run_dependencies/anveshika_description
+[2.922s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/ament_index/resource_index/parent_prefix_path/anveshika_description
+[2.943s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/environment/ament_prefix_path.sh
+[2.961s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/environment/ament_prefix_path.dsv
+[2.979s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/environment/path.sh
+[2.996s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/environment/path.dsv
+[3.013s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/local_setup.bash
+[3.031s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/local_setup.sh
+[3.052s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/local_setup.zsh
+[3.074s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/local_setup.dsv
+[3.093s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/package.dsv
+[3.128s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/ament_index/resource_index/packages/anveshika_description
+[3.177s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/cmake/anveshika_descriptionConfig.cmake
+[3.217s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/cmake/anveshika_descriptionConfig-version.cmake
+[3.259s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/package.xml
+[3.305s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kb/Anveshika/Anveshika_ws/build/anveshika_description

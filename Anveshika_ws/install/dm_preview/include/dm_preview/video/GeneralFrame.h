@@ -1,10 +1,1 @@
-#pragma once
-
-namespace libeYs3D {
-namespace video    {
-class GeneralFrame
-{
-public:
-};
-}
-}
+/home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/video/GeneralFrame.h

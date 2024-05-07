@@ -1,0 +1,304 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="https://www.ros.org/wiki/xacro">
+
+
+    <!-- For RViz -->
+    <!-- <xacro:property name="meshes_address" value="package://anveshika_description/meshes/rover/" /> -->
+
+    <!-- For Gazebo -->
+    <xacro:property name="meshes_address" value="$(find anveshika_description)/meshes/rover/" />
+
+
+    <xacro:property name="inertial_multipier" value="20" />
+
+    <link name="base_footprint"/>
+
+    <joint name="base_joint" type = "fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link"/>
+
+        <origin xyz="0 0 0.235" rpy="0 0 0"/>
+    </joint>
+
+    <link name = "base_link">
+        <visual>
+            <geometry>
+                <mesh filename="${meshes_address}box.stl"
+                       scale="0.001 0.001 0.001" />
+            </geometry>
+
+            <origin xyz = "0 0 0" rpy = "0 0 0"/>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.36 0.30 0.12" />
+            </geometry>
+
+            <origin xyz = "0 0 0.045" rpy = "0 0 0"/>
+        </collision>
+
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <mass value="4.0"/>
+            <inertia ixx="${inertial_multipier*0.05835}" ixy = "0" ixz = "${inertial_multipier*-0.0008805}"
+                    iyy="${inertial_multipier*0.06894}" iyz = "0"
+                        izz="${inertial_multipier*0.09218}"/>
+        </inertial>
+    </link>
+
+    <link name = "left_bogie">
+        <visual>
+            <geometry>
+                <mesh filename="${meshes_address}left_bogie.stl"
+                       scale="0.001 0.001 0.001" />
+            </geometry>
+
+            <origin xyz = "0 0 0" rpy = "0 0 ${pi}"/>
+        </visual>
+
+        <collision>
+            <geometry>
+                <mesh filename="${meshes_address}collision_bogie.stl"
+                       scale="0.001 0.001 0.001" />
+            </geometry>
+
+            <origin xyz = "0 -0.015 0" rpy = "0 0 0"/>
+        </collision>
+
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 ${pi}"/>
+            <mass value="1.0"/>
+            <inertia ixx="${inertial_multipier*0.008645}" ixy = "0" ixz = "${inertial_multipier*0.0001546}"
+                    iyy="${inertial_multipier*0.05017}" iyz = "${inertial_multipier*0.001152}"
+                    izz="${inertial_multipier*0.04221}"/>
+        </inertial>
+    </link>
+
+    <joint name="base_left_bogie_joint" type="revolute">
+        <parent link="base_link"/>
+        <child link="left_bogie"/>
+
+        <origin xyz="0 0.190 0.06" rpy="0 0 0"/>
+
+        <axis xyz="0 1 0"/>
+        <limit lower="${-pi/2}" upper="${pi/2}" effort="100" velocity="100" />
+    </joint>
+
+    <link name = "right_bogie">
+        <visual>
+            <geometry>
+                <mesh filename="${meshes_address}right_bogie.stl"
+                       scale="0.001 0.001 0.001" />
+            </geometry>
+
+            <origin xyz = "0 0 0" rpy = "0 0 ${pi}"/>
+        </visual>
+
+        <collision>
+            <geometry>
+                <mesh filename="${meshes_address}collision_bogie.stl"
+                       scale="0.001 0.001 0.001" />
+            </geometry>
+
+            <origin xyz = "0 0.015 0" rpy = "0 0 0"/>
+        </collision>
+
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 ${pi}"/>
+            <mass value="1.0"/>
+            <inertia ixx="${inertial_multipier*0.008645}" ixy = "0" ixz = "${inertial_multipier*0.0001546}"
+                    iyy="${inertial_multipier*0.05017}" iyz = "${inertial_multipier*-0.001152}"
+                    izz="${inertial_multipier*0.04221}"/>
+        </inertial>
+    </link>
+
+    <joint name="base_right_bogie_joint" type="revolute">
+        <parent link="base_link"/>
+        <child link="right_bogie"/>
+
+        <origin xyz="0 -0.190 0.06" rpy="0 0 0"/>
+
+        <axis xyz="0 1 0"/>
+
+        <limit lower="${-pi/2}" upper="${pi/2}" effort="100" velocity="100" />
+
+        <mimic joint="base_left_bogie_joint" multiplier="-1"/>
+        
+    </joint>
+
+    <xacro:macro name="motor_mount_link" params="prefix x y z r p ya">
+        <link name="${prefix}_motor_mount">
+            <visual>
+                <geometry>
+                    <mesh filename="${meshes_address}drive_motor_mount.stl"
+                           scale="0.001 0.001 0.001" />
+                </geometry>
+        
+                <origin xyz="${x} ${y} ${z}" rpy="${r} ${p} ${ya}"/>
+
+            </visual>
+
+            <collision>
+                <geometry>
+                    <mesh filename="${meshes_address}collision_motor_mount.stl"
+                           scale="0.001 0.001 0.001" />
+                </geometry>
+                
+                <origin xyz = "${x} ${y} ${z}" rpy = "${r} ${p} ${ya}"/>
+            </collision>
+
+            <inertial>
+                <origin xyz="${x} ${y} ${z}" rpy="${r} ${p} ${ya}"/>
+                <mass value="0.3"/>
+                <inertia ixx="${inertial_multipier*0.0003244}" ixy = "0" ixz = "${inertial_multipier*-0.0002914}"
+                        iyy="${inertial_multipier*0.001012}" iyz = "0"
+                        izz="${inertial_multipier*0.0007519}"/>
+            </inertial>
+        </link>
+    </xacro:macro>
+
+    <xacro:motor_mount_link prefix="front_left" 
+                            x="0" y="0" z="0"
+                            r="0" p="0" ya="${-pi/2}" />
+
+    <joint name="left_bogie_front_left_motor_mount_joint" type="revolute">
+        <parent link="left_bogie"/>
+        <child link="front_left_motor_mount"/>
+
+        <origin xyz="0.25 -0.005 -0.223" rpy="0 0 0"/>
+
+        <axis xyz="0 0 1"/>
+        <limit lower="${-pi/2}" upper="${pi/2}" effort="100" velocity="100" />
+    </joint>
+
+    <xacro:motor_mount_link prefix="back_left" 
+                            x="0" y="0" z="0"
+                            r="0" p="0" ya="${-pi/2}" />
+
+    <joint name="left_bogie_back_left_motor_mount_joint" type="revolute">
+        <parent link="left_bogie"/>
+        <child link="back_left_motor_mount"/>
+
+        <origin xyz="-0.25 -0.005 -0.223" rpy="0 0 0"/>
+
+        <axis xyz="0 0 1"/>
+        <limit lower="${-pi/2}" upper="${pi/2}" effort="100" velocity="100" />
+    </joint>
+
+    <xacro:motor_mount_link prefix="front_right" 
+                            x="0" y="0" z="0"
+                            r="0" p="0" ya="${pi/2}" />
+
+    <joint name="right_bogie_front_right_motor_mount_joint" type="revolute">
+        <parent link="right_bogie"/>
+        <child link="front_right_motor_mount"/>
+
+        <origin xyz="0.25 0.005 -0.223" rpy="0 0 0"/>
+
+        <axis xyz="0 0 1"/>
+        <limit lower="${-pi/2}" upper="${pi/2}" effort="100" velocity="100" />
+    </joint>
+
+    <xacro:motor_mount_link prefix="back_right" 
+                            x="0" y="0" z="0"
+                            r="0" p="0" ya="${pi/2}" />
+
+    <joint name="right_bogie_back_right_motor_mount_joint" type="revolute">
+        <parent link="right_bogie"/>
+        <child link="back_right_motor_mount"/>
+
+        <origin xyz="-0.25 0.005 -0.223" rpy="0 0 0"/>
+
+        <axis xyz="0 0 1"/>
+        <limit lower="${-pi/2}" upper="${pi/2}" effort="100" velocity="100" />
+    </joint>
+
+    <xacro:macro name="wheel_link" params="prefix x y z r p ya">
+        <link name="${prefix}_wheel">
+            <visual>
+                <geometry>
+                    <mesh filename="${meshes_address}wheel.stl"
+                           scale="0.001 0.001 0.001" />
+                </geometry>
+        
+                <origin xyz="${x} ${y} ${z}" rpy="${r} ${p} ${ya}"/>
+
+            </visual>
+
+            <collision>
+                <geometry>
+                    <cylinder radius="0.06" length="0.1"/>
+                </geometry>
+                <xacro:if value="${r == pi/2}">
+                    <origin xyz = "${x} ${y - 0.05} ${z}" rpy = "${r} ${p} ${ya}"/>
+                </xacro:if>
+
+                <xacro:unless value="${r == pi/2}">
+                    <origin xyz = "${x} ${y + 0.05} ${z}" rpy = "${r} ${p} ${ya}"/>
+                </xacro:unless>
+            </collision>
+
+            <inertial>
+                <origin xyz="${x} ${y} ${z}" rpy="${r} ${p} ${ya}"/>
+                <mass value="0.45"/>
+                <inertia ixx="${inertial_multipier*0.001735}" ixy = "0" ixz = "0"
+                        iyy="${inertial_multipier*0.001735}" iyz = "0"
+                        izz="${inertial_multipier*0.0008776}"/>
+            </inertial>
+        </link>
+    </xacro:macro>
+
+    <xacro:wheel_link prefix="front_left" 
+                            x="0" y="0" z="0"
+                            r="${pi/2}" p="0" ya="0" />
+
+    <joint name="front_left_wheel_joint" type="continuous">
+        <parent link="front_left_motor_mount"/>
+        <child link="front_left_wheel"/>
+
+        <origin xyz="0 0.045 -0.006" rpy="0 0 0"/>
+
+        <axis xyz="0 1 0"/>
+    </joint>
+   
+    <xacro:wheel_link prefix="back_left" 
+                            x="0" y="0" z="0"
+                            r="${pi/2}" p="0" ya="0" />
+
+    <joint name="back_left_wheel_joint" type="continuous">
+        <parent link="back_left_motor_mount"/>
+        <child link="back_left_wheel"/>
+
+        <origin xyz="0 0.045 -0.006" rpy="0 0 0"/>
+
+        <axis xyz="0 1 0"/>
+    </joint>
+
+    <xacro:wheel_link prefix="front_right" 
+                            x="0" y="0" z="0"
+                            r="${-pi/2}" p="0" ya="0" />
+
+    <joint name="front_right_wheel_joint" type="continuous">
+        <parent link="front_right_motor_mount"/>
+        <child link="front_right_wheel"/>
+
+        <origin xyz="0 -0.045 -0.006" rpy="0 0 0"/>
+
+        <axis xyz="0 1 0"/>
+    </joint>
+
+    <xacro:wheel_link prefix="back_right" 
+                            x="0" y="0" z="0"
+                            r="${-pi/2}" p="0" ya="0" />
+
+    <joint name="back_right_wheel_joint" type="continuous">
+        <parent link="back_right_motor_mount"/>
+        <child link="back_right_wheel"/>
+
+        <origin xyz="0 -0.045 -0.006" rpy="0 0 0"/>
+
+        <axis xyz="0 1 0"/>
+    </joint>
+
+</robot>
