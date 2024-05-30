@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="https://www.ros.org/wiki/xacro">
+
+    <xacro:arg name="is_simulation" default="true" />
+    <xacro:arg name="use_fake_hardware" default="true" />
+    <xacro:arg name="fake_sensor_commands" default="false" />
+    <xacro:arg name="chassis_version" default="v1" />
+
+    <ros2_control name="ZingerJointControl" type="system">
+        <xacro:if value="$(arg is_simulation)">
+            <hardware>
+                <plugin>ign_ros2_control/IgnitionSystem</plugin>
+            </hardware>
+        </xacro:if>
+        <xacro:unless value="$(arg is_simulation)">
+            <xacro:if value="$(arg use_fake_hardware)">
+                <hardware>
+                    <plugin>mock_components/GenericSystem</plugin>
+                </hardware>
+            </xacro:if>
+            <xacro:unless value="$(arg use_fake_hardware)">
+                <!-- USE REAL HARDWARE HERE -->
+                <hardware>
+                </hardware>
+            </xacro:unless>
+        </xacro:unless>
+    </ros2_control>
+
+</robot>

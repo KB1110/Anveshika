@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: anveshika-swerve-controller
+Version: 0.1.0
+Summary: Defines a four wheel independent steering, aka swerve, controller for the Anveshika rover.
+Home-page: UNKNOWN
+Maintainer: kb
+Maintainer-email: kartikbakshi10@gmail.com
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

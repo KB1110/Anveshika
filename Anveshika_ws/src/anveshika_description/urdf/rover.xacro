@@ -4,10 +4,10 @@
 
 
     <!-- For RViz -->
-    <!-- <xacro:property name="meshes_address" value="package://anveshika_description/meshes/rover/" /> -->
+    <xacro:property name="meshes_address" value="package://anveshika_description/meshes/rover/" />
 
     <!-- For Gazebo -->
-    <xacro:property name="meshes_address" value="$(find anveshika_description)/meshes/rover/" />
+    <!-- <xacro:property name="meshes_address" value="$(find anveshika_description)/meshes/rover/" /> -->
 
 
     <xacro:property name="inertial_multipier" value="20" />
@@ -170,6 +170,14 @@
 
         <axis xyz="0 0 1"/>
         <limit lower="${-pi/2}" upper="${pi/2}" effort="100" velocity="100" />
+
+        <command_interface name="position">
+            <param name="min">-${pi/2}</param>
+            <param name="max">${pi/2}</param>
+        </command_interface>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="acceleration"/>
     </joint>
 
     <xacro:motor_mount_link prefix="back_left" 
@@ -184,6 +192,14 @@
 
         <axis xyz="0 0 1"/>
         <limit lower="${-pi/2}" upper="${pi/2}" effort="100" velocity="100" />
+
+        <command_interface name="position">
+            <param name="min">-${pi/2}</param>
+            <param name="max">${pi/2}</param>
+        </command_interface>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="acceleration"/>
     </joint>
 
     <xacro:motor_mount_link prefix="front_right" 
@@ -198,6 +214,14 @@
 
         <axis xyz="0 0 1"/>
         <limit lower="${-pi/2}" upper="${pi/2}" effort="100" velocity="100" />
+
+        <command_interface name="position">
+            <param name="min">-${pi/2}</param>
+            <param name="max">${pi/2}</param>
+        </command_interface>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="acceleration"/>
     </joint>
 
     <xacro:motor_mount_link prefix="back_right" 
@@ -212,6 +236,14 @@
 
         <axis xyz="0 0 1"/>
         <limit lower="${-pi/2}" upper="${pi/2}" effort="100" velocity="100" />
+
+        <command_interface name="position">
+            <param name="min">-${pi/2}</param>
+            <param name="max">${pi/2}</param>
+        </command_interface>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="acceleration"/>
     </joint>
 
     <xacro:macro name="wheel_link" params="prefix x y z r p ya">
@@ -260,6 +292,14 @@
         <origin xyz="0 0.045 -0.006" rpy="0 0 0"/>
 
         <axis xyz="0 1 0"/>
+
+        <command_interface name="velocity">
+            <param name="min">-1</param>
+            <param name="max">1</param>
+        </command_interface>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="acceleration"/>
     </joint>
    
     <xacro:wheel_link prefix="back_left" 
@@ -273,6 +313,14 @@
         <origin xyz="0 0.045 -0.006" rpy="0 0 0"/>
 
         <axis xyz="0 1 0"/>
+
+        <command_interface name="velocity">
+            <param name="min">-1</param>
+            <param name="max">1</param>
+        </command_interface>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="acceleration"/>
     </joint>
 
     <xacro:wheel_link prefix="front_right" 
@@ -286,6 +334,14 @@
         <origin xyz="0 -0.045 -0.006" rpy="0 0 0"/>
 
         <axis xyz="0 1 0"/>
+
+        <command_interface name="velocity">
+            <param name="min">-1</param>
+            <param name="max">1</param>
+        </command_interface>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="acceleration"/>
     </joint>
 
     <xacro:wheel_link prefix="back_right" 
@@ -299,6 +355,14 @@
         <origin xyz="0 -0.045 -0.006" rpy="0 0 0"/>
 
         <axis xyz="0 1 0"/>
+
+        <command_interface name="velocity">
+            <param name="min">-1</param>
+            <param name="max">1</param>
+        </command_interface>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="acceleration"/>
     </joint>
 
 </robot>

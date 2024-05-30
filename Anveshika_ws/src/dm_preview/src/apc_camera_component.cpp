@@ -639,6 +639,7 @@ bool ApcCamera::depth_image_callback(const libeYs3D::video::Frame *frame) {
             mat = cv::Mat(frame->height, frame->width, CV_8UC3, 
                         (void *)frame->rgbVec.data());
             depth_msg = ConvertFrameToMessage(mat, sensor_msgs::image_encodings::RGB8);
+            // depth_msg = ConvertFrameToMessage(mat, sensor_msgs::image_encodings::MONO16);
             break;
         }
       }

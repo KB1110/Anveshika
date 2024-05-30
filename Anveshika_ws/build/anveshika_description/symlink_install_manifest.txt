@@ -9,6 +9,7 @@
 /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//launch/display.launch.xml
 /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//rviz/anveshika_rviz_config.rviz
 /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//urdf/anveshika.urdf.xacro
+/home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//urdf/ros2_control.xacro
 /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//urdf/rover.xacro
 /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/ament_index/resource_index/package_run_dependencies/anveshika_description
 /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/ament_index/resource_index/parent_prefix_path/anveshika_description

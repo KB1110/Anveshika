@@ -3,5 +3,6 @@
 <robot name= "anveshika" xmlns:xacro="https://www.ros.org/wiki/xacro">
 
     <xacro:include filename="rover.xacro"/>
+    <xacro:include filename="ros2_control.xacro" />
 
 </robot>

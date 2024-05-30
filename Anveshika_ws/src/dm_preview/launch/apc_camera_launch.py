@@ -145,7 +145,7 @@ def generate_launch_description():
             # SDK will not output video stream if set "False"
             "enable_color_stream": True,
             "enable_depth_stream": True,
-            "enable_point_cloud_stream": False,
+            "enable_point_cloud_stream": True,
             "enable_imu_stream": False,
 
             # auto_config_camera_mode
@@ -240,9 +240,9 @@ def generate_launch_description():
         package='tf2_ros', executable='static_transform_publisher', name="camera_imu_broadcaster", output='screen',
             arguments=["0", "0", "0", "0", "0", "0", "dm_base_frame", "imu_frame"]
     )
-    RVIZ_node = Node(
-        package='rviz2', executable='rviz2', name="rviz2", output='screen', arguments=['-d', rviz_config_dir]
-    )
+    # RVIZ_node = Node(
+    #     package='rviz2', executable='rviz2', name="rviz2", output='screen', arguments=['-d', rviz_config_dir]
+    # )
 
     if multi_module == False :
         ld.add_action(DM_device_node)
@@ -254,6 +254,6 @@ def generate_launch_description():
     ld.add_action(DEPTH_TF_node)
     ld.add_action(PC_TF_node)
     ld.add_action(IMU_TF_node)
-    ld.add_action(RVIZ_node)
+    # ld.add_action(RVIZ_node)
 
     return ld
