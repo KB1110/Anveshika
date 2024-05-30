@@ -1,0 +1,23 @@
+swerve_controller:
+  ros__parameters:
+
+    robot_base_frame: base_footprint
+
+    twist_topic: cmd_vel
+
+    position_controller_name: "drive_module_steering_angle_controller"
+    velocity_controller_name: "drive_module_velocity_controller"
+
+    cycle_fequency: 50
+
+    steering_joints:
+      - left_bogie_front_left_motor_mount_joint
+      - right_bogie_front_right_motor_mount_joint
+      - left_bogie_back_left_motor_mount_joint
+      - right_bogie_back_right_motor_mount_joint
+
+    drive_joints:
+      - front_left_wheel_joint
+      - front_right_wheel_joint
+      - back_left_wheel_joint
+      - back_right_wheel_joint
