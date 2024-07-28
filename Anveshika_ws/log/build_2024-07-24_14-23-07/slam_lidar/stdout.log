@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing slam_lidar.egg-info/PKG-INFO
+writing dependency_links to slam_lidar.egg-info/dependency_links.txt
+writing entry points to slam_lidar.egg-info/entry_points.txt
+writing requirements to slam_lidar.egg-info/requires.txt
+writing top-level names to slam_lidar.egg-info/top_level.txt
+reading manifest file 'slam_lidar.egg-info/SOURCES.txt'
+writing manifest file 'slam_lidar.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/python3.10/site-packages/slam-lidar.egg-link (link to .)
+Installing mapping_node script to /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/slam_lidar
+Installing navigation_node script to /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/slam_lidar
+
+Installed /home/kb/Anveshika/Anveshika_ws/build/slam_lidar
+running symlink_data

@@ -1,0 +1,9 @@
+source;share/anveshika_detection/hook/pythonpath.ps1
+source;share/anveshika_detection/hook/pythonpath.dsv
+source;share/anveshika_detection/hook/pythonpath.sh
+source;share/anveshika_detection/hook/ament_prefix_path.ps1
+source;share/anveshika_detection/hook/ament_prefix_path.dsv
+source;share/anveshika_detection/hook/ament_prefix_path.sh
+source;../../build/anveshika_detection/share/anveshika_detection/hook/pythonpath_develop.ps1
+source;../../build/anveshika_detection/share/anveshika_detection/hook/pythonpath_develop.dsv
+source;../../build/anveshika_detection/share/anveshika_detection/hook/pythonpath_develop.sh

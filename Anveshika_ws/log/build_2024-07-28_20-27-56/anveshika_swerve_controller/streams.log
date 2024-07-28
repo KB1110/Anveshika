@@ -1,0 +1,19 @@
+[3.754s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller/build --no-deps symlink_data
+[4.060s] running develop
+[4.061s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.061s]   warnings.warn(
+[4.287s] running egg_info
+[4.287s] writing anveshika_swerve_controller.egg-info/PKG-INFO
+[4.287s] writing dependency_links to anveshika_swerve_controller.egg-info/dependency_links.txt
+[4.287s] writing entry points to anveshika_swerve_controller.egg-info/entry_points.txt
+[4.339s] writing requirements to anveshika_swerve_controller.egg-info/requires.txt
+[4.339s] writing top-level names to anveshika_swerve_controller.egg-info/top_level.txt
+[4.342s] reading manifest file 'anveshika_swerve_controller.egg-info/SOURCES.txt'
+[4.399s] writing manifest file 'anveshika_swerve_controller.egg-info/SOURCES.txt'
+[4.457s] running build_ext
+[4.458s] Creating /home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/lib/python3.10/site-packages/anveshika-swerve-controller.egg-link (link to .)
+[4.461s] Installing swerve_controller script to /home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/lib/anveshika_swerve_controller
+[4.462s] 
+[4.462s] Installed /home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller
+[4.463s] running symlink_data
+[4.764s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller' returned '0': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_swerve_controller/build --no-deps symlink_data

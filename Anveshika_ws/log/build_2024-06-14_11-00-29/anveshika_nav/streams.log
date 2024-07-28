@@ -1,0 +1,52 @@
+[0.068s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/yolo_ws/install/yolo_read:/home/kb/camera_ws/install/ros2_camera:/home/kb/zinger_ws/install/zinger_swerve_controller:/opt/ros/humble /usr/bin/cmake /home/kb/Anveshika/Anveshika_ws/src/anveshika_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kb/Anveshika/Anveshika_ws/install/anveshika_nav
+[0.427s] -- The C compiler identification is GNU 11.4.0
+[0.427s] -- The CXX compiler identification is GNU 11.4.0
+[0.427s] -- Detecting C compiler ABI info
+[0.451s] -- Detecting C compiler ABI info - done
+[0.462s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.462s] -- Detecting C compile features
+[0.463s] -- Detecting C compile features - done
+[0.467s] -- Detecting CXX compiler ABI info
+[0.571s] -- Detecting CXX compiler ABI info - done
+[0.590s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.590s] -- Detecting CXX compile features
+[0.590s] -- Detecting CXX compile features - done
+[0.599s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.849s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.937s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.036s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.217s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.219s] -- Added test 'lint_cmake' to check CMake code style
+[1.221s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.227s] -- Added test 'xmllint' to check XML markup files
+[1.230s] -- Configuring done
+[1.233s] -- Generating done
+[1.234s] -- Build files have been written to: /home/kb/Anveshika/Anveshika_ws/build/anveshika_nav
+[1.241s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/yolo_ws/install/yolo_read:/home/kb/camera_ws/install/ros2_camera:/home/kb/zinger_ws/install/zinger_swerve_controller:/opt/ros/humble /usr/bin/cmake /home/kb/Anveshika/Anveshika_ws/src/anveshika_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kb/Anveshika/Anveshika_ws/install/anveshika_nav
+[1.243s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/yolo_ws/install/yolo_read:/home/kb/camera_ws/install/ros2_camera:/home/kb/zinger_ws/install/zinger_swerve_controller:/opt/ros/humble /usr/bin/cmake --build /home/kb/Anveshika/Anveshika_ws/build/anveshika_nav -- -j8 -l8
+[1.282s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/yolo_ws/install/yolo_read:/home/kb/camera_ws/install/ros2_camera:/home/kb/zinger_ws/install/zinger_swerve_controller:/opt/ros/humble /usr/bin/cmake --build /home/kb/Anveshika/Anveshika_ws/build/anveshika_nav -- -j8 -l8
+[1.313s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/yolo_ws/install/yolo_read:/home/kb/camera_ws/install/ros2_camera:/home/kb/zinger_ws/install/zinger_swerve_controller:/opt/ros/humble /usr/bin/cmake --install /home/kb/Anveshika/Anveshika_ws/build/anveshika_nav
+[1.321s] -- Install configuration: ""
+[1.322s] -- Execute custom install script
+[1.322s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/config/localization.yaml
+[1.331s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/config/nav2.yaml
+[1.340s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/config/slam.yaml
+[1.349s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/launch/localization.launch.py
+[1.357s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/launch/nav2.launch.py
+[1.366s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/launch/slam.launch.py
+[1.375s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/ament_index/resource_index/package_run_dependencies/anveshika_nav
+[1.384s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/ament_index/resource_index/parent_prefix_path/anveshika_nav
+[1.393s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/environment/ament_prefix_path.sh
+[1.407s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/environment/ament_prefix_path.dsv
+[1.420s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/environment/path.sh
+[1.430s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/environment/path.dsv
+[1.439s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/local_setup.bash
+[1.448s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/local_setup.sh
+[1.458s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/local_setup.zsh
+[1.467s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/local_setup.dsv
+[1.475s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/package.dsv
+[1.484s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/ament_index/resource_index/packages/anveshika_nav
+[1.493s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/cmake/anveshika_navConfig.cmake
+[1.507s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/cmake/anveshika_navConfig-version.cmake
+[1.521s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/package.xml
+[1.533s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/yolo_ws/install/yolo_read:/home/kb/camera_ws/install/ros2_camera:/home/kb/zinger_ws/install/zinger_swerve_controller:/opt/ros/humble /usr/bin/cmake --install /home/kb/Anveshika/Anveshika_ws/build/anveshika_nav

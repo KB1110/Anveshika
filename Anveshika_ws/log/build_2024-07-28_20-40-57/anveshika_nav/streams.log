@@ -1,0 +1,27 @@
+[0.330s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection:/home/kb/yolo_ws/install/yolo_read:/home/kb/camera_ws/install/ros2_camera:/home/kb/zinger_ws/install/zinger_swerve_controller:/opt/ros/humble /usr/bin/cmake --build /home/kb/Anveshika/Anveshika_ws/build/anveshika_nav -- -j8 -l8
+[0.898s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection:/home/kb/yolo_ws/install/yolo_read:/home/kb/camera_ws/install/ros2_camera:/home/kb/zinger_ws/install/zinger_swerve_controller:/opt/ros/humble /usr/bin/cmake --build /home/kb/Anveshika/Anveshika_ws/build/anveshika_nav -- -j8 -l8
+[0.933s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection:/home/kb/yolo_ws/install/yolo_read:/home/kb/camera_ws/install/ros2_camera:/home/kb/zinger_ws/install/zinger_swerve_controller:/opt/ros/humble /usr/bin/cmake --install /home/kb/Anveshika/Anveshika_ws/build/anveshika_nav
+[0.944s] -- Install configuration: ""
+[0.944s] -- Execute custom install script
+[0.989s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/config/localization.yaml
+[0.989s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/config/nav2.yaml
+[0.989s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/config/slam.yaml
+[0.990s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/launch/localization.launch.py
+[0.990s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/launch/nav2.launch.py
+[0.990s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/launch/slam.launch.py
+[0.990s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/ament_index/resource_index/package_run_dependencies/anveshika_nav
+[0.990s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/ament_index/resource_index/parent_prefix_path/anveshika_nav
+[1.037s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/environment/ament_prefix_path.sh
+[1.038s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/environment/ament_prefix_path.dsv
+[1.038s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/environment/path.sh
+[1.039s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/environment/path.dsv
+[1.039s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/local_setup.bash
+[1.039s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/local_setup.sh
+[1.040s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/local_setup.zsh
+[1.040s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/local_setup.dsv
+[1.040s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/package.dsv
+[1.050s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/ament_index/resource_index/packages/anveshika_nav
+[1.051s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/cmake/anveshika_navConfig.cmake
+[1.051s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/cmake/anveshika_navConfig-version.cmake
+[1.051s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_nav/share/anveshika_nav/package.xml
+[1.054s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection:/home/kb/yolo_ws/install/yolo_read:/home/kb/camera_ws/install/ros2_camera:/home/kb/zinger_ws/install/zinger_swerve_controller:/opt/ros/humble /usr/bin/cmake --install /home/kb/Anveshika/Anveshika_ws/build/anveshika_nav

@@ -1,0 +1,19 @@
+[1.020s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/slam_lidar': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/slam_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/slam_lidar/build --no-deps symlink_data
+[1.297s] running develop
+[1.297s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.298s]   warnings.warn(
+[1.511s] running egg_info
+[1.511s] writing slam_lidar.egg-info/PKG-INFO
+[1.511s] writing dependency_links to slam_lidar.egg-info/dependency_links.txt
+[1.512s] writing entry points to slam_lidar.egg-info/entry_points.txt
+[1.512s] writing requirements to slam_lidar.egg-info/requires.txt
+[1.512s] writing top-level names to slam_lidar.egg-info/top_level.txt
+[1.513s] reading manifest file 'slam_lidar.egg-info/SOURCES.txt'
+[1.514s] writing manifest file 'slam_lidar.egg-info/SOURCES.txt'
+[1.515s] running build_ext
+[1.515s] Creating /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/python3.10/site-packages/slam-lidar.egg-link (link to .)
+[1.516s] Installing mapping_node script to /home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/slam_lidar
+[1.516s] 
+[1.517s] Installed /home/kb/Anveshika/Anveshika_ws/build/slam_lidar
+[1.517s] running symlink_data
+[1.549s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/slam_lidar' returned '0': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/slam_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/slam_lidar/build --no-deps symlink_data

@@ -1,0 +1,26 @@
+[3.734s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_detection': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_detection/build --no-deps symlink_data
+[4.023s] running develop
+[4.023s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.023s]   warnings.warn(
+[4.242s] running egg_info
+[4.243s] creating anveshika_detection.egg-info
+[4.243s] writing anveshika_detection.egg-info/PKG-INFO
+[4.243s] writing dependency_links to anveshika_detection.egg-info/dependency_links.txt
+[4.243s] writing entry points to anveshika_detection.egg-info/entry_points.txt
+[4.243s] writing requirements to anveshika_detection.egg-info/requires.txt
+[4.243s] writing top-level names to anveshika_detection.egg-info/top_level.txt
+[4.243s] writing manifest file 'anveshika_detection.egg-info/SOURCES.txt'
+[4.245s] reading manifest file 'anveshika_detection.egg-info/SOURCES.txt'
+[4.245s] writing manifest file 'anveshika_detection.egg-info/SOURCES.txt'
+[4.246s] running build_ext
+[4.247s] Creating /home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/lib/python3.10/site-packages/anveshika-detection.egg-link (link to .)
+[4.247s] Installing detection_node script to /home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/lib/anveshika_detection
+[4.248s] 
+[4.248s] Installed /home/kb/Anveshika/Anveshika_ws/build/anveshika_detection
+[4.248s] running symlink_data
+[4.248s] creating /home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/share/ament_index
+[4.248s] creating /home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/share/ament_index/resource_index
+[4.248s] creating /home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/share/ament_index/resource_index/packages
+[4.248s] symbolically linking /home/kb/Anveshika/Anveshika_ws/build/anveshika_detection/resource/anveshika_detection -> /home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/share/ament_index/resource_index/packages
+[4.248s] symbolically linking /home/kb/Anveshika/Anveshika_ws/build/anveshika_detection/package.xml -> /home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/share/anveshika_detection
+[4.271s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_detection' returned '0': PYTHONPATH=/home/kb/Anveshika/Anveshika_ws/build/anveshika_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kb/Anveshika/Anveshika_ws/build/anveshika_detection/build --no-deps symlink_data

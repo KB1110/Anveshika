@@ -1,0 +1,34 @@
+[0.052s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/yolo_ws/install/yolo_read:/home/kb/camera_ws/install/ros2_camera:/home/kb/zinger_ws/install/zinger_swerve_controller:/opt/ros/humble /usr/bin/cmake --build /home/kb/Anveshika/Anveshika_ws/build/anveshika_description -- -j8 -l8
+[0.683s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/yolo_ws/install/yolo_read:/home/kb/camera_ws/install/ros2_camera:/home/kb/zinger_ws/install/zinger_swerve_controller:/opt/ros/humble /usr/bin/cmake --build /home/kb/Anveshika/Anveshika_ws/build/anveshika_description -- -j8 -l8
+[0.717s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/yolo_ws/install/yolo_read:/home/kb/camera_ws/install/ros2_camera:/home/kb/zinger_ws/install/zinger_swerve_controller:/opt/ros/humble /usr/bin/cmake --install /home/kb/Anveshika/Anveshika_ws/build/anveshika_description
+[0.726s] -- Install configuration: ""
+[0.729s] -- Execute custom install script
+[0.729s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/rover/box.stl
+[0.729s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/rover/collision_bogie.stl
+[0.729s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/rover/collision_motor_mount.stl
+[0.730s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/rover/drive_motor_mount.stl
+[0.730s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/rover/left_bogie.stl
+[0.730s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/rover/physical_properties.txt
+[0.731s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/rover/right_bogie.stl
+[0.731s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//meshes/rover/wheel.stl
+[0.733s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//launch/display.launch.xml
+[0.733s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//rviz/anveshika_rviz_config.rviz
+[0.734s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//urdf/anveshika.urdf.xacro
+[0.735s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//urdf/ros2_control.xacro
+[0.735s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description//urdf/rover.xacro
+[0.735s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/ament_index/resource_index/package_run_dependencies/anveshika_description
+[0.736s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/ament_index/resource_index/parent_prefix_path/anveshika_description
+[0.737s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/environment/ament_prefix_path.sh
+[0.737s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/environment/ament_prefix_path.dsv
+[0.738s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/environment/path.sh
+[0.738s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/environment/path.dsv
+[0.739s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/local_setup.bash
+[0.739s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/local_setup.sh
+[0.740s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/local_setup.zsh
+[0.740s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/local_setup.dsv
+[0.741s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/package.dsv
+[0.754s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/ament_index/resource_index/packages/anveshika_description
+[0.755s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/cmake/anveshika_descriptionConfig.cmake
+[0.756s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/cmake/anveshika_descriptionConfig-version.cmake
+[0.758s] -- Up-to-date symlink: /home/kb/Anveshika/Anveshika_ws/install/anveshika_description/share/anveshika_description/package.xml
+[0.792s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/anveshika_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/yolo_ws/install/yolo_read:/home/kb/camera_ws/install/ros2_camera:/home/kb/zinger_ws/install/zinger_swerve_controller:/opt/ros/humble /usr/bin/cmake --install /home/kb/Anveshika/Anveshika_ws/build/anveshika_description

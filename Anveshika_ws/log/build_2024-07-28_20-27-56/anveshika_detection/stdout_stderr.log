@@ -1,0 +1,19 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing anveshika_detection.egg-info/PKG-INFO
+writing dependency_links to anveshika_detection.egg-info/dependency_links.txt
+writing entry points to anveshika_detection.egg-info/entry_points.txt
+writing requirements to anveshika_detection.egg-info/requires.txt
+writing top-level names to anveshika_detection.egg-info/top_level.txt
+reading manifest file 'anveshika_detection.egg-info/SOURCES.txt'
+writing manifest file 'anveshika_detection.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/lib/python3.10/site-packages/anveshika-detection.egg-link (link to .)
+Installing detection_node script to /home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/lib/anveshika_detection
+
+Installed /home/kb/Anveshika/Anveshika_ws/build/anveshika_detection
+running symlink_data
+creating /home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/share/anveshika_detection/params
+symbolically linking /home/kb/Anveshika/Anveshika_ws/build/anveshika_detection/params/realsense.yaml -> /home/kb/Anveshika/Anveshika_ws/install/anveshika_detection/share/anveshika_detection/params/

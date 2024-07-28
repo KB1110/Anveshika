@@ -1,0 +1,96 @@
+[0.010s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping:/home/kb/Anveshika/Anveshika_ws/install/dm_preview:/home/kb/Anveshika/Anveshika_ws/install/anveshika_nav:/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup:/home/kb/Anveshika/Anveshika_ws/install/anveshika_description:/home/kb/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/kb/zinger_ws/install/zinger_description:/home/kb/ros2_ws/install/my_robot_bringup:/home/kb/ros2_ws/install/my_robot_description:/home/kb/cartographer_ws/install/cartographer_rviz:/home/kb/cartographer_ws/install/cartographer_ros:/home/kb/cartographer_ws/install/cartographer_ros_msgs:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/yolo_ws/install/yolo_read:/home/kb/camera_ws/install/ros2_camera:/home/kb/zinger_ws/install/zinger_swerve_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/kb/Anveshika/Anveshika_ws/src/slam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kb/Anveshika/Anveshika_ws/install/slam_gmapping
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.105s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.170s] -- Detecting C compiler ABI info - done
+[0.176s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.176s] -- Detecting C compile features
+[0.177s] -- Detecting C compile features - done
+[0.179s] -- Detecting CXX compiler ABI info
+[0.247s] -- Detecting CXX compiler ABI info - done
+[0.254s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.254s] -- Detecting CXX compile features
+[0.255s] -- Detecting CXX compile features - done
+[0.255s] [0m -fuse-ld=lld -Wl,--disable-new-dtags[0m
+[0.259s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.409s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.468s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.517s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.569s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.578s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.589s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.606s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.631s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.692s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.820s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[0.841s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.996s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.000s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.043s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.058s] -- Looking for pthread.h
+[1.119s] -- Looking for pthread.h - found
+[1.119s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.182s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.183s] -- Found Threads: TRUE  
+[1.608s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.636s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.638s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.638s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.650s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.733s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.845s] -- Found openslam_gmapping: 0.1.2 (/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping/share/openslam_gmapping/cmake)
+[1.850s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.941s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.941s] -- Configured cppcheck include dirs: /home/kb/Anveshika/Anveshika_ws/src/slam_gmapping/include
+[1.941s] -- Configured cppcheck exclude dirs and/or files: 
+[1.942s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.942s] -- Added test 'lint_cmake' to check CMake code style
+[1.943s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.944s] -- Added test 'uncrustify' to check C / C++ code style
+[1.945s] -- Configured uncrustify additional arguments: 
+[1.945s] -- Added test 'xmllint' to check XML markup files
+[1.947s] -- Configuring done
+[1.959s] -- Generating done
+[1.961s] -- Build files have been written to: /home/kb/Anveshika/Anveshika_ws/build/slam_gmapping
+[1.968s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping:/home/kb/Anveshika/Anveshika_ws/install/dm_preview:/home/kb/Anveshika/Anveshika_ws/install/anveshika_nav:/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup:/home/kb/Anveshika/Anveshika_ws/install/anveshika_description:/home/kb/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/kb/zinger_ws/install/zinger_description:/home/kb/ros2_ws/install/my_robot_bringup:/home/kb/ros2_ws/install/my_robot_description:/home/kb/cartographer_ws/install/cartographer_rviz:/home/kb/cartographer_ws/install/cartographer_ros:/home/kb/cartographer_ws/install/cartographer_ros_msgs:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/yolo_ws/install/yolo_read:/home/kb/camera_ws/install/ros2_camera:/home/kb/zinger_ws/install/zinger_swerve_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/kb/Anveshika/Anveshika_ws/src/slam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kb/Anveshika/Anveshika_ws/install/slam_gmapping
+[1.970s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping:/home/kb/Anveshika/Anveshika_ws/install/dm_preview:/home/kb/Anveshika/Anveshika_ws/install/anveshika_nav:/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup:/home/kb/Anveshika/Anveshika_ws/install/anveshika_description:/home/kb/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/kb/zinger_ws/install/zinger_description:/home/kb/ros2_ws/install/my_robot_bringup:/home/kb/ros2_ws/install/my_robot_description:/home/kb/cartographer_ws/install/cartographer_rviz:/home/kb/cartographer_ws/install/cartographer_ros:/home/kb/cartographer_ws/install/cartographer_ros_msgs:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/yolo_ws/install/yolo_read:/home/kb/camera_ws/install/ros2_camera:/home/kb/zinger_ws/install/zinger_swerve_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/kb/Anveshika/Anveshika_ws/build/slam_gmapping -- -j8 -l8
+[2.011s] [ 50%] [32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o[0m
+[2.393s] In file included from [01m[K/home/kb/Anveshika/Anveshika_ws/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:38[m[K,
+[2.393s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[2.393s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[2.394s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[2.394s]       |  [01;35m[K^~~~~~~[m[K
+[4.419s] In file included from [01m[K/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9[m[K,
+[4.419s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[4.419s]                  from [01m[K/home/kb/Anveshika/Anveshika_ws/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[4.419s] [01m[K/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:[m[K In function ‘[01m[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)[m[K’:
+[4.419s] [01m[K/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[4.419s]   140 |         [01;35m[Kif[m[K (count>0)
+[4.419s]       |         [01;35m[K^~[m[K
+[4.419s] [01m[K/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:17:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[4.419s]   142 |                 [01;36m[Kout[m[K++;
+[4.419s]       |                 [01;36m[K^~~[m[K
+[12.149s] [100%] [32m[1mLinking CXX executable slam_gmapping[0m
+[12.728s] [100%] Built target slam_gmapping
+[12.738s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping:/home/kb/Anveshika/Anveshika_ws/install/dm_preview:/home/kb/Anveshika/Anveshika_ws/install/anveshika_nav:/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup:/home/kb/Anveshika/Anveshika_ws/install/anveshika_description:/home/kb/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/kb/zinger_ws/install/zinger_description:/home/kb/ros2_ws/install/my_robot_bringup:/home/kb/ros2_ws/install/my_robot_description:/home/kb/cartographer_ws/install/cartographer_rviz:/home/kb/cartographer_ws/install/cartographer_ros:/home/kb/cartographer_ws/install/cartographer_ros_msgs:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/yolo_ws/install/yolo_read:/home/kb/camera_ws/install/ros2_camera:/home/kb/zinger_ws/install/zinger_swerve_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/kb/Anveshika/Anveshika_ws/build/slam_gmapping -- -j8 -l8
+[12.759s] Invoking command in '/home/kb/Anveshika/Anveshika_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping:/home/kb/Anveshika/Anveshika_ws/install/dm_preview:/home/kb/Anveshika/Anveshika_ws/install/anveshika_nav:/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup:/home/kb/Anveshika/Anveshika_ws/install/anveshika_description:/home/kb/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/kb/zinger_ws/install/zinger_description:/home/kb/ros2_ws/install/my_robot_bringup:/home/kb/ros2_ws/install/my_robot_description:/home/kb/cartographer_ws/install/cartographer_rviz:/home/kb/cartographer_ws/install/cartographer_ros:/home/kb/cartographer_ws/install/cartographer_ros_msgs:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/yolo_ws/install/yolo_read:/home/kb/camera_ws/install/ros2_camera:/home/kb/zinger_ws/install/zinger_swerve_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/kb/Anveshika/Anveshika_ws/build/slam_gmapping
+[12.766s] -- Install configuration: ""
+[12.767s] -- Execute custom install script
+[12.767s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[12.775s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+[12.783s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[12.790s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[12.797s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[12.804s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[12.812s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[12.819s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[12.826s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[12.833s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[12.840s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[12.848s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[12.855s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/slam_gmapping/share/slam_gmapping/package.dsv
+[12.864s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[12.873s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[12.880s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[12.887s] -- Symlinking: /home/kb/Anveshika/Anveshika_ws/install/slam_gmapping/share/slam_gmapping/package.xml
+[12.896s] Invoked command in '/home/kb/Anveshika/Anveshika_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping:/home/kb/Anveshika/Anveshika_ws/install/dm_preview:/home/kb/Anveshika/Anveshika_ws/install/anveshika_nav:/home/kb/Anveshika/Anveshika_ws/install/anveshika_bringup:/home/kb/Anveshika/Anveshika_ws/install/anveshika_description:/home/kb/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/kb/zinger_ws/install/zinger_description:/home/kb/ros2_ws/install/my_robot_bringup:/home/kb/ros2_ws/install/my_robot_description:/home/kb/cartographer_ws/install/cartographer_rviz:/home/kb/cartographer_ws/install/cartographer_ros:/home/kb/cartographer_ws/install/cartographer_ros_msgs:/home/kb/Anveshika/Anveshika_ws/install/slam_lidar:/home/kb/Anveshika/Anveshika_ws/install/anveshika_swerve_controller:/home/kb/yolo_ws/install/yolo_read:/home/kb/camera_ws/install/ros2_camera:/home/kb/zinger_ws/install/zinger_swerve_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/kb/Anveshika/Anveshika_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/kb/Anveshika/Anveshika_ws/build/slam_gmapping

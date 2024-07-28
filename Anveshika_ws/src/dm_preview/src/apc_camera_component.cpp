@@ -90,7 +90,7 @@ void ApcCamera::setDefaultParams() {
     this->declare_parameter<int>("depth_data_type", 4, descriptor);
     this->declare_parameter<bool>("interleave_mode", false, descriptor);
     this->declare_parameter<int>("depth_output_type", 2, descriptor);
-    this->declare_parameter<int>("depth_maximum_mm", 1000, descriptor);
+    this->declare_parameter<int>("depth_maximum_mm", 2000, descriptor);
     this->declare_parameter<bool>("state_ae", true);
     this->declare_parameter<bool>("state_awb", true);
     this->declare_parameter<bool>("state_extendIR", false);
