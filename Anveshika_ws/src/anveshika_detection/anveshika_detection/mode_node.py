@@ -32,7 +32,7 @@ class ModeNode(Node):
 
         timer_period = 0.1
         self.timer = self.create_timer(timer_period, self.timer_callback)
-        self.mode = "2"
+        self.mode = "4"
 
     def timer_callback(self):
         msg = String()
