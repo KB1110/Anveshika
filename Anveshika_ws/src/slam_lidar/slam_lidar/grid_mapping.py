@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 class OccupancyGridMap:
-    def __init__(self, data_array, cell_size, occupancy_threshold=0.8):
+    def __init__(self, data_array, cell_size, occupancy_threshold=0.7):
         """
         Creates a grid map
         :param data_array: a 2D array with a value of occupancy per cell (values from 0 - 1)

@@ -24,6 +24,7 @@ setup(
     entry_points={
         'console_scripts': [
             'detection_node = anveshika_detection.detection_node:main',
+            'mode_node = anveshika_detection.mode_node:main',
         ],
     },
 )

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kb/Anveshika/Anveshika_ws/src/dm_preview
+CMAKE_SOURCE_DIR = /home/pi/Anveshika/Anveshika_ws/src/dm_preview
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kb/Anveshika/Anveshika_ws/build/dm_preview
+CMAKE_BINARY_DIR = /home/pi/Anveshika/Anveshika_ws/build/dm_preview
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kb/Anveshika/Anveshika_ws/build/dm_preview/CMakeFiles /home/kb/Anveshika/Anveshika_ws/build/dm_preview//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Anveshika/Anveshika_ws/build/dm_preview/CMakeFiles /home/pi/Anveshika/Anveshika_ws/build/dm_preview//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kb/Anveshika/Anveshika_ws/build/dm_preview/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Anveshika/Anveshika_ws/build/dm_preview/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

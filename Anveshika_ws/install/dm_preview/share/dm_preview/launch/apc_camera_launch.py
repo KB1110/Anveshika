@@ -1,1 +1,1 @@
-/home/kb/Anveshika/Anveshika_ws/src/dm_preview/launch/apc_camera_launch.py
+/home/pi/Anveshika/Anveshika_ws/src/dm_preview/launch/apc_camera_launch.py

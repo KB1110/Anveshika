@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/kb/Anveshika/Anveshika_ws/build/dm_preview/libapc_camera_component.so" "TARGETS" "apc_camera_component" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib")
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pi/Anveshika/Anveshika_ws/build/dm_preview/libapc_camera_component.so" "TARGETS" "apc_camera_component" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib")

@@ -27,6 +27,7 @@ setup(
             'mapping_node = slam_lidar.mapping_node:main',
             'navigation_node = slam_lidar.navigation_node:main',
             'driving_node = slam_lidar.driving_node:main',
+            'imu_node = slam_lidar.imu_node:main',
         ],
     },
 )

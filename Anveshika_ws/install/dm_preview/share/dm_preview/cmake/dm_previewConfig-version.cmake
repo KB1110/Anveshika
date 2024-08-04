@@ -1,1 +1,1 @@
-/home/kb/Anveshika/Anveshika_ws/build/dm_preview/ament_cmake_core/dm_previewConfig-version.cmake
+/home/pi/Anveshika/Anveshika_ws/build/dm_preview/ament_cmake_core/dm_previewConfig-version.cmake

@@ -1,0 +1,3 @@
+[console_scripts]
+telemetry_node = anveshika_telemetry.telemetry_node:main
+

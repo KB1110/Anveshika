@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kb/Anveshika/Anveshika_ws/src/anveshika_bringup
+CMAKE_SOURCE_DIR = /home/pi/Anveshika/Anveshika_ws/src/anveshika_bringup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup
+CMAKE_BINARY_DIR = /home/pi/Anveshika/Anveshika_ws/build/anveshika_bringup
 
 # Utility rule file for anveshika_bringup_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/anveshika_bringup_uninstall.dir/compiler_depend.make
 include CMakeFiles/anveshika_bringup_uninstall.dir/progress.make
 
 CMakeFiles/anveshika_bringup_uninstall:
-	/usr/bin/cmake -P /home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/pi/Anveshika/Anveshika_ws/build/anveshika_bringup/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 anveshika_bringup_uninstall: CMakeFiles/anveshika_bringup_uninstall
 anveshika_bringup_uninstall: CMakeFiles/anveshika_bringup_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/anveshika_bringup_uninstall.dir/clean:
 .PHONY : CMakeFiles/anveshika_bringup_uninstall.dir/clean
 
 CMakeFiles/anveshika_bringup_uninstall.dir/depend:
-	cd /home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kb/Anveshika/Anveshika_ws/src/anveshika_bringup /home/kb/Anveshika/Anveshika_ws/src/anveshika_bringup /home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup /home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup /home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup/CMakeFiles/anveshika_bringup_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/Anveshika/Anveshika_ws/build/anveshika_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/Anveshika/Anveshika_ws/src/anveshika_bringup /home/pi/Anveshika/Anveshika_ws/src/anveshika_bringup /home/pi/Anveshika/Anveshika_ws/build/anveshika_bringup /home/pi/Anveshika/Anveshika_ws/build/anveshika_bringup /home/pi/Anveshika/Anveshika_ws/build/anveshika_bringup/CMakeFiles/anveshika_bringup_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/anveshika_bringup_uninstall.dir/depend
 

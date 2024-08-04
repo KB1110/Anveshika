@@ -30,11 +30,11 @@
     color_info_qos: DEFAULT
     color_qos: SYSTEM_DEFAULT
     colorizer:
-      color_scheme: 0
-      enable: false
+      color_scheme: 3
+      enable: true
       frames_queue_size: 16
       histogram_equalization_enabled: true
-      max_distance: 1.5
+      max_distance: 2.5
       min_distance: 0.1
       stream_filter: 1
       stream_format_filter: 1
@@ -135,7 +135,7 @@
       stream_filter: 0
       stream_format_filter: 0
       stream_index_filter: -1
-    publish_tf: true
+    publish_tf: false
     qos_overrides:
       /parameter_events:
         publisher:
@@ -176,7 +176,7 @@
       filter_smooth_alpha: 0.5
       filter_smooth_delta: 20
       frames_queue_size: 16
-      holes_fill: 0
+      holes_fill: 2
       stream_filter: 1
       stream_format_filter: 1
       stream_index_filter: -1

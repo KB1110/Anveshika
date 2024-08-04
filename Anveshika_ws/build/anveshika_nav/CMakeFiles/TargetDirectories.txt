@@ -1,9 +1,0 @@
-/home/kb/Anveshika/Anveshika_ws/build/anveshika_nav/CMakeFiles/uninstall.dir
-/home/kb/Anveshika/Anveshika_ws/build/anveshika_nav/CMakeFiles/anveshika_nav_uninstall.dir
-/home/kb/Anveshika/Anveshika_ws/build/anveshika_nav/CMakeFiles/test.dir
-/home/kb/Anveshika/Anveshika_ws/build/anveshika_nav/CMakeFiles/edit_cache.dir
-/home/kb/Anveshika/Anveshika_ws/build/anveshika_nav/CMakeFiles/rebuild_cache.dir
-/home/kb/Anveshika/Anveshika_ws/build/anveshika_nav/CMakeFiles/list_install_components.dir
-/home/kb/Anveshika/Anveshika_ws/build/anveshika_nav/CMakeFiles/install.dir
-/home/kb/Anveshika/Anveshika_ws/build/anveshika_nav/CMakeFiles/install/local.dir
-/home/kb/Anveshika/Anveshika_ws/build/anveshika_nav/CMakeFiles/install/strip.dir

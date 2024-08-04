@@ -7,6 +7,7 @@ slam_lidar/__init__.py
 slam_lidar/a_star.py
 slam_lidar/driving_node.py
 slam_lidar/grid_mapping.py
+slam_lidar/imu_node.py
 slam_lidar/lidar_to_grid_map.py
 slam_lidar/mapping_node.py
 slam_lidar/navigation_node.py

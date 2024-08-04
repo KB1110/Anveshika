@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kb/Anveshika/Anveshika_ws/src/dm_preview
+CMAKE_SOURCE_DIR = /home/pi/Anveshika/Anveshika_ws/src/dm_preview
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kb/Anveshika/Anveshika_ws/build/dm_preview
+CMAKE_BINARY_DIR = /home/pi/Anveshika/Anveshika_ws/build/dm_preview
 
 # Utility rule file for dm_preview_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/dm_preview_uninstall.dir/compiler_depend.make
 include CMakeFiles/dm_preview_uninstall.dir/progress.make
 
 CMakeFiles/dm_preview_uninstall:
-	/usr/bin/cmake -P /home/kb/Anveshika/Anveshika_ws/build/dm_preview/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/pi/Anveshika/Anveshika_ws/build/dm_preview/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 dm_preview_uninstall: CMakeFiles/dm_preview_uninstall
 dm_preview_uninstall: CMakeFiles/dm_preview_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/dm_preview_uninstall.dir/clean:
 .PHONY : CMakeFiles/dm_preview_uninstall.dir/clean
 
 CMakeFiles/dm_preview_uninstall.dir/depend:
-	cd /home/kb/Anveshika/Anveshika_ws/build/dm_preview && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kb/Anveshika/Anveshika_ws/src/dm_preview /home/kb/Anveshika/Anveshika_ws/src/dm_preview /home/kb/Anveshika/Anveshika_ws/build/dm_preview /home/kb/Anveshika/Anveshika_ws/build/dm_preview /home/kb/Anveshika/Anveshika_ws/build/dm_preview/CMakeFiles/dm_preview_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/Anveshika/Anveshika_ws/build/dm_preview && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/Anveshika/Anveshika_ws/src/dm_preview /home/pi/Anveshika/Anveshika_ws/src/dm_preview /home/pi/Anveshika/Anveshika_ws/build/dm_preview /home/pi/Anveshika/Anveshika_ws/build/dm_preview /home/pi/Anveshika/Anveshika_ws/build/dm_preview/CMakeFiles/dm_preview_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dm_preview_uninstall.dir/depend
 

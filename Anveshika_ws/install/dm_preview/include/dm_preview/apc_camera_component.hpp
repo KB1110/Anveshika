@@ -1,1 +1,1 @@
-/home/kb/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp
+/home/pi/Anveshika/Anveshika_ws/src/dm_preview/include/apc_camera_component.hpp

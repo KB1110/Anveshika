@@ -1,1 +1,1 @@
-/home/kb/Anveshika/Anveshika_ws/src/anveshika_description/meshes/rover/physical_properties.txt
+/home/pi/Anveshika/Anveshika_ws/src/anveshika_description/meshes/rover/physical_properties.txt

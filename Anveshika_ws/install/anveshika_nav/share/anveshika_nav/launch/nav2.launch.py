@@ -1,1 +1,0 @@
-/home/kb/Anveshika/Anveshika_ws/src/anveshika_nav/launch/nav2.launch.py

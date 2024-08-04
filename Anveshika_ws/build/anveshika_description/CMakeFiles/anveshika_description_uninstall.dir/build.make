@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kb/Anveshika/Anveshika_ws/src/anveshika_description
+CMAKE_SOURCE_DIR = /home/pi/Anveshika/Anveshika_ws/src/anveshika_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kb/Anveshika/Anveshika_ws/build/anveshika_description
+CMAKE_BINARY_DIR = /home/pi/Anveshika/Anveshika_ws/build/anveshika_description
 
 # Utility rule file for anveshika_description_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/anveshika_description_uninstall.dir/compiler_depend.make
 include CMakeFiles/anveshika_description_uninstall.dir/progress.make
 
 CMakeFiles/anveshika_description_uninstall:
-	/usr/bin/cmake -P /home/kb/Anveshika/Anveshika_ws/build/anveshika_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/pi/Anveshika/Anveshika_ws/build/anveshika_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 anveshika_description_uninstall: CMakeFiles/anveshika_description_uninstall
 anveshika_description_uninstall: CMakeFiles/anveshika_description_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/anveshika_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/anveshika_description_uninstall.dir/clean
 
 CMakeFiles/anveshika_description_uninstall.dir/depend:
-	cd /home/kb/Anveshika/Anveshika_ws/build/anveshika_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kb/Anveshika/Anveshika_ws/src/anveshika_description /home/kb/Anveshika/Anveshika_ws/src/anveshika_description /home/kb/Anveshika/Anveshika_ws/build/anveshika_description /home/kb/Anveshika/Anveshika_ws/build/anveshika_description /home/kb/Anveshika/Anveshika_ws/build/anveshika_description/CMakeFiles/anveshika_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/Anveshika/Anveshika_ws/build/anveshika_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/Anveshika/Anveshika_ws/src/anveshika_description /home/pi/Anveshika/Anveshika_ws/src/anveshika_description /home/pi/Anveshika/Anveshika_ws/build/anveshika_description /home/pi/Anveshika/Anveshika_ws/build/anveshika_description /home/pi/Anveshika/Anveshika_ws/build/anveshika_description/CMakeFiles/anveshika_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/anveshika_description_uninstall.dir/depend
 

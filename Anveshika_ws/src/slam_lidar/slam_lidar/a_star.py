@@ -45,7 +45,7 @@ def inflate_obstacles(grid_map, robot_radius, cell_size):
     structuring_element = np.ones((2 * inflation_radius + 1, 2 * inflation_radius + 1))
 
     # Inflate obstacles using binary dilation
-    inflated_grid = binary_dilation(grid_map >= 0.8, structure=structuring_element).astype(float)
+    inflated_grid = binary_dilation(grid_map >= 0.7, structure=structuring_element).astype(float)
 
     # Mark all inflated areas as occupied (1)
     inflated_grid = np.where(inflated_grid > 0, 1.0, 0.0)

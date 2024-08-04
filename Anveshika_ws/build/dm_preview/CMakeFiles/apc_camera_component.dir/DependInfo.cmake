@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp" "CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.o" "gcc" "CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.o.d"
+  "/home/pi/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp" "CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.o" "gcc" "CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -51,7 +51,7 @@ class Trajectory:
 
 
 class PI:
-    def __init__(self, kp=1.0, ki=0.1):
+    def __init__(self, kp=1.0, ki=0.0):
         """
         Define a PID controller class
         :param kp: float, kp coeff
@@ -83,6 +83,8 @@ def inverse_kinematics_zero_sideslip(fwd_vel, ang_vel):
     dist_to_r_wheels = 0.25
     speed_constant = 5
 
+    # print(ang_vel)
+
     steer_ang = math.atan(ang_vel * (dist_to_f_wheels + dist_to_r_wheels) / (fwd_vel))
 
     wheel_speed = fwd_vel / (wheel_rad * math.cos(steer_ang) * speed_constant)
@@ -90,7 +92,7 @@ def inverse_kinematics_zero_sideslip(fwd_vel, ang_vel):
     steer_ang = math.degrees(steer_ang)
 
     steer_ang += 90
-
+    
     return steer_ang, wheel_speed
 
 def main():

@@ -3,6 +3,7 @@ setup.cfg
 setup.py
 anveshika_detection/__init__.py
 anveshika_detection/detection_node.py
+anveshika_detection/mode_node.py
 anveshika_detection.egg-info/PKG-INFO
 anveshika_detection.egg-info/SOURCES.txt
 anveshika_detection.egg-info/dependency_links.txt

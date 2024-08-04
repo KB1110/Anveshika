@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kb/Anveshika/Anveshika_ws/src/anveshika_bringup
+CMAKE_SOURCE_DIR = /home/pi/Anveshika/Anveshika_ws/src/anveshika_bringup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup
+CMAKE_BINARY_DIR = /home/pi/Anveshika/Anveshika_ws/build/anveshika_bringup
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -82,14 +82,14 @@ clean: CMakeFiles/anveshika_bringup_uninstall.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/anveshika_bringup_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/Anveshika/Anveshika_ws/build/anveshika_bringup/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Anveshika/Anveshika_ws/build/anveshika_bringup/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Anveshika/Anveshika_ws/build/anveshika_bringup/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -108,14 +108,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/anveshika_bringup_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/anveshika_bringup_uninstall.dir/build.make CMakeFiles/anveshika_bringup_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/anveshika_bringup_uninstall.dir/build.make CMakeFiles/anveshika_bringup_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup/CMakeFiles --progress-num= "Built target anveshika_bringup_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/Anveshika/Anveshika_ws/build/anveshika_bringup/CMakeFiles --progress-num= "Built target anveshika_bringup_uninstall"
 .PHONY : CMakeFiles/anveshika_bringup_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/anveshika_bringup_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Anveshika/Anveshika_ws/build/anveshika_bringup/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/anveshika_bringup_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kb/Anveshika/Anveshika_ws/build/anveshika_bringup/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Anveshika/Anveshika_ws/build/anveshika_bringup/CMakeFiles 0
 .PHONY : CMakeFiles/anveshika_bringup_uninstall.dir/rule
 
 # Convenience name for target.

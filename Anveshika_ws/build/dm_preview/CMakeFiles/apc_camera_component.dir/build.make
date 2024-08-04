@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kb/Anveshika/Anveshika_ws/src/dm_preview
+CMAKE_SOURCE_DIR = /home/pi/Anveshika/Anveshika_ws/src/dm_preview
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kb/Anveshika/Anveshika_ws/build/dm_preview
+CMAKE_BINARY_DIR = /home/pi/Anveshika/Anveshika_ws/build/dm_preview
 
 # Include any dependencies generated for this target.
 include CMakeFiles/apc_camera_component.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/apc_camera_component.dir/progress.make
 include CMakeFiles/apc_camera_component.dir/flags.make
 
 CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.o: CMakeFiles/apc_camera_component.dir/flags.make
-CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.o: /home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp
+CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.o: /home/pi/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp
 CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.o: CMakeFiles/apc_camera_component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kb/Anveshika/Anveshika_ws/build/dm_preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.o -MF CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.o.d -o CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.o -c /home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Anveshika/Anveshika_ws/build/dm_preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.o -MF CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.o.d -o CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.o -c /home/pi/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp
 
 CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp > CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp > CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.i
 
 CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kb/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp -o CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/Anveshika/Anveshika_ws/src/dm_preview/src/apc_camera_component.cpp -o CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.s
 
 # Object files for target apc_camera_component
 apc_camera_component_OBJECTS = \
@@ -92,9 +92,9 @@ apc_camera_component_EXTERNAL_OBJECTS =
 
 libapc_camera_component.so: CMakeFiles/apc_camera_component.dir/src/apc_camera_component.cpp.o
 libapc_camera_component.so: CMakeFiles/apc_camera_component.dir/build.make
-libapc_camera_component.so: /home/kb/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/lib/libeys3d.X86_64.so
+libapc_camera_component.so: /home/pi/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/lib/libeys3d.NVIDIA_64.so
 libapc_camera_component.so: /opt/ros/humble/lib/libcomponent_manager.so
-libapc_camera_component.so: /opt/ros/humble/lib/x86_64-linux-gnu/libimage_transport.so
+libapc_camera_component.so: /opt/ros/humble/lib/aarch64-linux-gnu/libimage_transport.so
 libapc_camera_component.so: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
 libapc_camera_component.so: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so
 libapc_camera_component.so: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so
@@ -103,57 +103,57 @@ libapc_camera_component.so: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesuppo
 libapc_camera_component.so: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_cpp.so
 libapc_camera_component.so: /opt/ros/humble/lib/libstereo_msgs__rosidl_generator_py.so
 libapc_camera_component.so: /opt/ros/humble/lib/libcv_bridge.so
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_barcode.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_intensity_transform.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_mcc.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_rapid.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_wechat_qrcode.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_stitching.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_alphamat.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_aruco.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_barcode.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_bgsegm.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_bioinspired.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_ccalib.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_dnn_objdetect.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_dnn_superres.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_dpm.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_face.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_freetype.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_fuzzy.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_hdf.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_hfs.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_img_hash.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_intensity_transform.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_line_descriptor.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_mcc.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_quality.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_rapid.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_reg.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_rgbd.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_saliency.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_shape.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_stereo.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_structured_light.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_superres.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_surface_matching.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_tracking.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_videostab.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_viz.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_wechat_qrcode.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_xobjdetect.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_xphoto.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_highgui.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_datasets.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_plot.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_text.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_ml.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_phase_unwrapping.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_optflow.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_ximgproc.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_video.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_videoio.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_objdetect.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_calib3d.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_dnn.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_features2d.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_flann.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_photo.so.4.5.4d
 libapc_camera_component.so: /opt/ros/humble/lib/libclass_loader.so
 libapc_camera_component.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
 libapc_camera_component.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
@@ -165,7 +165,7 @@ libapc_camera_component.so: /opt/ros/humble/lib/libcomposition_interfaces__rosid
 libapc_camera_component.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_c.so
 libapc_camera_component.so: /opt/ros/humble/lib/libtf2_ros.so
 libapc_camera_component.so: /opt/ros/humble/lib/libtf2.so
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 libapc_camera_component.so: /opt/ros/humble/lib/libmessage_filters.so
 libapc_camera_component.so: /opt/ros/humble/lib/librclcpp_action.so
 libapc_camera_component.so: /opt/ros/humble/lib/librclcpp.so
@@ -227,12 +227,12 @@ libapc_camera_component.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator
 libapc_camera_component.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so
 libapc_camera_component.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
 libapc_camera_component.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/liborocos-kdl.so
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/liborocos-kdl.so
 libapc_camera_component.so: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_c.so
 libapc_camera_component.so: /opt/ros/humble/lib/libstereo_msgs__rosidl_generator_c.so
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_imgproc.so.4.5.4d
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libopencv_core.so.4.5.4d
 libapc_camera_component.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 libapc_camera_component.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 libapc_camera_component.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
@@ -261,7 +261,7 @@ libapc_camera_component.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator
 libapc_camera_component.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 libapc_camera_component.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 libapc_camera_component.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
-libapc_camera_component.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+libapc_camera_component.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 libapc_camera_component.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
 libapc_camera_component.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 libapc_camera_component.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
@@ -278,7 +278,7 @@ libapc_camera_component.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libapc_camera_component.so: /opt/ros/humble/lib/librcpputils.so
 libapc_camera_component.so: /opt/ros/humble/lib/librcutils.so
 libapc_camera_component.so: CMakeFiles/apc_camera_component.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kb/Anveshika/Anveshika_ws/build/dm_preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libapc_camera_component.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/Anveshika/Anveshika_ws/build/dm_preview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libapc_camera_component.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/apc_camera_component.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -290,6 +290,6 @@ CMakeFiles/apc_camera_component.dir/clean:
 .PHONY : CMakeFiles/apc_camera_component.dir/clean
 
 CMakeFiles/apc_camera_component.dir/depend:
-	cd /home/kb/Anveshika/Anveshika_ws/build/dm_preview && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kb/Anveshika/Anveshika_ws/src/dm_preview /home/kb/Anveshika/Anveshika_ws/src/dm_preview /home/kb/Anveshika/Anveshika_ws/build/dm_preview /home/kb/Anveshika/Anveshika_ws/build/dm_preview /home/kb/Anveshika/Anveshika_ws/build/dm_preview/CMakeFiles/apc_camera_component.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/Anveshika/Anveshika_ws/build/dm_preview && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/Anveshika/Anveshika_ws/src/dm_preview /home/pi/Anveshika/Anveshika_ws/src/dm_preview /home/pi/Anveshika/Anveshika_ws/build/dm_preview /home/pi/Anveshika/Anveshika_ws/build/dm_preview /home/pi/Anveshika/Anveshika_ws/build/dm_preview/CMakeFiles/apc_camera_component.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/apc_camera_component.dir/depend
 

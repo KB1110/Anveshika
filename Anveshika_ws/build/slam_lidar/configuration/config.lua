@@ -1,1 +1,1 @@
-/home/kb/Anveshika/Anveshika_ws/src/slam_lidar/configuration/config.lua
+/home/pi/Anveshika/Anveshika_ws/src/slam_lidar/configuration/config.lua
