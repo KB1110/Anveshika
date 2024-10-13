@@ -1,4 +1,4 @@
-Anveshika: Autonomous Sample Retrieving Planetary Rover
+Anveshika: Autonomous Sample Retrieving Planetary Rover (Repository needs to be updated with latest code)
 
 Leading a dedicated team into the finals of the ISRO Robotics Challenge 2024, we've engineered an Autonomous Sample Retrieving Planetary Rover, poised to revolutionize extraterrestrial exploration:
 
