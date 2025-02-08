@@ -12,9 +12,9 @@ Leveraged cutting-edge technologies for autonomous navigation, employing Cartogr
 
 All processing tasks, from sensor data fusion to decision-making algorithms, are performed onboard the rover itself. This onboard processing capability enhances autonomy and reduces reliance on external resources, making the rover well-equipped for independent exploration missions in remote environments.
 
-ros2 run cartographer_ros cartographer_node -configuration_directory ~/Anveshika/Anveshika_ws/install/slam_lidar/share/slam_lidar/configuration -configuration_basename config.lua
+- `ros2 run cartographer_ros cartographer_node -configuration_directory ~/Anveshika/Anveshika_ws/install/slam_lidar/share/slam_lidar/configuration -configuration_basename config.lua`
 
-ros2 run cartographer_ros cartographer_occupancy_grid_node -resolution 0.05 -publish_period_sec 1.0
+- `ros2 run cartographer_ros cartographer_occupancy_grid_node -resolution 0.05 -publish_period_sec 1.0`
 
-ros2 run realsense2_camera realsense2_camera_node --ros-args --params-file ~/Anveshika/Anveshika_ws/install/anveshika_detection/share/anveshika_detection/params/realsense.yaml
+- `ros2 run realsense2_camera realsense2_camera_node --ros-args --params-file ~/Anveshika/Anveshika_ws/install/anveshika_detection/share/anveshika_detection/params/realsense.yaml`
 
