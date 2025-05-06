@@ -1,1 +1,0 @@
-/home/pi/Anveshika/Anveshika_ws/build/anveshika_bringup/ament_cmake_environment_hooks/local_setup.zsh

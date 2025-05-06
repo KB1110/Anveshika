@@ -1,3 +1,0 @@
-[console_scripts]
-arm_node = anveshika_arm.arm_node:main
-

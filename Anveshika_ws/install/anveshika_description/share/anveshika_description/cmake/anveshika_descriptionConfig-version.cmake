@@ -1,1 +1,0 @@
-/home/pi/Anveshika/Anveshika_ws/build/anveshika_description/ament_cmake_core/anveshika_descriptionConfig-version.cmake

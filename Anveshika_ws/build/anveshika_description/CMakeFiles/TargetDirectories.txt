@@ -1,9 +1,0 @@
-/home/pi/Anveshika/Anveshika_ws/build/anveshika_description/CMakeFiles/uninstall.dir
-/home/pi/Anveshika/Anveshika_ws/build/anveshika_description/CMakeFiles/anveshika_description_uninstall.dir
-/home/pi/Anveshika/Anveshika_ws/build/anveshika_description/CMakeFiles/test.dir
-/home/pi/Anveshika/Anveshika_ws/build/anveshika_description/CMakeFiles/edit_cache.dir
-/home/pi/Anveshika/Anveshika_ws/build/anveshika_description/CMakeFiles/rebuild_cache.dir
-/home/pi/Anveshika/Anveshika_ws/build/anveshika_description/CMakeFiles/list_install_components.dir
-/home/pi/Anveshika/Anveshika_ws/build/anveshika_description/CMakeFiles/install.dir
-/home/pi/Anveshika/Anveshika_ws/build/anveshika_description/CMakeFiles/install/local.dir
-/home/pi/Anveshika/Anveshika_ws/build/anveshika_description/CMakeFiles/install/strip.dir

@@ -1,1 +1,0 @@
-/home/pi/Anveshika/Anveshika_ws/build/slam_lidar/configuration/config.lua

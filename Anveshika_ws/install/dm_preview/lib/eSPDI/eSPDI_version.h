@@ -1,1 +1,0 @@
-/home/pi/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/lib/eSPDI/eSPDI_version.h

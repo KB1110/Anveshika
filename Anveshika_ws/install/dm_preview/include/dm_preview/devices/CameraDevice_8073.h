@@ -1,1 +1,0 @@
-/home/pi/Anveshika/Anveshika_ws/src/dm_preview/eYs3D_wrapper/include/devices/CameraDevice_8073.h
