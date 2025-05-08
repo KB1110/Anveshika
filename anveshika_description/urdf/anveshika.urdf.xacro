@@ -1,6 +1,6 @@
 <?xml version="1.1"?>
 
-<robot name= "anveshika" xmlns:xacro="https://www.ros.org/wiki/xacro">
+<robot name="anveshika" xmlns:xacro="https://www.ros.org/wiki/xacro">
 
     <xacro:include filename="$(find anveshika_description)/urdf/d435i.xacro"/>
     <xacro:include filename="$(find anveshika_description)/urdf/rover.xacro"/>

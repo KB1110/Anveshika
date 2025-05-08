@@ -4,10 +4,7 @@
 
 
     <!-- For RViz -->
-    <xacro:property name="meshes_address" value="package://anveshika_description/meshes/rover/" />
-
-    <!-- For Gazebo -->
-    <!-- <xacro:property name="meshes_address" value="$(find anveshika_description)/meshes/rover" /> -->
+    <xacro:property name="meshes_address" value="package://anveshika_description/meshes/rover" />
 
     <link name="base_footprint"/>
 

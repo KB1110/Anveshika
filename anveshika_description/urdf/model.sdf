@@ -1,0 +1,818 @@
+<sdf version='1.11'>
+  <model name='anveshika'>
+    <link name='base_footprint'>
+      <inertial>
+        <pose>0.021007887817703769 0.002162576687116564 0.25013803680981589 0 0 0</pose>
+        <mass>4.5640000000000001</mass>
+        <inertia>
+          <ixx>0.069800261404907971</ixx>
+          <ixy>-0.0014705521472392639</ixy>
+          <ixz>-0.01117436503067484</ixz>
+          <iyy>0.091141941752848399</iyy>
+          <iyz>-0.001059662576687117</iyz>
+          <izz>0.11049600108413669</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_footprint_fixed_joint_lump__base_link_collision'>
+        <pose>0 0 0.28000000000000003 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.35999999999999999 0.29999999999999999 0.12</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__realsense_d435i_link_collision_1'>
+        <pose>0.17000000000000001 0 0.35749999999999998 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.025049999999999999 0.089999999999999997 0.025000000000000001</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode>
+              <kp>10000000000000</kp>
+              <kd>1</kd>
+            </ode>
+          </contact>
+          <friction>
+            <ode>
+              <mu2>1</mu2>
+              <fdir1>0 0 0</fdir1>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='base_footprint_fixed_joint_lump__base_link_visual'>
+        <pose>0 0 0.23499999999999999 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/box.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__realsense_d435i_link_visual_1'>
+        <pose>0.18490000000000001 0 0.35749999999999998 1.5707963267948959 -5.5511151231257827e-17 1.5707963267948959</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/d435.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.625 0.625 0.625 1</diffuse>
+          <ambient>0.625 0.625 0.625 1</ambient>
+        </material>
+      </visual>
+      <self_collide>false</self_collide>
+      <enable_wind>false</enable_wind>
+      <kinematic>false</kinematic>
+      <sensor name='realsense_d435icolor' type='camera'>
+        <camera name='realsense_d435i'>
+          <horizontal_fov>1.2112585008840648</horizontal_fov>
+          <image>
+            <width>1920</width>
+            <height>1080</height>
+            <format>RGB_INT8</format>
+          </image>
+          <clip>
+            <near>0.10000000000000001</near>
+            <far>100</far>
+          </clip>
+          <noise>
+            <type>gaussian</type>
+            <mean>0</mean>
+            <stddev>0.0070000000000000001</stddev>
+          </noise>
+        </camera>
+        <always_on>true</always_on>
+        <update_rate>30</update_rate>
+        <visualize>false</visualize>
+        <pose>0.17000000000000001 0.017500000000000002 0.35749999999999998 0 0 0</pose>
+      </sensor>
+      <sensor name='realsense_d435iired1' type='camera'>
+        <camera name='realsense_d435i'>
+          <horizontal_fov>1.4870205226991688</horizontal_fov>
+          <image>
+            <width>640</width>
+            <height>480</height>
+            <format>L_INT8</format>
+          </image>
+          <clip>
+            <near>0.10000000000000001</near>
+            <far>100</far>
+          </clip>
+          <noise>
+            <type>gaussian</type>
+            <mean>0</mean>
+            <stddev>0.050000000000000003</stddev>
+          </noise>
+        </camera>
+        <always_on>true</always_on>
+        <update_rate>30</update_rate>
+        <visualize>false</visualize>
+        <pose>0.17000000000000001 0.017500000000000002 0.35749999999999998 0 0 0</pose>
+      </sensor>
+      <sensor name='realsense_d435iired2' type='camera'>
+        <camera name='realsense_d435i'>
+          <horizontal_fov>1.4870205226991688</horizontal_fov>
+          <image>
+            <width>640</width>
+            <height>480</height>
+            <format>L_INT8</format>
+          </image>
+          <clip>
+            <near>0.10000000000000001</near>
+            <far>100</far>
+          </clip>
+          <noise>
+            <type>gaussian</type>
+            <mean>0</mean>
+            <stddev>0.050000000000000003</stddev>
+          </noise>
+        </camera>
+        <always_on>true</always_on>
+        <update_rate>30</update_rate>
+        <visualize>false</visualize>
+        <pose>0.17000000000000001 0.017500000000000002 0.35749999999999998 0 0 0</pose>
+      </sensor>
+      <sensor name='realsense_d435idepth' type='depth'>
+        <camera name='realsense_d435i'>
+          <horizontal_fov>1.4870205226991688</horizontal_fov>
+          <image>
+            <width>1280</width>
+            <height>720</height>
+          </image>
+          <clip>
+            <near>0.10000000000000001</near>
+            <far>100</far>
+          </clip>
+          <noise>
+            <type>gaussian</type>
+            <mean>0</mean>
+            <stddev>0.10000000000000001</stddev>
+          </noise>
+        </camera>
+        <always_on>true</always_on>
+        <update_rate>30</update_rate>
+        <visualize>false</visualize>
+        <pose>0.17000000000000001 0.017500000000000002 0.35749999999999998 0 0 0</pose>
+      </sensor>
+      <sensor name='realsense_d435iaccel' type='imu'>
+        <always_on>true</always_on>
+        <update_rate>250</update_rate>
+        <topic>realsense_d435i/accel/sample</topic>
+        <plugin name='camera_accel_plugin' filename='librealsense_gazebo_accel_sensor.so'>
+          <topicName>realsense_d435i/accel/sample</topicName>
+          <bodyName>realsense_d435i_link</bodyName>
+          <updateRateHZ>250</updateRateHZ>
+          <gaussianNoise>0.1</gaussianNoise>
+          <xyzOffset>0 0 0</xyzOffset>
+          <rpyOffset>0 0 0</rpyOffset>
+          <frameName>realsense_d435i_accel_optical_frame</frameName>
+          <initialOrientationAsReference>false</initialOrientationAsReference>
+        </plugin>
+        <pose>0.17000000000000001 0.017500000000000002 0.35749999999999998 0 0 0</pose>
+        <imu/>
+      </sensor>
+      <sensor name='realsense_d435igyro' type='imu'>
+        <always_on>true</always_on>
+        <update_rate>400</update_rate>
+        <topic>realsense_d435i/gyro/sample</topic>
+        <plugin name='camera_gyro_plugin' filename='librealsense_gazebo_gyro_sensor.so'>
+          <topicName>realsense_d435i/gyro/sample</topicName>
+          <bodyName>realsense_d435i_link</bodyName>
+          <updateRateHZ>400</updateRateHZ>
+          <gaussianNoise>0.1</gaussianNoise>
+          <xyzOffset>0 0 0</xyzOffset>
+          <rpyOffset>0 0 0</rpyOffset>
+          <frameName>realsense_d435i_gyro_optical_frame</frameName>
+          <initialOrientationAsReference>false</initialOrientationAsReference>
+        </plugin>
+        <pose>0.17000000000000001 0.017500000000000002 0.35749999999999998 0 0 0</pose>
+        <imu/>
+      </sensor>
+    </link>
+    <joint name='base_left_bogie_joint' type='revolute'>
+      <pose relative_to='base_footprint'>0 0.19 0.29499999999999998 0 0 0</pose>
+      <parent>base_footprint</parent>
+      <child>left_bogie</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1.570796326794897</lower>
+          <upper>1.570796326794897</upper>
+          <effort>100</effort>
+          <velocity>100</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='left_bogie'>
+      <pose relative_to='base_left_bogie_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 3.1415926535897931</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0086449999999999999</ixx>
+          <ixy>0</ixy>
+          <ixz>0.00015459999999999999</ixz>
+          <iyy>0.050169999999999999</iyy>
+          <iyz>0.001152</iyz>
+          <izz>0.042209999999999998</izz>
+        </inertia>
+      </inertial>
+      <collision name='left_bogie_collision'>
+        <pose>0 -0.014999999999999999 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_bogie.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='left_bogie_visual'>
+        <pose>0 0 0 0 0 3.1415926535897931</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/left_bogie.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='left_bogie_back_left_motor_mount_joint' type='revolute'>
+      <pose relative_to='left_bogie'>-0.25 -0.0050000000000000001 -0.223 0 0 0</pose>
+      <parent>left_bogie</parent>
+      <child>back_left_motor_mount</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1.570796326794897</lower>
+          <upper>1.570796326794897</upper>
+          <effort>100</effort>
+          <velocity>100</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='back_left_motor_mount'>
+      <pose relative_to='left_bogie_back_left_motor_mount_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 -1.5707963267948959</pose>
+        <mass>0.29999999999999999</mass>
+        <inertia>
+          <ixx>0.00032440000000000002</ixx>
+          <ixy>0</ixy>
+          <ixz>-0.00029139999999999998</ixz>
+          <iyy>0.0010120000000000001</iyy>
+          <iyz>0</iyz>
+          <izz>0.00075190000000000001</izz>
+        </inertia>
+      </inertial>
+      <collision name='back_left_motor_mount_collision'>
+        <pose>0 0 0 0 0 -1.5707963267948959</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_motor_mount.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='back_left_motor_mount_visual'>
+        <pose>0 0 0 0 0 -1.5707963267948959</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/drive_motor_mount.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='back_left_wheel_joint' type='revolute'>
+      <pose relative_to='back_left_motor_mount'>0 0.044999999999999998 -0.0060000000000000001 0 0 0</pose>
+      <parent>back_left_motor_mount</parent>
+      <child>back_left_wheel</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='back_left_wheel'>
+      <pose relative_to='back_left_wheel_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 1.5707963267948959 0 0</pose>
+        <mass>0.45000000000000001</mass>
+        <inertia>
+          <ixx>0.001735</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001735</iyy>
+          <iyz>0</iyz>
+          <izz>0.00087759999999999997</izz>
+        </inertia>
+      </inertial>
+      <collision name='back_left_wheel_collision'>
+        <pose>0 -0.050000000000000003 0 1.5707963267948959 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.10000000000000001</length>
+            <radius>0.059999999999999998</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='back_left_wheel_visual'>
+        <pose>0 0 0 1.5707963267948959 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/wheel.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='left_bogie_front_left_motor_mount_joint' type='revolute'>
+      <pose relative_to='left_bogie'>0.25 -0.0050000000000000001 -0.223 0 0 0</pose>
+      <parent>left_bogie</parent>
+      <child>front_left_motor_mount</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1.570796326794897</lower>
+          <upper>1.570796326794897</upper>
+          <effort>100</effort>
+          <velocity>100</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='front_left_motor_mount'>
+      <pose relative_to='left_bogie_front_left_motor_mount_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 -1.5707963267948959</pose>
+        <mass>0.29999999999999999</mass>
+        <inertia>
+          <ixx>0.00032440000000000002</ixx>
+          <ixy>0</ixy>
+          <ixz>-0.00029139999999999998</ixz>
+          <iyy>0.0010120000000000001</iyy>
+          <iyz>0</iyz>
+          <izz>0.00075190000000000001</izz>
+        </inertia>
+      </inertial>
+      <collision name='front_left_motor_mount_collision'>
+        <pose>0 0 0 0 0 -1.5707963267948959</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_motor_mount.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='front_left_motor_mount_visual'>
+        <pose>0 0 0 0 0 -1.5707963267948959</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/drive_motor_mount.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='front_left_wheel_joint' type='revolute'>
+      <pose relative_to='front_left_motor_mount'>0 0.044999999999999998 -0.0060000000000000001 0 0 0</pose>
+      <parent>front_left_motor_mount</parent>
+      <child>front_left_wheel</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='front_left_wheel'>
+      <pose relative_to='front_left_wheel_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 1.5707963267948959 0 0</pose>
+        <mass>0.45000000000000001</mass>
+        <inertia>
+          <ixx>0.001735</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001735</iyy>
+          <iyz>0</iyz>
+          <izz>0.00087759999999999997</izz>
+        </inertia>
+      </inertial>
+      <collision name='front_left_wheel_collision'>
+        <pose>0 -0.050000000000000003 0 1.5707963267948959 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.10000000000000001</length>
+            <radius>0.059999999999999998</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='front_left_wheel_visual'>
+        <pose>0 0 0 1.5707963267948959 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/wheel.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='base_right_bogie_joint' type='revolute'>
+      <pose relative_to='base_footprint'>0 -0.19 0.29499999999999998 0 0 0</pose>
+      <parent>base_footprint</parent>
+      <child>right_bogie</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <mimic joint='base_left_bogie_joint'>
+          <multiplier>-1</multiplier>
+          <offset>0</offset>
+          <reference>0</reference>
+        </mimic>
+        <limit>
+          <lower>-1.570796326794897</lower>
+          <upper>1.570796326794897</upper>
+          <effort>100</effort>
+          <velocity>100</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='right_bogie'>
+      <pose relative_to='base_right_bogie_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 3.1415926535897931</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0086449999999999999</ixx>
+          <ixy>0</ixy>
+          <ixz>0.00015459999999999999</ixz>
+          <iyy>0.050169999999999999</iyy>
+          <iyz>-0.001152</iyz>
+          <izz>0.042209999999999998</izz>
+        </inertia>
+      </inertial>
+      <collision name='right_bogie_collision'>
+        <pose>0 0.014999999999999999 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_bogie.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='right_bogie_visual'>
+        <pose>0 0 0 0 0 3.1415926535897931</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/right_bogie.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='right_bogie_back_right_motor_mount_joint' type='revolute'>
+      <pose relative_to='right_bogie'>-0.25 0.0050000000000000001 -0.223 0 0 0</pose>
+      <parent>right_bogie</parent>
+      <child>back_right_motor_mount</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1.570796326794897</lower>
+          <upper>1.570796326794897</upper>
+          <effort>100</effort>
+          <velocity>100</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='back_right_motor_mount'>
+      <pose relative_to='right_bogie_back_right_motor_mount_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 1.5707963267948959</pose>
+        <mass>0.29999999999999999</mass>
+        <inertia>
+          <ixx>0.00032440000000000002</ixx>
+          <ixy>0</ixy>
+          <ixz>-0.00029139999999999998</ixz>
+          <iyy>0.0010120000000000001</iyy>
+          <iyz>0</iyz>
+          <izz>0.00075190000000000001</izz>
+        </inertia>
+      </inertial>
+      <collision name='back_right_motor_mount_collision'>
+        <pose>0 0 0 0 0 1.5707963267948959</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_motor_mount.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='back_right_motor_mount_visual'>
+        <pose>0 0 0 0 0 1.5707963267948959</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/drive_motor_mount.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='back_right_wheel_joint' type='revolute'>
+      <pose relative_to='back_right_motor_mount'>0 -0.044999999999999998 -0.0060000000000000001 0 0 0</pose>
+      <parent>back_right_motor_mount</parent>
+      <child>back_right_wheel</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='back_right_wheel'>
+      <pose relative_to='back_right_wheel_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 -1.5707963267948959 0 0</pose>
+        <mass>0.45000000000000001</mass>
+        <inertia>
+          <ixx>0.001735</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001735</iyy>
+          <iyz>0</iyz>
+          <izz>0.00087759999999999997</izz>
+        </inertia>
+      </inertial>
+      <collision name='back_right_wheel_collision'>
+        <pose>0 0.050000000000000003 0 -1.5707963267948959 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.10000000000000001</length>
+            <radius>0.059999999999999998</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='back_right_wheel_visual'>
+        <pose>0 0 0 -1.5707963267948959 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/wheel.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='right_bogie_front_right_motor_mount_joint' type='revolute'>
+      <pose relative_to='right_bogie'>0.25 0.0050000000000000001 -0.223 0 0 0</pose>
+      <parent>right_bogie</parent>
+      <child>front_right_motor_mount</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1.570796326794897</lower>
+          <upper>1.570796326794897</upper>
+          <effort>100</effort>
+          <velocity>100</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='front_right_motor_mount'>
+      <pose relative_to='right_bogie_front_right_motor_mount_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 1.5707963267948959</pose>
+        <mass>0.29999999999999999</mass>
+        <inertia>
+          <ixx>0.00032440000000000002</ixx>
+          <ixy>0</ixy>
+          <ixz>-0.00029139999999999998</ixz>
+          <iyy>0.0010120000000000001</iyy>
+          <iyz>0</iyz>
+          <izz>0.00075190000000000001</izz>
+        </inertia>
+      </inertial>
+      <collision name='front_right_motor_mount_collision'>
+        <pose>0 0 0 0 0 1.5707963267948959</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_motor_mount.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='front_right_motor_mount_visual'>
+        <pose>0 0 0 0 0 1.5707963267948959</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/drive_motor_mount.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='front_right_wheel_joint' type='revolute'>
+      <pose relative_to='front_right_motor_mount'>0 -0.044999999999999998 -0.0060000000000000001 0 0 0</pose>
+      <parent>front_right_motor_mount</parent>
+      <child>front_right_wheel</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='front_right_wheel'>
+      <pose relative_to='front_right_wheel_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 -1.5707963267948959 0 0</pose>
+        <mass>0.45000000000000001</mass>
+        <inertia>
+          <ixx>0.001735</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.001735</iyy>
+          <iyz>0</iyz>
+          <izz>0.00087759999999999997</izz>
+        </inertia>
+      </inertial>
+      <collision name='front_right_wheel_collision'>
+        <pose>0 0.050000000000000003 0 -1.5707963267948959 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.10000000000000001</length>
+            <radius>0.059999999999999998</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='front_right_wheel_visual'>
+        <pose>0 0 0 -1.5707963267948959 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/wheel.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <plugin name='camera' filename='librealsense_gazebo_plugin.so'>
+      <prefix>realsense_d435i</prefix>
+      <colorUpdateRate>30</colorUpdateRate>
+      <colorTopicName>color/image_raw</colorTopicName>
+      <colorOpticalframeName>realsense_d435i_color_optical_frame</colorOpticalframeName>
+      <colorCameraInfoTopicName>color/camera_info</colorCameraInfoTopicName>
+      <infraredUpdateRate>30</infraredUpdateRate>
+      <infrared1TopicName>infra1/image_rect_raw</infrared1TopicName>
+      <infrared2TopicName>infra2/image_rect_raw</infrared2TopicName>
+      <infrared1CameraInfoTopicName>infra1/camera_info</infrared1CameraInfoTopicName>
+      <infrared2CameraInfoTopicName>infra2/camera_info</infrared2CameraInfoTopicName>
+      <infrared1OpticalframeName>realsense_d435i_left_ir_optical_frame</infrared1OpticalframeName>
+      <infrared2OpticalframeName>realsense_d435i_right_ir_optical_frame</infrared2OpticalframeName>
+      <rangeMinDepth>0.2</rangeMinDepth>
+      <rangeMaxDepth>10.0</rangeMaxDepth>
+      <depthUpdateRate>30</depthUpdateRate>
+      <depthTopicName>depth/image_rect_raw</depthTopicName>
+      <depthCameraInfoTopicName>depth/camera_info</depthCameraInfoTopicName>
+      <depthOpticalframeName>realsense_d435i_depth_optical_frame</depthOpticalframeName>
+      <pointCloud>False</pointCloud>
+      <pointCloudTopicName>depth/color/points</pointCloudTopicName>
+      <pointCloudCutoff>0.5</pointCloudCutoff>
+    </plugin>
+    <frame name='realsense_d435i_accel_optical_joint' attached_to='realsense_d435i_accel_frame'>
+      <pose>0 0 0 -1.5707963267948959 -5.5511151231257827e-17 -1.5707963267948959</pose>
+    </frame>
+    <frame name='realsense_d435i_accel_optical_frame' attached_to='realsense_d435i_accel_optical_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='realsense_d435i_accel_joint' attached_to='realsense_d435i_link'>
+      <pose>-0.00174 0.0055199999999999997 0.017600000000000001 0 0 0</pose>
+    </frame>
+    <frame name='realsense_d435i_accel_frame' attached_to='realsense_d435i_accel_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='realsense_d435i_color_optical_joint' attached_to='realsense_d435i_color_frame'>
+      <pose>0 0 0 -1.5707963267948959 -5.5511151231257827e-17 -1.5707963267948959</pose>
+    </frame>
+    <frame name='realsense_d435i_color_optical_frame' attached_to='realsense_d435i_color_optical_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='realsense_d435i_color_joint' attached_to='realsense_d435i_depth_frame'>
+      <pose>0 0.014999999999999999 0 0 0 0</pose>
+    </frame>
+    <frame name='realsense_d435i_color_frame' attached_to='realsense_d435i_color_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='realsense_d435i_depth_optical_joint' attached_to='realsense_d435i_depth_frame'>
+      <pose>0 0 0 -1.5707963267948959 -5.5511151231257827e-17 -1.5707963267948959</pose>
+    </frame>
+    <frame name='realsense_d435i_depth_optical_frame' attached_to='realsense_d435i_depth_optical_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='realsense_d435i_left_ir_optical_joint' attached_to='realsense_d435i_left_ir_frame'>
+      <pose>0 0 0 -1.5707963267948959 -5.5511151231257827e-17 -1.5707963267948959</pose>
+    </frame>
+    <frame name='realsense_d435i_left_ir_optical_frame' attached_to='realsense_d435i_left_ir_optical_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='realsense_d435i_left_ir_joint' attached_to='realsense_d435i_depth_frame'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='realsense_d435i_left_ir_frame' attached_to='realsense_d435i_left_ir_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='realsense_d435i_right_ir_optical_joint' attached_to='realsense_d435i_right_ir_frame'>
+      <pose>0 0 0 -1.5707963267948959 -5.5511151231257827e-17 -1.5707963267948959</pose>
+    </frame>
+    <frame name='realsense_d435i_right_ir_optical_frame' attached_to='realsense_d435i_right_ir_optical_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='realsense_d435i_right_ir_joint' attached_to='realsense_d435i_depth_frame'>
+      <pose>0 -0.050000000000000003 0 0 0 0</pose>
+    </frame>
+    <frame name='realsense_d435i_right_ir_frame' attached_to='realsense_d435i_right_ir_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='realsense_d435i_depth_joint' attached_to='realsense_d435i_link'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='realsense_d435i_depth_frame' attached_to='realsense_d435i_depth_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='realsense_d435i_gyro_optical_joint' attached_to='realsense_d435i_gyro_frame'>
+      <pose>0 0 0 -1.5707963267948959 -5.5511151231257827e-17 -1.5707963267948959</pose>
+    </frame>
+    <frame name='realsense_d435i_gyro_optical_frame' attached_to='realsense_d435i_gyro_optical_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='realsense_d435i_gyro_joint' attached_to='realsense_d435i_link'>
+      <pose>-0.00174 0.0055199999999999997 0.017600000000000001 0 0 0</pose>
+    </frame>
+    <frame name='realsense_d435i_gyro_frame' attached_to='realsense_d435i_gyro_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='realsense_d435i_link_joint' attached_to='realsense_d435i_bottom_screw_frame'>
+      <pose>0 0.017500000000000002 0.012500000000000001 0 0 0</pose>
+    </frame>
+    <frame name='realsense_d435i_link' attached_to='realsense_d435i_link_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='realsense_joint' attached_to='base_link'>
+      <pose>0.17000000000000001 0 0.11 0 0 0</pose>
+    </frame>
+    <frame name='realsense_d435i_bottom_screw_frame' attached_to='realsense_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='base_joint' attached_to='base_footprint'>
+      <pose>0 0 0.23499999999999999 0 0 0</pose>
+    </frame>
+    <frame name='base_link' attached_to='base_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+  </model>
+</sdf>
