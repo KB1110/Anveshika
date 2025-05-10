@@ -54,7 +54,7 @@ def generate_launch_description():
         PythonLaunchDescriptionSource(
             gazebo_launch_file_path
         ),
-        launch_arguments={'gz_args': ['-r -v4 ', world], 
+        launch_arguments={'gz_args': ['-r -v4 ', world, " --physics-engine gz-physics-bullet-featherstone-plugin"], 
         'on_exit_shutdown': 'true'}.items()
     )
 

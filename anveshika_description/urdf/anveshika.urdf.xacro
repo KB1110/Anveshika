@@ -4,5 +4,6 @@
 
     <xacro:include filename="$(find anveshika_description)/urdf/d435i.xacro"/>
     <xacro:include filename="$(find anveshika_description)/urdf/rover.xacro"/>
+    <xacro:include filename="$(find anveshika_description)/urdf/gazebo.xacro"/>
 
 </robot>

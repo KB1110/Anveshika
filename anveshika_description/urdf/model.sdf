@@ -20,6 +20,14 @@
             <size>0.35999999999999999 0.29999999999999999 0.12</size>
           </box>
         </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
       </collision>
       <collision name='base_footprint_fixed_joint_lump__realsense_d435i_link_collision_1'>
         <pose>0.17000000000000001 0 0.35749999999999998 0 0 0</pose>
@@ -51,6 +59,12 @@
             <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/box.stl</uri>
           </mesh>
         </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Red</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
       </visual>
       <visual name='base_footprint_fixed_joint_lump__realsense_d435i_link_visual_1'>
         <pose>0.18490000000000001 0 0.35749999999999998 1.5707963267948959 -5.5511151231257827e-17 1.5707963267948959</pose>
@@ -203,7 +217,7 @@
         <limit>
           <lower>-1.570796326794897</lower>
           <upper>1.570796326794897</upper>
-          <effort>100</effort>
+          <effort>0</effort>
           <velocity>100</velocity>
         </limit>
         <dynamics>
@@ -234,6 +248,14 @@
             <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_bogie.stl</uri>
           </mesh>
         </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
       </collision>
       <visual name='left_bogie_visual'>
         <pose>0 0 0 0 0 3.1415926535897931</pose>
@@ -243,6 +265,12 @@
             <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/left_bogie.stl</uri>
           </mesh>
         </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Red</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
       </visual>
     </link>
     <joint name='left_bogie_back_left_motor_mount_joint' type='revolute'>
@@ -285,6 +313,14 @@
             <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_motor_mount.stl</uri>
           </mesh>
         </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
       </collision>
       <visual name='back_left_motor_mount_visual'>
         <pose>0 0 0 0 0 -1.5707963267948959</pose>
@@ -294,6 +330,12 @@
             <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/drive_motor_mount.stl</uri>
           </mesh>
         </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Red</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
       </visual>
     </link>
     <joint name='back_left_wheel_joint' type='revolute'>
@@ -334,6 +376,14 @@
             <radius>0.059999999999999998</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
       </collision>
       <visual name='back_left_wheel_visual'>
         <pose>0 0 0 1.5707963267948959 0 0</pose>
@@ -343,6 +393,12 @@
             <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/wheel.stl</uri>
           </mesh>
         </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Red</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
       </visual>
     </link>
     <joint name='left_bogie_front_left_motor_mount_joint' type='revolute'>
@@ -385,6 +441,14 @@
             <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_motor_mount.stl</uri>
           </mesh>
         </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
       </collision>
       <visual name='front_left_motor_mount_visual'>
         <pose>0 0 0 0 0 -1.5707963267948959</pose>
@@ -394,6 +458,12 @@
             <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/drive_motor_mount.stl</uri>
           </mesh>
         </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Red</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
       </visual>
     </link>
     <joint name='front_left_wheel_joint' type='revolute'>
@@ -434,6 +504,14 @@
             <radius>0.059999999999999998</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
       </collision>
       <visual name='front_left_wheel_visual'>
         <pose>0 0 0 1.5707963267948959 0 0</pose>
@@ -443,6 +521,12 @@
             <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/wheel.stl</uri>
           </mesh>
         </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Red</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
       </visual>
     </link>
     <joint name='base_right_bogie_joint' type='revolute'>
@@ -450,16 +534,16 @@
       <parent>base_footprint</parent>
       <child>right_bogie</child>
       <axis>
-        <xyz>0 1 0</xyz>
+        <xyz>0 -1 0</xyz>
         <mimic joint='base_left_bogie_joint'>
-          <multiplier>-1</multiplier>
+          <multiplier>1</multiplier>
           <offset>0</offset>
           <reference>0</reference>
         </mimic>
         <limit>
           <lower>-1.570796326794897</lower>
           <upper>1.570796326794897</upper>
-          <effort>100</effort>
+          <effort>0</effort>
           <velocity>100</velocity>
         </limit>
         <dynamics>
@@ -490,6 +574,14 @@
             <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_bogie.stl</uri>
           </mesh>
         </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
       </collision>
       <visual name='right_bogie_visual'>
         <pose>0 0 0 0 0 3.1415926535897931</pose>
@@ -499,6 +591,12 @@
             <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/right_bogie.stl</uri>
           </mesh>
         </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Red</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
       </visual>
     </link>
     <joint name='right_bogie_back_right_motor_mount_joint' type='revolute'>
@@ -541,6 +639,14 @@
             <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_motor_mount.stl</uri>
           </mesh>
         </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
       </collision>
       <visual name='back_right_motor_mount_visual'>
         <pose>0 0 0 0 0 1.5707963267948959</pose>
@@ -550,6 +656,12 @@
             <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/drive_motor_mount.stl</uri>
           </mesh>
         </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Red</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
       </visual>
     </link>
     <joint name='back_right_wheel_joint' type='revolute'>
@@ -590,6 +702,14 @@
             <radius>0.059999999999999998</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
       </collision>
       <visual name='back_right_wheel_visual'>
         <pose>0 0 0 -1.5707963267948959 0 0</pose>
@@ -599,6 +719,12 @@
             <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/wheel.stl</uri>
           </mesh>
         </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Red</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
       </visual>
     </link>
     <joint name='right_bogie_front_right_motor_mount_joint' type='revolute'>
@@ -641,6 +767,14 @@
             <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_motor_mount.stl</uri>
           </mesh>
         </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
       </collision>
       <visual name='front_right_motor_mount_visual'>
         <pose>0 0 0 0 0 1.5707963267948959</pose>
@@ -650,6 +784,12 @@
             <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/drive_motor_mount.stl</uri>
           </mesh>
         </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Red</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
       </visual>
     </link>
     <joint name='front_right_wheel_joint' type='revolute'>
@@ -690,6 +830,14 @@
             <radius>0.059999999999999998</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
       </collision>
       <visual name='front_right_wheel_visual'>
         <pose>0 0 0 -1.5707963267948959 0 0</pose>
@@ -699,6 +847,12 @@
             <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/wheel.stl</uri>
           </mesh>
         </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Red</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
       </visual>
     </link>
     <plugin name='camera' filename='librealsense_gazebo_plugin.so'>
@@ -723,6 +877,20 @@
       <pointCloud>False</pointCloud>
       <pointCloudTopicName>depth/color/points</pointCloudTopicName>
       <pointCloudCutoff>0.5</pointCloudCutoff>
+    </plugin>
+    <plugin name='gz::sim::systems::JointStatePublisher' filename='gz-sim-joint-state-publisher-system'>
+      <update_rate>50</update_rate>
+      <joint_name>base_left_bogie_joint</joint_name>
+      <joint_name>base_right_bogie_joint</joint_name>
+      <joint_name>left_bogie_front_left_motor_mount_joint</joint_name>
+      <joint_name>left_bogie_back_left_motor_mount_joint</joint_name>
+      <joint_name>right_bogie_front_right_motor_mount_joint</joint_name>
+      <joint_name>right_bogie_back_right_motor_mount_joint</joint_name>
+      <joint_name>front_left_wheel_joint</joint_name>
+      <joint_name>back_left_wheel_joint</joint_name>
+      <joint_name>front_right_wheel_joint</joint_name>
+      <joint_name>back_right_wheel_joint</joint_name>
+      <topic>/joint_states</topic>
     </plugin>
     <frame name='realsense_d435i_accel_optical_joint' attached_to='realsense_d435i_accel_frame'>
       <pose>0 0 0 -1.5707963267948959 -5.5511151231257827e-17 -1.5707963267948959</pose>

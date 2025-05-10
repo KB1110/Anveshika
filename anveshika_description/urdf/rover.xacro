@@ -41,6 +41,16 @@
         </inertial>
     </link>
 
+    <gazebo reference="base_link">
+        <material>Gazebo/Red</material>
+        <!-- <sensor name="imu_sensor" type="imu">
+            <always_on>1</always_on>
+            <update_rate>1</update_rate>
+            <visualize>true</visualize>
+            <topic>imu</topic>
+        </sensor> -->
+    </gazebo>
+
     <joint name="realsense_joint" type = "fixed">
         <parent link="base_link"/>
         <child link="realsense_d435i_bottom_screw_frame"/>
@@ -95,6 +105,10 @@
         </inertial>
     </link>
 
+    <gazebo reference="left_bogie">
+        <material>Gazebo/Red</material>
+    </gazebo>
+
     <joint name="base_left_bogie_joint" type="revolute">
         <parent link="base_link"/>
         <child link="left_bogie"/>
@@ -102,7 +116,7 @@
         <origin xyz="0 0.190 0.06" rpy="0 0 0"/>
 
         <axis xyz="0 1 0"/>
-        <limit lower="${-pi/2}" upper="${pi/2}" effort="100" velocity="100" />
+        <limit lower="${-pi/2}" upper="${pi/2}" effort="0" velocity="100" />
     </joint>
 
     <link name = "right_bogie">
@@ -133,17 +147,21 @@
         </inertial>
     </link>
 
+    <gazebo reference="right_bogie">
+        <material>Gazebo/Red</material>
+    </gazebo>
+
     <joint name="base_right_bogie_joint" type="revolute">
         <parent link="base_link"/>
         <child link="right_bogie"/>
 
         <origin xyz="0 -0.190 0.06" rpy="0 0 0"/>
 
-        <axis xyz="0 1 0"/>
+        <axis xyz="0 -1.0 0"/>
 
-        <limit lower="${-pi/2}" upper="${pi/2}" effort="100" velocity="100" />
+        <limit lower="${-pi/2}" upper="${pi/2}" effort="0" velocity="100" />
 
-        <mimic joint="base_left_bogie_joint" multiplier="-1"/>
+        <mimic joint="base_left_bogie_joint" multiplier="1"/>
         
     </joint>
 
@@ -176,6 +194,10 @@
                         izz="${0.0007519}"/>
             </inertial>
         </link>
+
+        <gazebo reference="${prefix}_motor_mount">
+            <material>Gazebo/Red</material>
+        </gazebo>
     </xacro:macro>
 
     <xacro:motor_mount_link prefix="front_left" 
@@ -299,6 +321,10 @@
                         izz="${0.0008776}"/>
             </inertial>
         </link>
+
+        <gazebo reference="${prefix}_wheel">
+            <material>Gazebo/Red</material>
+        </gazebo>
     </xacro:macro>
 
     <xacro:wheel_link prefix="front_left" 

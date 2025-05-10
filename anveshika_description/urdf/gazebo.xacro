@@ -1,0 +1,21 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <gazebo>
+        <plugin filename="gz-sim-joint-state-publisher-system" name="gz::sim::systems::JointStatePublisher">
+            <update_rate>50</update_rate>
+            <joint_name>base_left_bogie_joint</joint_name>
+            <joint_name>base_right_bogie_joint</joint_name>
+            <joint_name>left_bogie_front_left_motor_mount_joint</joint_name>
+            <joint_name>left_bogie_back_left_motor_mount_joint</joint_name>
+            <joint_name>right_bogie_front_right_motor_mount_joint</joint_name>
+            <joint_name>right_bogie_back_right_motor_mount_joint</joint_name>
+            <joint_name>front_left_wheel_joint</joint_name>
+            <joint_name>back_left_wheel_joint</joint_name>
+            <joint_name>front_right_wheel_joint</joint_name>
+            <joint_name>back_right_wheel_joint</joint_name>
+            <topic>/joint_states</topic>
+        </plugin>
+
+    </gazebo>
+</robot>
