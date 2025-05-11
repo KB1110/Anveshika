@@ -15,6 +15,7 @@ def generate_launch_description():
     bringup_pkg = 'anveshika_bringup'
     
     world = "default.sdf"
+    camera_name = "realsense_d435i"
     
     os.environ['GZ_SIM_RESOURCE_PATH'] = FindPackageShare(package=description_pkg).find(description_pkg)
     
@@ -82,13 +83,33 @@ def generate_launch_description():
         output='screen',
     )
 
-    # Use this when you are using the camera
-    # start_gazebo_ros_image_bridge = Node(
-        # package='ros_gz_image',
-        # executable='image_bridge',
-        # arguments=['/camera/image_raw'],
-        # output='screen',
-    # )
+    realsense_color_image_bridge = Node(
+        package='ros_gz_image',
+        executable='image_bridge',
+        arguments=[f'{camera_name}/color/image', f'{camera_name}/color/image'],
+        output='screen',
+    )
+    
+    realsense_depth_image_bridge = Node(
+        package='ros_gz_image',
+        executable='image_bridge',
+        arguments=[f'{camera_name}/depth/depth_image', f'{camera_name}/depth/depth_image'],
+        output='screen',
+    )
+    
+    realsense_infra_1_image_bridge = Node(
+        package='ros_gz_image',
+        executable='image_bridge',
+        arguments=[f'{camera_name}/infra_1/image', f'{camera_name}/infra_1/image'],
+        output='screen',
+    )
+    
+    realsense_infra_2_image_bridge = Node(
+        package='ros_gz_image',
+        executable='image_bridge',
+        arguments=[f'{camera_name}/infra_2/image', f'{camera_name}/infra_2/image'],
+        output='screen',
+    )
 
     robot_publisher_node = Node(
         package="robot_state_publisher",
@@ -122,7 +143,10 @@ def generate_launch_description():
     ld.add_action(gazebo_launch)
     ld.add_action(gazebo_spawn_entity)
     ld.add_action(start_gazebo_ros_bridge)
-    # ld.add_action(start_gazebo_ros_image_bridge)
+    ld.add_action(realsense_color_image_bridge)
+    ld.add_action(realsense_depth_image_bridge)
+    ld.add_action(realsense_infra_1_image_bridge)
+    ld.add_action(realsense_infra_2_image_bridge)
     ld.add_action(rviz2_node)
         
     return ld
