@@ -40,7 +40,7 @@ def generate_launch_description():
     rviz_config_file_path = os.path.join(
         FindPackageShare(package=bringup_pkg).find(bringup_pkg),
         'rviz',
-        'urdf_config.rviz'
+        'gz_config.rviz'
     )
 
     bridge_params = os.path.join(
