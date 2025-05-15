@@ -8,16 +8,41 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
-find_package(message_filters REQUIRED)
-find_package(OpenCV REQUIRED)
-find_package(cv_bridge REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(tf2 REQUIRED)
+find_package(tf2_ros REQUIRED)
+find_package(octomap_msgs REQUIRED)
+find_package(octomap REQUIRED)
 
-add_executable(anveshika_slam src/anveshika_slam.cpp)
-ament_target_dependencies(${PROJECT_NAME} rclcpp sensor_msgs OpenCV cv_bridge message_filters)
+include_directories(include)
 
-install(
-  TARGETS anveshika_slam
-  DESTINATION lib/${PROJECT_NAME}/
+add_executable(anveshika_slam
+    src/main.cpp
+    src/sensor_interface.cpp
+    src/vio.cpp
+    src/lio.cpp
+    src/pose_graph.cpp
+    src/octomap_mapper.cpp
+)
+
+ament_target_dependencies(anveshika_slam
+    rclcpp
+    sensor_msgs
+    nav_msgs
+    geometry_msgs
+    tf2
+    tf2_ros
+    octomap_msgs
+    octomap
+)
+
+install(TARGETS
+  anveshika_slam
+  DESTINATION lib/${PROJECT_NAME})
+
+install(DIRECTORY config launch
+  DESTINATION share/${PROJECT_NAME}
 )
 
 ament_package()

@@ -1,0 +1,13 @@
+sensor_interface_node:
+  ros__parameters:
+    rgb_topic_in: "/camera/rgb/image_raw"
+    depth_topic_in: "/camera/depth/image_raw"
+    camera_imu_topic_in: "/camera/imu"
+    body_imu_topic_in: "/imu"
+    lidar_topic_in: "/lidar/points"
+
+    rgb_topic_out: "/slam/rgb/image"
+    depth_topic_out: "/slam/depth/image"
+    camera_imu_topic_out: "/slam/imu/cam"
+    body_imu_topic_out: "/slam/imu/body"
+    lidar_topic_out: "/slam/lidar/points"
