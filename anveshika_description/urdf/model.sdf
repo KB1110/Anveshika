@@ -2,15 +2,15 @@
   <model name='anveshika'>
     <link name='base_footprint'>
       <inertial>
-        <pose>0.021007887817703769 0.002162576687116564 0.25013803680981589 0 0 0</pose>
-        <mass>4.5640000000000001</mass>
+        <pose>0.01971217105263158 0.0020291940789473688 0.25537212171052631 0 0 0</pose>
+        <mass>4.8639999999999999</mass>
         <inertia>
-          <ixx>0.069800261404907971</ixx>
-          <ixy>-0.0014705521472392639</ixy>
-          <ixz>-0.01117436503067484</ixz>
-          <iyy>0.091141941752848399</iyy>
-          <iyz>-0.001059662576687117</iyz>
-          <izz>0.11049600108413669</izz>
+          <ixx>0.072828791314144714</ixx>
+          <ixy>-0.001483340871710527</ixy>
+          <ixz>-0.010672520970394729</ixz>
+          <iyy>0.094293388499177622</iyy>
+          <iyz>-0.001008002158717105</iyz>
+          <izz>0.1116215508939145</izz>
         </inertia>
       </inertial>
       <collision name='base_footprint_fixed_joint_lump__base_link_collision'>
@@ -29,7 +29,24 @@
           </friction>
         </surface>
       </collision>
-      <collision name='base_footprint_fixed_joint_lump__realsense_d435i_link_collision_1'>
+      <collision name='base_footprint_fixed_joint_lump__laser_frame_collision_1'>
+        <pose>0 0 0.33500000000000002 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.050000000000000003</length>
+            <radius>0.050000000000000003</radius>
+          </cylinder>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__realsense_d435i_link_collision_2'>
         <pose>0.17000000000000001 0 0.35749999999999998 0 0 0</pose>
         <geometry>
           <box>
@@ -56,7 +73,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/box.stl</uri>
+            <uri>file:///home/aviral/anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/box.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -66,12 +83,29 @@
           </script>
         </material>
       </visual>
-      <visual name='base_footprint_fixed_joint_lump__realsense_d435i_link_visual_1'>
+      <visual name='base_footprint_fixed_joint_lump__laser_frame_visual_1'>
+        <pose>0 0 0.19500000000000001 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.050000000000000003</length>
+            <radius>0.050000000000000003</radius>
+          </cylinder>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Red</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+          <diffuse>0.75000006 0.75000006 0.75000006 1</diffuse>
+          <ambient>0.75000006 0.75000006 0.75000006 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__realsense_d435i_link_visual_2'>
         <pose>0.18490000000000001 0 0.35749999999999998 1.5707963267948959 -5.5511151231257827e-17 1.5707963267948959</pose>
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/d435.dae</uri>
+            <uri>file:///home/aviral/anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/d435.dae</uri>
           </mesh>
         </geometry>
         <material>
@@ -79,6 +113,35 @@
           <ambient>0.625 0.625 0.625 1</ambient>
         </material>
       </visual>
+      <sensor name='laser_sensor' type='ray'>
+        <visualize>true</visualize>
+        <update_rate>10</update_rate>
+        <ray>
+          <scan>
+            <horizontal>
+              <samples>360</samples>
+              <resolution>1</resolution>
+              <min_angle>-3.1415000000000002</min_angle>
+              <max_angle>3.1415000000000002</max_angle>
+            </horizontal>
+          </scan>
+          <range>
+            <min>0.12</min>
+            <max>12</max>
+            <resolution>0.0050000000000000001</resolution>
+          </range>
+          <noise>
+            <type>gaussian</type>
+            <mean>0</mean>
+            <stddev>0.002</stddev>
+          </noise>
+        </ray>
+        <plugin name='gz::sim::systems::LaserSensorPlugin' filename='gz-sim-laser-sensor-system'>
+          <topic>/scan</topic>
+          <frame_name>laser_frame</frame_name>
+        </plugin>
+        <pose>0 0 0.33500000000000002 0 0 0</pose>
+      </sensor>
       <self_collide>false</self_collide>
       <enable_wind>false</enable_wind>
       <kinematic>false</kinematic>
@@ -230,7 +293,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_bogie.stl</uri>
+            <uri>file:///home/aviral/anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_bogie.stl</uri>
           </mesh>
         </geometry>
         <surface>
@@ -247,7 +310,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/left_bogie.stl</uri>
+            <uri>file:///home/aviral/anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/left_bogie.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -295,7 +358,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_motor_mount.stl</uri>
+            <uri>file:///home/aviral/anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_motor_mount.stl</uri>
           </mesh>
         </geometry>
         <surface>
@@ -312,7 +375,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/drive_motor_mount.stl</uri>
+            <uri>file:///home/aviral/anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/drive_motor_mount.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -375,7 +438,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/wheel.stl</uri>
+            <uri>file:///home/aviral/anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/wheel.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -423,7 +486,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_motor_mount.stl</uri>
+            <uri>file:///home/aviral/anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_motor_mount.stl</uri>
           </mesh>
         </geometry>
         <surface>
@@ -440,7 +503,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/drive_motor_mount.stl</uri>
+            <uri>file:///home/aviral/anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/drive_motor_mount.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -503,7 +566,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/wheel.stl</uri>
+            <uri>file:///home/aviral/anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/wheel.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -556,7 +619,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_bogie.stl</uri>
+            <uri>file:///home/aviral/anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_bogie.stl</uri>
           </mesh>
         </geometry>
         <surface>
@@ -573,7 +636,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/right_bogie.stl</uri>
+            <uri>file:///home/aviral/anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/right_bogie.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -621,7 +684,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_motor_mount.stl</uri>
+            <uri>file:///home/aviral/anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_motor_mount.stl</uri>
           </mesh>
         </geometry>
         <surface>
@@ -638,7 +701,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/drive_motor_mount.stl</uri>
+            <uri>file:///home/aviral/anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/drive_motor_mount.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -701,7 +764,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/wheel.stl</uri>
+            <uri>file:///home/aviral/anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/wheel.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -749,7 +812,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_motor_mount.stl</uri>
+            <uri>file:///home/aviral/anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/collision_motor_mount.stl</uri>
           </mesh>
         </geometry>
         <surface>
@@ -766,7 +829,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/drive_motor_mount.stl</uri>
+            <uri>file:///home/aviral/anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/drive_motor_mount.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -829,7 +892,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>file:///home/kb/Anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/wheel.stl</uri>
+            <uri>file:///home/aviral/anveshika_ws/install/anveshika_description/share/anveshika_description/meshes/rover/wheel.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -858,6 +921,12 @@
       <render_engine>ogre2</render_engine>
     </plugin>
     <plugin name='gz::sim::systems::Imu' filename='gz-sim-imu-system'/>
+    <frame name='laser_joint' attached_to='base_link'>
+      <pose>0 0 0.10000000000000001 0 0 0</pose>
+    </frame>
+    <frame name='laser_frame' attached_to='laser_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
     <frame name='realsense_d435i_accel_optical_joint' attached_to='realsense_d435i_accel_frame'>
       <pose>0 0 0 -1.5707963267948959 -5.5511151231257827e-17 -1.5707963267948959</pose>
     </frame>
