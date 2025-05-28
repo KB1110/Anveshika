@@ -1,20 +1,19 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="https://www.ros.org/wiki/xacro">
 
-  <!-- Joint between base_link and lidar frame -->
   <joint name="laser_joint" type="fixed">
-    <parent link="base_link"/>
-    <child link="laser_frame"/>
-    <origin xyz="0 0 0.1" rpy="0 0 0"/>
-  </joint>
+  <parent link="base_link"/>
+  <child link="laser_frame"/>
+  <origin xyz="0 0 -0.04" rpy="3.14159265 0 0"/>
+</joint>
 
-  <!-- LiDAR physical link -->
+
   <link name="laser_frame">
     <visual>
       <geometry>
         <cylinder radius="0.05" length="0.05"/>
       </geometry>
-      <origin xyz="0 0 -0.14" rpy="0 0 0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
       <material name="Grey">
         <color rgba="0.6 0.6 0.6 1"/>
       </material>
@@ -27,44 +26,41 @@
     </collision>
     <inertial>
       <mass value="0.3"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
       <inertia ixx="0.001" ixy="0.0" ixz="0.0"
                iyy="0.001" iyz="0.0"
                izz="0.001"/>
     </inertial>
   </link>
 
-  <gazebo reference="laser_frame">
-    <material>Gazebo/Red</material>
-    <sensor name="laser_sensor" type="ray">
-      <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
-      <update_rate>10.0</update_rate>
-      <ray>
-        <scan>
-          <horizontal>
-            <samples>360</samples>
-            <resolution>1</resolution>
-            <min_angle>-3.1415</min_angle>
-            <max_angle>3.1415</max_angle>
-          </horizontal>
-        </scan>
-        <range>
-          <min>0.12</min>
-          <max>12.0</max>
-          <resolution>0.005</resolution>
-        </range>
-        <noise>
-          <type>gaussian</type>
-          <mean>0.0</mean>
-          <stddev>0.002</stddev>
-        </noise>
-      </ray>
-      <plugin name="gz::sim::systems::LaserSensorPlugin"
-              filename="gz-sim-laser-sensor-system">
-        <topic>/scan</topic>
-        <frame_name>laser_frame</frame_name>
-      </plugin>
-    </sensor>
-  </gazebo>
+  <gazebo reference = "laser_frame">
+        <sensor name="laser" type="gpu_lidar">
+            <always_on>1</always_on>
+            <visualize>true</visualize>
+            <pose>0 0 0 0 0 0</pose>
+            <update_rate>50</update_rate>
+            <topic>scan</topic>
+            <gz_frame_id>laser_frame</gz_frame_id>
+            <lidar>
+                <scan>
+                    <horizontal>
+                        <samples>360</samples>
+                        <min_angle>-3.14159265</min_angle>
+                        <max_angle>3.14159265</max_angle>
+                    </horizontal>
+                </scan>
+                <range>
+                    <min>0.3</min>
+                    <max>12</max>
+                </range>
+
+                <noise>
+                    <type>gaussian</type>
+                    <mean>0.0</mean>
+                    <stddev>0.025</stddev>
+                </noise>
+            </lidar>
+        </sensor>
+    </gazebo>
 
 </robot>
