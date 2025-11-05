@@ -14,6 +14,7 @@ find_package(tf2 REQUIRED)
 find_package(tf2_ros REQUIRED)
 find_package(octomap_msgs REQUIRED)
 find_package(octomap REQUIRED)
+find_package(anveshika_interfaces REQUIRED)
 
 include_directories(include)
 
@@ -35,6 +36,7 @@ ament_target_dependencies(anveshika_slam
     tf2_ros
     octomap_msgs
     octomap
+    anveshika_interfaces
 )
 
 install(TARGETS

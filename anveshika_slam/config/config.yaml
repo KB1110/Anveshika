@@ -6,8 +6,15 @@ sensor_interface_node:
     body_imu_topic_in: "/imu"
     lidar_topic_in: "/lidar/points"
 
-    rgb_topic_out: "/slam/rgb/image"
-    depth_topic_out: "/slam/depth/image"
+    rgbd_topic_out: "/slam/rgbd/image"
     camera_imu_topic_out: "/slam/imu/cam"
     body_imu_topic_out: "/slam/imu/body"
     lidar_topic_out: "/slam/lidar/points"
+
+vio_node:
+  ros__parameters:
+    rgbd_topic_in: "/camera/rgb/image_raw"
+    body_imu_topic_in: "/imu"
+    lidar_topic_in: "/lidar/points"
+
+    vio_odom_out: "slam/vio/odom"

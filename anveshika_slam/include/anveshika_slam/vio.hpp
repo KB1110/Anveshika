@@ -2,19 +2,21 @@
 #define ANVESHIKA_SLAM_VIO_HPP
 
 #include <rclcpp/rclcpp.hpp>
+#include "sensor_msgs/msg/imu.hpp"
 
 namespace anveshika_slam
 {
 
-class VIONode : public rclcpp::Node
-{
+class VIONode : public rclcpp::Node {
 public:
-    explicit VIONode(const rclcpp::NodeOptions &options = rclcpp::NodeOptions());
-    ~VIONode();
+    VIONode();
 
-private:
+private:   
+    void rgbdCallback(slam_msgs::msg::RGBDImage::ConstSharedPtr msg);
+    void imuCallback(sensor_msgs::msg::Imu::ConstSharedPtr msg);
 
-    // Add your member variables and methods here
+    rclcpp::Subscription<slam_msgs::msg::RGBDImage>::SharedPtr rgbd_sub_;
+    rclcpp::Subscription<sensor_msgs::msg::Imu>::SharedPtr imu_sub_;
 };
 
 } // namespace anveshika_slam

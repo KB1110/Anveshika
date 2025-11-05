@@ -6,13 +6,18 @@ namespace anveshika_slam
 SensorInterfaceNode::SensorInterfaceNode() : Node("sensor_interface_node")
 {
   declareParameters();
+
   rgb_sub_ = std::make_shared<message_filters::Subscriber<sensor_msgs::msg::Image>>(this, rgb_topic_in_);
   depth_sub_ = std::make_shared<message_filters::Subscriber<sensor_msgs::msg::Image>>(this, depth_topic_in_);
+  rgb_info_sub_ = std::make_shared<message_filters::Subscriber<sensor_msgs::msg::CameraInfo>>(this, rgb_info_topic_in_);
+  depth_info_sub_ =
+      std::make_shared<message_filters::Subscriber<sensor_msgs::msg::CameraInfo>>(this, depth_info_topic_in_);
 
-  rgbd_sync_ =
-      std::make_shared<message_filters::Synchronizer<RGBDSyncPolicy>>(RGBDSyncPolicy(10), *rgb_sub_, *depth_sub_);
-  rgbd_sync_->registerCallback(
-      std::bind(&SensorInterfaceNode::rgbdCallback, this, std::placeholders::_1, std::placeholders::_2));
+  rgbd_sync_ = std::make_shared<message_filters::Synchronizer<RGBDSyncPolicy>>(
+      RGBDSyncPolicy(10), *rgb_sub_, *depth_sub_, *rgb_info_sub_, *depth_info_sub_);
+
+  rgbd_sync_->registerCallback(std::bind(&SensorInterfaceNode::rgbdCallback, this, std::placeholders::_1,
+                                         std::placeholders::_2, std::placeholders::_3, std::placeholders::_4));
 
   camera_imu_sub_ = this->create_subscription<sensor_msgs::msg::Imu>(
       camera_imu_topic_in_, 100, std::bind(&SensorInterfaceNode::cameraImuCallback, this, std::placeholders::_1));
@@ -23,19 +28,25 @@ SensorInterfaceNode::SensorInterfaceNode() : Node("sensor_interface_node")
   lidar_sub_ = this->create_subscription<sensor_msgs::msg::PointCloud2>(
       lidar_topic_in_, 10, std::bind(&SensorInterfaceNode::lidarCallback, this, std::placeholders::_1));
 
-  rgb_pub_ = this->create_publisher<sensor_msgs::msg::Image>(rgb_topic_out_, 10);
-  depth_pub_ = this->create_publisher<sensor_msgs::msg::Image>(depth_topic_out_, 10);
+  rgbd_pub_ = this->create_publisher<anveshika_interfaces::msg::RGBDImage>(rgbd_topic_out_, 10);
   camera_imu_pub_ = this->create_publisher<sensor_msgs::msg::Imu>(camera_imu_topic_out_, 50);
   body_imu_pub_ = this->create_publisher<sensor_msgs::msg::Imu>(body_imu_topic_out_, 50);
   lidar_pub_ = this->create_publisher<sensor_msgs::msg::PointCloud2>(lidar_topic_out_, 10);
 }
 
 void SensorInterfaceNode::rgbdCallback(sensor_msgs::msg::Image::ConstSharedPtr rgb_msg,
-                                       sensor_msgs::msg::Image::ConstSharedPtr depth_msg)
+                                       sensor_msgs::msg::Image::ConstSharedPtr depth_msg,
+                                       sensor_msgs::msg::CameraInfo::ConstSharedPtr rgb_info_msg,
+                                       sensor_msgs::msg::CameraInfo::ConstSharedPtr depth_info_msg)
 {
   RCLCPP_INFO(this->get_logger(), "Received Synced RGB and Depth Images");
-  rgb_pub_->publish(*rgb_msg);
-  depth_pub_->publish(*depth_msg);
+  anveshika_interfaces::msg::RGBDImage rgbd_msg;
+  rgbd_msg.header = rgb_msg->header;  // Use RGB header as shared header
+  rgbd_msg.rgb = *rgb_msg;
+  rgbd_msg.depth = *depth_msg;
+  rgbd_msg.rgb_camera_info = *rgb_info_msg;
+  rgbd_msg.depth_camera_info = *depth_info_msg;
+  rgbd_pub_->publish(rgbd_msg);
 }
 
 void SensorInterfaceNode::cameraImuCallback(sensor_msgs::msg::Imu::SharedPtr imu_msg)
@@ -64,8 +75,10 @@ void SensorInterfaceNode::declareParameters()
   this->declare_parameter<std::string>("body_imu_topic_in", "/robot/imu");
   this->declare_parameter<std::string>("lidar_topic_in", "/lidar/points");
 
-  this->declare_parameter<std::string>("rgb_topic_out", "/slam/rgb/image");
-  this->declare_parameter<std::string>("depth_topic_out", "/slam/depth/image");
+  this->declare_parameter<std::string>("rgb_info_topic_in", "/camera/rgb/camera_info");
+  this->declare_parameter<std::string>("depth_info_topic_in", "/camera/depth/camera_info");
+
+  this->declare_parameter<std::string>("rgbd_topic_out", "/slam/rgbd/image");
   this->declare_parameter<std::string>("camera_imu_topic_out", "/slam/imu/cam");
   this->declare_parameter<std::string>("body_imu_topic_out", "/slam/imu/body");
   this->declare_parameter<std::string>("lidar_topic_out", "/slam/lidar/points");
@@ -76,8 +89,10 @@ void SensorInterfaceNode::declareParameters()
   body_imu_topic_in_ = this->get_parameter("body_imu_topic_in").as_string();
   lidar_topic_in_ = this->get_parameter("lidar_topic_in").as_string();
 
-  rgb_topic_out_ = this->get_parameter("rgb_topic_out").as_string();
-  depth_topic_out_ = this->get_parameter("depth_topic_out").as_string();
+  rgb_info_topic_in_ = this->get_parameter("rgb_info_topic_in").as_string();
+  depth_info_topic_in_ = this->get_parameter("depth_info_topic_in").as_string();
+
+  rgbd_topic_out_ = this->get_parameter("rgbd_topic_out").as_string();
   camera_imu_topic_out_ = this->get_parameter("camera_imu_topic_out").as_string();
   body_imu_topic_out_ = this->get_parameter("body_imu_topic_out").as_string();
   lidar_topic_out_ = this->get_parameter("lidar_topic_out").as_string();
